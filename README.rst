@@ -1,9 +1,6 @@
 Countable Web Productions Inc Operations Manual
 ===============================================
 
-TODO: port this to use a documentation generator, like
-`https://readthedocs.org/dashboard/ <https://readthedocs.org/dashboard/>`__
-
 What Is This?
 -------------
 
