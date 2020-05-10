@@ -10,21 +10,7 @@ Countable Web Productions Inc Operations Manual
    :maxdepth: 2
    :caption: Contents:
 
-   README 
-   What Is This?
-   Purpose
-   Scope
-   What is Countable?
-   Who is Countable?
-      Recruiting
-      Marketing
-      Getting Started
-      Engineering
-      Consulting
-   Operations
-   Contributing
-   Similar Efforts
-
+   operations/AORS
 
 What Is This?
 -------------
