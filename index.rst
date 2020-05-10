@@ -9,6 +9,8 @@ Countable Web Productions Inc Operations Manual
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   README 
    What Is This?
    Purpose
    Scope
