@@ -11,13 +11,7 @@ Countable Web Productions Inc Operations Manual
    :caption: Contents:
 
    philosophy/PHILOSOPHY
-   philosophy/PURPOSE
-   philosophy/PRINCIPLES
-   philosophy/VALUES
-   philosophy/VISION
-   philosophy/TRANSPARENCY
-   philosophy/MANAGEMENT
-   operations/AORS
+   sales/SALES
 
 What Is This?
 -------------

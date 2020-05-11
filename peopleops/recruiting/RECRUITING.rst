@@ -5,19 +5,6 @@ Recruiting
    :maxdepth: 2
    :caption: Contents:
 
-   Background
-   Recruiting for Staff Contractors
-   Recruiting Process
-   Non-acceptance Letter
-   Initial Screening
-      Point System
-      Reaching Out
-      Technical Test
-      Interview
-      Internship
-      Research
-         References
-
 Background
 ----------
 
@@ -152,8 +139,7 @@ team. The guideline for advancement:
 -  Interview questions are not open-sourced here, because it was give
    too much advantage to the people who happen to see this page.
 -  If in doubt, reject the candidate. Hiring the wrong person results in
-   a `type 2
-   error <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
+   a `type 2 error <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
 -  Consider that "before you make an offer to someone, think about
    whether you’d like to have 10 times as many people like them in your
    company."

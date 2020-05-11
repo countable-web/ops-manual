@@ -51,8 +51,8 @@ Lesser purposes of the organization.
 -  Provide an environment optimized for learning quickly.
 -  Continuously improve in how we approach our work.
 
-Vision Statement (Draft 2)
---------------------------
+Vision Statement
+----------------
 
 Do you have a problem that might be solvable using the internet?
 
@@ -80,8 +80,8 @@ Our mission is to re-invent how web technology is prototyped and
 delivered and make it 10x easier for others to deliver their own
 missions using the internet.
 
-Vision Statement (Draft 1)
---------------------------
+Vision Statement (Original Draft 1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Codify the many-faceted problem of web technology delivery, so it can be
 abstracted away and simplified to allow everyone to better focus on
@@ -89,12 +89,12 @@ their customers. This should be done in a way that caters to the
 situation of a business implementing the technology.
 
 Back story
-~~~~~~~~~~
+^^^^^^^^^^
 
 From Clark Van Oyen, Founder at Countable Web Productions.
 
 Web Technology Is Still A Dark Art
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Over the last decade my journey has involved systems for building out
 web technology for businesses. This is largely still a dark art with
@@ -117,7 +117,7 @@ transitioning their knowledge, and aligning their work with finding
 product-market fit is very difficult and attempting it is expensive.
 
 The Vision
-~~~~~~~~~~
+^^^^^^^^^^
 
 What if we could codify web development over time to continuously spend
 more time on the "good" stuff, focusing on your customers and
@@ -130,7 +130,6 @@ This is the core idea behind Countable Consulting. To develop the
 processes and tools to abstract away the multifaceted problem of
 building a web technology team with conventions to get the little things
 right by default.
-
 
 Values
 ------
