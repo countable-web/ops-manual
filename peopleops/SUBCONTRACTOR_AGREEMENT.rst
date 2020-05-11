@@ -5,16 +5,13 @@ Subcontractor Work Agreement
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-
 Purpose
--------
+~~~~~~~
 
 Transparently share our work agreement.
 
 Scope
------
+~~~~~
 
 TODO: This document is out of date and the official one has not been
 converted to markdown and open-sourced.
