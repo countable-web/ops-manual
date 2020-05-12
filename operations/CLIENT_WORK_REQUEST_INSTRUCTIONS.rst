@@ -5,18 +5,15 @@ Delivery Workflow Documentation (for Clients)
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Content
-
 Purpose
--------
+~~~~~~~
 
 This is a client-facing process intended to open useful channels of communication and collaboration.
 
 Scope
------
+~~~~~
 It covers the details of the linked process diagram, and what to expect after submitting a work request.
+
 
 Content
 -------
