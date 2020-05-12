@@ -5,6 +5,13 @@ Recruiting Process
    :maxdepth: 2
    :caption: Contents:
 
+Purpose
+~~~~~~~
+
+Scope
+~~~~~
+
+
 Background
 ----------
 

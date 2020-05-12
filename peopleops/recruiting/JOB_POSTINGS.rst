@@ -6,12 +6,12 @@ Countable Job Postings
    :caption: Contents:
 
 Purpose
--------
+~~~~~~~
 
 This serves as a root page with all example job postings we commonly hire for at Countable.
 
 Scope
------
+~~~~~
 
 Currently covers the base job posting, admin, devops, django, front end, and nodejs posts.
 

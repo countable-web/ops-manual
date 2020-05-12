@@ -6,10 +6,10 @@ UX Guidelines
    :caption: Contents:
 
 Purpose
--------
+~~~~~~~
 
 Scope
------
+~~~~~
 
 This document currently sets guidelines for usability, content writing, publishing on social media, and SEO.
 

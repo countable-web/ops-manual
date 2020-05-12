@@ -6,12 +6,12 @@ Philosophy
    :caption: Contents:
 
 Purpose
--------
+~~~~~~~
 
 To provide a foundation for all we do at Countable (processes) rooted in why we do it (philosophy).
 
 Scope
------
+~~~~~
 
 Covers our company's purpose, vision, values, and principles, as well as covering our philosophies on transparency and management. We also provide references at the end that have influenced these philosophies.
 

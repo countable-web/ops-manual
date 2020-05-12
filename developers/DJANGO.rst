@@ -5,25 +5,13 @@ Django Standards
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Client Cache Management
-   Use LTS Django
-   Read 2 Scoops of Django
-   Patterns
-      Imports
-      Models
-      Views
-      Managing Environments
-
-
 Purpose
--------
+~~~~~~~
 
 To share things we've found to solve common issues with Django and save lots of time.
 
 Scope
------
+~~~~~
 
 Covers numerous specific issues and makes overall recommendations.
 

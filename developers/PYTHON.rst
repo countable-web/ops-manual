@@ -5,22 +5,13 @@ Python
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Python Code Standards
-      Imports
-      Line Length
-   Debugging Python
-      There is a trace in Library code and you want to look around
-      The program is really unstable and you want to debug whenever it crashes.
-
 Purpose
--------
+~~~~~~~
 
 Capture our coding standards for Python projects, alongside other things that are useful to know when working on Python codebases at Countable.
 
 Scope
------
+~~~~~
 
 Aggregation of all Python-specific standards, best practices, and known problems we may encounter.
 

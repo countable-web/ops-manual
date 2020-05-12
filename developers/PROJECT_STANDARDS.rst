@@ -5,21 +5,13 @@ Project Structure and Ops
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Project Requirements
-   Automation
-   Project Structure
-   Front End Development
-
-
 Purpose
--------
+~~~~~~~
 
 To describe the minimum requirements and expected structure of technical projects at Countable.
 
 Scope
------
+~~~~~
 
 Covers project requirements, processes, automation, and structure.
 

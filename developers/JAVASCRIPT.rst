@@ -5,23 +5,13 @@ Javascript Best Practices
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   General Javascript Standards
-   jQuery
-      When traversing the DOM many times, load one into memory first!
-      You can do PubSub with jQuery
-      Prefer Event Delegation in jQuery
-   Vue and React
-   References
-
 Purpose
--------
+~~~~~~~
 
 Document our coding standards and best practices for the Javascript language ecosystem.
 
 Scope
------
+~~~~~
 
 Covers the specifics of multiple tools and frameworks.
 

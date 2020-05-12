@@ -5,6 +5,11 @@ UX Practices
    :maxdepth: 2
    :caption: Contents:
 
+Purpose
+~~~~~~~
+
+Scope
+~~~~~
 
 Marketing
 ---------

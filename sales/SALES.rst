@@ -5,16 +5,14 @@ Sales
    :maxdepth: 2
    :caption: Contents:
 
-   
-
 Purpose
--------
+~~~~~~~
 
 The chapter documents our approach to taking on new work so we curate a
 group of clients we love working with over time, and stay profitable.
 
 Scope
------
+~~~~~
 
 This root page serves to anchor the resources that are linked out to different documents in greater detail.
 

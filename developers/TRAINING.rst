@@ -5,26 +5,13 @@ Training
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   How To Learn
-   Core Training
-      Kick Off
-      Docker Training
-      Django Training
-   Further Training
-      Javascript Training
-      Linux
-      Startup School Videos
-   References
-
 Purpose
--------
+~~~~~~~
 
 Lay the groundwork for continuous learning at Countable, demonstrating how to pursue active learning and providing resources to dive into.
 
 Scope
------
+~~~~~
 
 Currently covers "how to learn" and recommends dev-specific resources.
 
