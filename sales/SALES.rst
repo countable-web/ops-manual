@@ -509,5 +509,99 @@ Clients may request a budget in an RFP, or a quote for a specific piece of work.
 Invoicing Clients
 -----------------
 
+Describing client-facing processes around invoicing, and the expectations on both sides.
+
+Process
+~~~~~~~
+
+Clients are invoiced before the 10th of each month, and given 30 days to
+pay for work completed in the previous month. Depending on the client,
+there may be:
+
+1. SaaS fees
+2. A retainer amount for advisor services, on-call or maintenance work
+3. Portions for completed phases of a flat fee amount
+4. An hourly itemized amount (we prefer to avoid these, since it's
+   better for clients if we charge for value created, not time spent.
+   This helps us collaborate with the client to increase value)
+
+If the amount expected to be invoiced in a single month exceeds the
+client's credit amount, they must pay a deposit so their credit is not
+exceeded. If a client has paid at least 3 invoices in a row, on time,
+they may apply for a credit increase. The credit should not exceed the
+total invoiced over the last 3 months. This credit is only usable for
+the month work is acted on, and 30 day grace period (see below).
+
+Phased Invoices
+~~~~~~~~~~~~~~~
+
+For projects in category 3 above (flat fee), phases with dates should be
+identified, so it's clear how much is due at each time.
+
+Overdue Invoices
+~~~~~~~~~~~~~~~~
+
+We take overdue invoices seriously, in order to weed out clients who do
+not pay on time. By following this policy, over time we will only retain
+clients who are able to pay within the agreed term (30 days). While we'd
+like to be nice about this, we've found that some clients may abuse that
+and will use us as a source of financing, which is not our purpose.
+
+Overdue invoices must be acted on. Here are the escalation steps in
+order of severity. Also, new projects and quotes cannot be started or
+issued when an amount is in arrears.
+
+1 week overdue: The client receives a warning. We cannot issue more than
+one warning per client per year. If a client has already been warned, we
+must skip this escalation step. 2 weeks overdue: The client's credit is
+reduced, by default to 50% of its' previous value. Record this in the
+client sheet. 3 weeks overdue: The client is issued late fees, if
+applicable (if they are using our contract). If so, they may stay at
+this escalation level as long as late fees are paid within the next 30
+days and every 30 days after, and the invoiced amount does not exceed
+their credit. 4 weeks overdue: We stop doing any work for the client,
+including urgent maintenance work. 5 weeks overdue: The debt is sold to
+a collection agency, and the client is black-listed.
+
+
 Niche Experiments
 -----------------
+
+A fundamental challenge in selling the value produced by a company is
+market segmentation. Here we define some systematic tests to confirm
+exactly who to optimize our products, services and market funnel for.
+
+Criteria
+~~~~~~~~
+
+We want to choose the party that enables us to *deliver* the most value.
+Finding such an ideal nice is riddled with uncertainty, including black
+swans. All the following conditions must be met.
+
+-  Creation of outsized value must be possible.
+-  There must be a clear path (project) that can be executed with our
+   resources.
+-  We must be able to use a prototyping approach to create the value.
+-  The project must be motivating to our team.
+-  Legal needs must be satisfied. Is there a contract agreeable to all
+   market participants?
+-  All parties agree to how the value pie is sliced.
+
+The great thing is, our company is built to deal with uncertainty. We do
+this via prototyping. The analog in sales is to create "niche
+experiments". That is, we set up a low cost sales funnel to test if all
+the above conditions can be satisfied.
+
+Process
+~~~~~~~
+
+-  Identify the target market segment (persona). What are their problems
+   and goals. Talk to at least one of them.
+-  What problem can we solve for them, and what is it worth to them?
+-  We proceed to unscalably contact one person in this market and
+   validate all assumptions with them.
+-  Make the sale, and give them a (small) deal to say thanks for their
+   help.
+
+If at any point, the next step can't be completed, the experiment isn't
+finished and the market should not be invested in.

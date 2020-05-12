@@ -11,7 +11,15 @@ Countable Web Productions Inc Operations Manual
    :caption: Contents:
 
    philosophy/PHILOSOPHY
+   peopleops/ONBOARDING_GUIDE
+   peopleops/TEAM_NORMS
+   peopleops/COMMUNICATIONS_CHARTER
+   peopleops/DOING_YOUR_JOB
+   peopleops/recruiting/RECRUITING
+   peopleops/recruiting/HIRING_FIT
    sales/SALES
+   ux/UX
+   ux/UX_GUIDELINES
 
 What Is This?
 -------------
@@ -48,7 +56,7 @@ discussion and amendment.
 -- "The Great CEO Within", By Matt Mochary
 
 *Second, why is it open source?* To promote
-`transparency <./philosophy/TRANSPARENCY.rst>`__.
+`transparency <./philosophy/PHILOSOPHY.rst>`__.
 
 Scope
 -----
@@ -87,12 +95,12 @@ that do this. What makes us different?
    effort.
 -  We work hard to be transparent, interactive, and have fun.
 
-`Read about the purpose of Countable <./philosophy/PURPOSE.rst>`__.
+`Read about the purpose of Countable <./philosophy/PHILOSOPHY.rst>`__.
 
 Who is Countable?
 -----------------
 
-We are selective in order to embody our `values <./philosophy/VALUES.rst>`__. This
+We are selective in order to embody our `values <./philosophy/PHILOSOPHY.rst>`__. This
 starts with hiring, all the way to the kinds of partners we seek out. In
 the end, we want to bring together people to have a big impact by
 improving all the industries we engage with, through better technology
@@ -115,11 +123,11 @@ Marketing
 Helps us find the best partners and team members who share our passion.
 
 -  `Value Proposition <./sales/VALUE_PROP.rst>`__
--  `Creative Brief <./ux/CREATIVE_BRIEF.rst>`__
--  `Design Asset Storage <./ux/NON_CODE_ASSETS.rst>`__
--  `Social Media Posting Policy <./ux/SOCIAL_MEDIA.rst>`__
--  `SEO <./ux/SEO.rst>`__
--  `Usability <./ux/USABILITY.rst>`__
+-  `Creative Brief <./ux/UX.rst>`__
+-  `Design Asset Storage <./operations/FILE_STORAGE.rst>`__
+-  `Social Media Posting Policy <./ux/UX_GUIDELINES.rst>`__
+-  `SEO <./ux/UX_GUIDELINES.rst>`__
+-  `Usability <./ux/UX.rst>`__
 
 Getting Started
 ~~~~~~~~~~~~~~~
@@ -202,7 +210,7 @@ pull request. The rules:
 -  Keep it concise, to-the-point, actionable. If you do use an
    abstraction, provide a corresponding example.
 -  Each page should state it's purpose for existing, as related to the
-   company's `mission <./philosophy/MISSION.rst>`__. Clarity and utility over
+   company's `mission <./philosophy/PHILOSOPHY.rst>`__. Clarity and utility over
    completeness. Try to maximize "usefulness density", or the total
    benefit (ie, in saved time, dollars) of the content divided by its
    length (in characters).
@@ -217,8 +225,7 @@ Similar Efforts
    `Caktus <https://github.com/caktus/developer-documentation>`__
 -  `GitLab handbook <https://about.gitlab.com/handbook/>`__
 -  `Remote Only Manifesto <https://www.remoteonly.org/>`__
--  `The Great CEO
-   Within <https://docs.google.com/document/d/1ZJZbv4J6FZ8Dnb0JuMhJxTnwl-dwqx5xl0s65DE3wO8/preview#>`__
+-  `The Great CEO Within <https://docs.google.com/document/d/1ZJZbv4J6FZ8Dnb0JuMhJxTnwl-dwqx5xl0s65DE3wO8/preview#>`__
 -  `Buffer <https://open.buffer.com/>`__ Is a radically transparent
    company that publishes internals too! We love and admire them for it
    :)
