@@ -15,11 +15,28 @@ Countable Web Productions Inc Operations Manual
    peopleops/TEAM_NORMS
    peopleops/COMMUNICATIONS_CHARTER
    peopleops/DOING_YOUR_JOB
-   peopleops/recruiting/RECRUITING
-   peopleops/recruiting/HIRING_FIT
+   operations/PROJECT_MANAGEMENT
+   operations/CLIENTS
    sales/SALES
+   devops/DEVOPS
+   developers/DEVELOPERS
+   developers/CODING_STANDARDS
+   developers/PROJECT_STANDARDS
+   developers/ARCHITECTURE
+   developers/DEPENDENCIES
+   developers/GIT
+   developers/PYTHON
+   developers/DJANGO
+   developers/HTML_CSS
+   developers/JAVASCRIPT
+   developers/PROTOTYPING
+   developers/TESTING
+   developers/BUG_REPORTING
+   dvelopers/TRAINING
    ux/UX
    ux/UX_GUIDELINES
+   peopleops/recruiting/RECRUITING
+   peopleops/recruiting/HIRING_FIT
 
 What Is This?
 -------------

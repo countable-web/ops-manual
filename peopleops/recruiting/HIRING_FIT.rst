@@ -5,10 +5,6 @@ Is Countable A Good Fit For You?
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Factors
-
 Purpose
 ~~~~~~~
 

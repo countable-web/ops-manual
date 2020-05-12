@@ -5,16 +5,6 @@ Project Management
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Process
-   Tools
-      GIT
-      Trello
-      Screencastify chrome extension
-   Things We Want to Improve
-
-
 Purpose
 ~~~~~~~
 
