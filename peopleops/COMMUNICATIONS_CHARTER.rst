@@ -613,3 +613,8 @@ Receiving Feedback
 -  Paraphrase in your own words. "It sounds like you're saying blue
    fireballs produce less harmful carbon, but defeat just as many
    goblins."
+
+Resources
+^^^^^^^^^
+ - Video on presenting: https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
+ - Quiz with targetted advice on general communication skills. https://www.mindtools.com/pages/article/newCS_99.htm
