@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'OpenSourceCorporation'
+project = u'Countable Ops Manual'
 copyright = u'2020, Countable Web Productions, Inc.'
 author = u'Countable Web Productions, Inc.'
 
