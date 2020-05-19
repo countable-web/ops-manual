@@ -5,22 +5,8 @@ Onboarding
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   First Steps
-      Set your profile photo
-      Set up Eightmeters
-      Team Calendar
-      Payment Info
-      Environment
-      How to Do Work
-      Confirm
-      Before You Start Working
-      When You Start Working
-      How To Ask For Help
-
 Purpose
--------
+~~~~~~~
 
 The goal of this guide is to help new members of Countable get connected
 with the team, efficiently set up accounts, and learn key things to help
@@ -29,7 +15,7 @@ document, send a `Pull Request <https://github.com/countable-web/open-source-cor
 If anything is unclear, let's fix it so it's clear for the next person.
 
 Scope
------
+~~~~~
 
 Covers all the onboarding steps for a new Countable Team Member.
 

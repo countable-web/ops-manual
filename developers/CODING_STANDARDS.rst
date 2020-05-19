@@ -5,28 +5,13 @@ Coding Standards and Style
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Principles
-   Literature
-   Names
-   Files
-   Locality
-   Comments
-   No tabs
-   Docker
-   Code Quality
-   :doc: `HTML_CSS`
-   :doc: `JAVASCRIPT`
-   :doc: `PYTHON`
-
 Purpose
--------
+~~~~~~~
 
 Encourage consistent and effective coding practices in the team, arising out of specific cases where different conventions of developers caused us to waste time.
 
 Scope
------
+~~~~~
 
 Covers principles of our coding standards, then branches out to specific language pages.
 
@@ -127,3 +112,8 @@ Tested tricks for having good code you like to work on in the long term.
   * Declarative Style - Anything you do a lot of should be *declarative style* to the extent possible (as opposed to imperative style), meaning define what you want and not the order it is created.
 
 Consistency and quality can be further improved by proactively managing technical debt. While we do avoid needless technical debt, it can be taken on strategically. For example, prototyping a solution can be a cheap way to get information and save cost overall, as long as you don’t neglect to refactor or rewrite the prototype if you decide to keep the code.
+
+Coding Standards for Specific Languages
+---------------------------------------
+
+Check out the individual pages for `HTML CSS <HTML_CSS.rst>`__, `Javascript <JAVASCRIPT.rst>`__, and `Python <PYTHON.rst>`__ for more specific coding standards.

@@ -5,20 +5,13 @@ HTML and CSS Standards at Countable
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   HTML Coding Standards
-   CSS Coding Standards
-   SCSS
-   Javascript, HTML and CSS Formatting
-
 Purpose
--------
+~~~~~~~
 
 Documenting Countable's coding standards specific to front-end languages and their formatting.
 
 Scope
------
+~~~~~
 
 Currently covers HTML, CSS, our preferred use of SCSS, and formatting.
 

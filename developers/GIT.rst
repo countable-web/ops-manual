@@ -5,22 +5,13 @@ How Countable Uses GIT
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Git Branches
-   Contributing to a Project
-   Hotfix
-   General GIT Guidelines
-   Tips for Creating A Pull Request
-   Tips for Code Reviews
-
 Purpose
--------
+~~~~~~~
 
 Outlining the norms of git collaboration at Countable.
 
 Scope
------
+~~~~~
 
 Broad coverage of multiple elements of git workflow.
 

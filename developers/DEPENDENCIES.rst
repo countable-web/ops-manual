@@ -5,18 +5,13 @@ Dependency Strategy
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   How to Pick Dependencies
-   Javascript Frameworks
-
 Purpose
--------
+~~~~~~~
 
 This page covers dependency selection and management.
 
 Scope
------
+~~~~~
 
 Currently the page gives overall guidance on picking dependencies, and provides more specific deep guidance on Javascript frameworks in particular.
 

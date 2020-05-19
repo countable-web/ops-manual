@@ -5,34 +5,27 @@ Developers Reference
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Principles
-   Developer's Guild Meetings
-   :doc: `ARCHITECTURE`
-   :doc: `BUG_REPORTING`
-   :doc: `CODING_STANDARDS`
-   :doc: `DEPENDENCIES`
-   :doc: `DJANGO`
-   :doc: `GIT`
-   :doc: `HTML_CSS`
-   :doc: `INFO_SECURITY_DESIGN`
-   :doc: `JAVASCRIPT`
-   :doc: `PROJECT_STANDARDS`
-   :doc: `PROTOTYPING`
-   :doc: `PYTHON`
-   :doc: `STACK_CHOICES`
-   :doc: `TESTING`
-   :doc: `TRAINING`
+   developers/CODING_STANDARDS
+   developers/PROJECT_STANDARDS
+   developers/ARCHITECTURE
+   developers/DEPENDENCIES
+   developers/GIT
+   developers/PYTHON
+   developers/DJANGO
+   developers/HTML_CSS
+   developers/JAVASCRIPT
+   developers/PROTOTYPING
+   developers/TESTING
+   developers/TRAINING
 
 
 Purpose
--------
+~~~~~~~
 
 The purpose of this section is to standardize key (not all) engineering processes in order to improve the team's performance, and take advantage of an experience curve by eliminating arbitrary process differences.
 
 Scope
------
+~~~~~
 
 This folder is for topics related to programming and technical architecture.
 

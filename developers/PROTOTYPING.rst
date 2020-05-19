@@ -5,19 +5,13 @@ Prototyping
    :maxdepth: 2
    :caption: Contents:
 
-   Purpose
-   Scope
-   Protyping Basics
-   Get A Prototype in Front of Real Users ASAP
-
-
 Purpose
--------
+~~~~~~~
 
 Explain prototyping as the anchor of our technical approach.
 
 Scope
-----
+~~~~~
 
 Covers the basics of prototyping, and what it looks like in action at Countable.
 
