@@ -323,7 +323,7 @@ Commission is divided as follows.
    kept. (sourcer)
 
 Estimation
-----------
+~~~~~~~~~~
 
 Software project cost estimation is `notoriously difficult <https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html>`__.
 A typical problem is the team appears to have 70% of the information
@@ -331,19 +331,20 @@ when estimating a project, when they really have 30% because by
 definition, they can't see black swan conditions (unknown unknowns).
 
 Effort Estimation Process
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 For all projects:
 
 -  Make sure you summarize the purpose of the work at the top of any
    estimation document.
+-  Ask for any details you can to reduce scope uncertainty. Book a (voice) meeting to review this and discuss.
 -  Tell the client what you need by when to finish within the budget
    (data, access, creds).
 -  Determine their deadline, and build a prototype that captures the
    general idea of the system within 25% of the alloted time.
 
 Quoting
-~~~~~~~
+-------
 
 Some companies require a quote in order to issue a purchase order. This
 is appropriate when:
@@ -365,7 +366,7 @@ To fill it:
    hourly rate from our accounting team.
 
 Billing
-~~~~~~~
+-------
 
 We have several models depending on what works for a client. Two most
 common / preferred:
@@ -382,7 +383,7 @@ common / preferred:
    paying.
 
 Sprint Meeting Schedule
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 -  If there's over 40 hours per week, we should have a sprint meeting
    every week.
@@ -392,7 +393,7 @@ Sprint Meeting Schedule
    meeting once per month.
 
 Lead Time
-~~~~~~~~~
+---------
 
 -  We normally want 1 week of lead time to deliver items up to 2 days of
    effort. For larger items, we want a week lead time before starting,
@@ -402,7 +403,7 @@ Lead Time
    delivering the user stories as quickly and well as possible).
 
 Minimum Billable Amount
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 -  Any additional request (ie, via email) for technical work (anything
    not administrative, that requires opening adobe illustrator for
@@ -413,7 +414,7 @@ Minimum Billable Amount
    small requests since it's much less efficient that way.
 
 During the Project
-~~~~~~~~~~~~~~~~~~
+------------------
 
 -  During the project, if we expect to exceed the budget, tell the
    client and your manager ASAP, and explain what happened.
@@ -425,7 +426,7 @@ During the Project
    budgets is a useful way to identify a bad client relationship.
 
 Project Discovery
------------------
+~~~~~~~~~~~~~~~~~
 
 Our first job on a project is to create a clear shared vision to set the
 team up for rapid progress toward product-market fit.
@@ -433,7 +434,7 @@ team up for rapid progress toward product-market fit.
 Here we provide a checklist of key steps when starting a new project.
 
 Kick-off Meeting
-~~~~~~~~~~~~~~~~
+----------------
 
 For the Kick-off Meeting, meet the product owner (client) in person or
 over video chat. Text based interaction isn't good enough for these
