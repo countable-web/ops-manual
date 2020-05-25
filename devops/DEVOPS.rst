@@ -1,26 +1,24 @@
+######
 DevOps
-======
+######
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   
+
+*******   
 Purpose
-~~~~~~~
+*******
 
 The purpose of DevOps is to ensure that software is always deployed and tested reliably and automatically in a way that helps us and our customers.
 
 DevOps is the practice of writing code and configurations to accomplish
 this.
 
-Scope
-~~~~~
 
-This page introduces the areas we call DevOps at Countable, covering
-
-Specific Goals of DevOps
-------------------------
+Goals of DevOps
+===============
 
 1. Every code project should be deployed automatically, reliably and
    predictably (by the devs and clients) to production.
@@ -36,8 +34,60 @@ Specific Goals of DevOps
 6. We should have a collecting of shared scripts that automate any
    tedious task developers need to accomplish.
 
+
+-  Subscribe to the `12 factor methodology <https://12factor.net/>`_
+-  Automate operations to make our work more efficient, secure, consistent, predictable and reliable.
+-  When something breaks, make it as transparent as possible (easy to see what happened)
+-  When something breaks, find the root cause and prevent it next time.
+-  Save as much time for developers as possible, by automating their deployments, dev env setup, and testing.
+-  Eliminate unnecessary differences between projects, and have everything follow convention when there's no reason for deviations.
+-  Reduce and simplify the steps needed to start a new project and integrate with everything (slack, jenkins, sentry)
+-  minimize what's on the host server. Dockerize it all so it can be tested fully locally, and host as minimal state. ie, backup jobs are currently done wrong as they use the host's CRON.
+
+More specific goals (draft, may change)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  It would be ideal to bring up a project environment with one short command. (currently, it's ``git clone <repo>``, ``docker-compose up``, and then you often need to get some test data, so 2 or more commands, which is a good start). The easier this is, the more our front end people will be able to work the same way as everyone else.
+-  Committing to the master branch should run tests, and if those succeed, deploy to production.
+-  Committing to develop should deploy to a staging environment, and run the tests, spamming the comitter of any errors.
+-  All deployment configs should be centralized in the source repository. (ie, ``dc.prod.yml``, ``dc.stage.yml``)
+-  Sentry.countable.ca should have a project for every production environment, and spam slack with any errors.
+-  TODO: It should be fully automated to create a new jenkins slave server.
+
+*****
+Scope
+*****
+
+This page introduces the areas we call DevOps at Countable, covering
+
+
+*************************
+Standards and Conventions
+*************************
+
+Servers
+=======
+
+Each client typically has a different server environment, and Docker mostly prevents us from caring about the differences.
+
+Jenkins
+=======
+
+See the Jenkins section of this DevOps document for how we use jenkins to automate many environment instances.
+
+Docker
+======
+
+See the Docker section of this DevOps document for how we use Docker to manage project environments.
+
+Cloudflare
+==========
+
+We use cloudflare as an SSL proxy and DNS server. Your project should have an A record for its primary domain ``project.com`` which is proxied through Cloudflare's CDN. You should have a second CNAME record which is NOT proxied for directly accessing the server. ``direct.project.com`` .
+
+*****
 CI/CD
------
+*****
 
 For every project, we should typically have 3 jenkins jobs, a
 ``<projectname>-stage``, ``<projectname>-prod``, and
@@ -67,14 +117,16 @@ Tips for debugging CI/CD jobs.
    ``docker-compose up`` (including any other steps the jenkins job
    does).
 
+******
 Docker
-------
+******
 
 Docker is vital to our dev workflow, so this section covers the basics and getting set up, as well as providing resources further down for more in-depth learning.
 
 Docker Basics
-~~~~~~~~~~~~~~
-We have some training materials on Docker below.
+=============
+
+We have some training materials on Docker `here <DOCKER.html>`_
 
 We use Docker to manage dev, test, stage and prod environments. Specific conventions we follow:
 
@@ -86,7 +138,7 @@ We use Docker to manage dev, test, stage and prod environments. Specific convent
 -  The docker-compose.override.yml file should only contain differences between dev and prod and other environments. This includes the ports, restart policy, secrets, and normally not much else. If a line doesn't need to be in the overrides for a specific reason, move it to the main docker-compose.yml instead.
 
 Setting Up An Environment
-~~~~~~~~~~~~~~~~~~~~~~~~~
+=========================
 
 1. `Install Docker on your machine <https://docs.docker.com/engine/installation/>`__
 
@@ -99,7 +151,7 @@ Setting Up An Environment
 5. Navigate to `localhost <http://localhost>`__. Ensure only one project is running at a time if you're using port 80 (as we do here)
 
 Editing the Dockerfiles
-~~~~~~~~~~~~~~~~~~~~~~~
+=======================
 
 When you change something about the operating system environment your container exposes, such as installing a new package, this is often done in the Dockerfile itself. This will result in changes being propagated to other environments including production when you commit the modified Dockerfile, triggering a Docker build there. However, if you modify a file used during the build step such as requirements.txt , other environments won't be updated by default. To force environments to rebuild, commit a small change to the Dockerfile. Our convention is:
 
@@ -110,23 +162,24 @@ When you change something about the operating system environment your container 
 Bumping this version will trigger the rebuild as desired.
 
 Troubleshooting
-~~~~~~~~~~~~~~~
+===============
 
 When starting with Docker there are a few common issues:
 
 -  A port you need is blocked. Typically our apps run on port 80. To see if something's running there, ``sudo lsof -n -i :80 | grep LISTEN`` on Linux, Mac.
 -  Make sure you have a docker-compose.override.yml with port 80 mapped to your application.
 
+*******
 Jenkins
--------
+*******
  
 -  Changes to ``develop`` (branch in bitbucket) are detected and Jenkins automatically runs our tests and notifies us in slack of status. If they pass they should be deployed to a staging area.
 -  Changes to ``master`` are deployed to the production website.
 
 .. _setting-up-a-new-project:
 
-Setting up a new project.
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Setting up a new project
+========================
 
 -  Items in Jenkins (jobs) are named after their repository name. Each
    repo gets 2 items in jenkins. For a repo called wizards, the Jenkins
@@ -138,8 +191,8 @@ Setting up a new project.
 -  Edit the job's commands to run your tests properly.
 -  Configure slack to `post job status to the project channel <https://github.com/jenkinsci/slack-plugin#install-instructions-for-slack>`__.
 
-Troubleshooting
-~~~~~~~~~~~~~~~
+Troubleshooting Jenkins
+=======================
 
 -  Look at the console log from your Jenkins Job
 -  Test that a fresh clone of your project works with the commands your
@@ -148,7 +201,7 @@ Troubleshooting
 .. _setting-up-a-jenkins-node--project:
 
 Setting up a Jenkins node & project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================================
 
 Create a `new server <SERVERS.rst>`__ first.
 
@@ -160,67 +213,20 @@ Create a `new server <SERVERS.rst>`__ first.
 3. Create a Build Project In Jenkins, click new Item. Refer to existing projects for the configurations. Make sure the node you just created is being used!
 
 Discussion on Usage of Jenkins
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==============================
 
 -  Jenkins is pretty great but also has a lot of shortcomings. The big one is you bury all this important config info in GUI menus instead of in a versionable place like code. Travis is better that way, but they're less flexible in some other ways.
 -  If you find yourself building complicated scripts as Jenkins commands, instead script them into a bash file and just call that from Jenkins instead.
 
 Provisioning (Terraform, Ansible)
----------------------------------
+=================================
 
 We are currently using these tools in some projects to set up nodes to
 run our software on.
 
-Operations
-----------
-
-High Level Operations Goals
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  Subscribe to the `12 factor methodology <https://12factor.net/>`_
--  Automate operations to make our work more efficient, secure, consistent, predictable and reliable.
--  When something breaks, make it as transparent as possible (easy to see what happened)
--  When something breaks, find the root cause and prevent it next time.
--  Save as much time for developers as possible, by automating their deployments, dev env setup, and testing.
--  Eliminate unnecessary differences between projects, and have everything follow convention when there's no reason for deviations.
--  Reduce and simplify the steps needed to start a new project and integrate with everything (slack, jenkins, sentry)
--  minimize what's on the host server. Dockerize it all so it can be tested fully locally, and host as minimal state. ie, backup jobs are currently done wrong as they use the host's CRON.
-
-More specific goals (draft, may change)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  It would be ideal to bring up a project environment with one short command. (currently, it's ``git clone <repo>``, ``docker-compose up``, and then you often need to get some test data, so 2 or more commands, which is a good start). The easier this is, the more our front end people will be able to work the same way as everyone else.
--  Committing to the master branch should run tests, and if those succeed, deploy to production.
--  Committing to develop should deploy to a staging environment, and run the tests, spamming the comitter of any errors.
--  All deployment configs should be centralized in the source repository. (ie, ``dc.prod.yml``, ``dc.stage.yml``)
--  Sentry.countable.ca should have a project for every production environment, and spam slack with any errors.
--  TODO: It should be fully automated to create a new jenkins slave server.
-
-Current Standards and Conventions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Servers
-^^^^^^^
-
-Each client typically has a different server environment, and Docker mostly prevents us from caring about the differences.
-
-Jenkins
-^^^^^^^
-
-See the Jenkins section of this DevOps document for how we use jenkins to automate many environment instances.
-
-Docker
-^^^^^^
-
-See the Docker section of this DevOps document for how we use Docker to manage project environments.
-
-Cloudflare
-^^^^^^^^^^
-
-We use cloudflare as an SSL proxy and DNS server. Your project should have an A record for its primary domain ``project.com`` which is proxied through Cloudflare's CDN. You should have a second CNAME record which is NOT proxied for directly accessing the server. ``direct.project.com`` .
-
+*******
 Backups
-~~~~~~~
+*******
 
 *ALL* production data of ours and clients' must be backed up. We must have reasonable evidence that backups can actually be restored. For example, periodically update your development environment's database using a backup from production.
 
@@ -262,18 +268,14 @@ installed)
 
 .. _servers-1:
 
-Servers
-^^^^^^^
-
-Go `here <./SERVERS.md>`__ to learn how to deploy a new node.
-
+*********
 Databases
-^^^^^^^^^
+*********
 
 We use postgres and occasionally mongodb. You can restore a postgres DB
 in our projects as follows. Include this portion ``-T template_postgis``
 if you have a postgis (as opposed to plain postgres) db image in your
-docker definitions. You may need to stop your other containers to abort
+docker definitions. Ylotou may need to stop your other containers to abort
 their connections to the db first.
 
 ::
@@ -287,7 +289,7 @@ Never expose the db management port, it should only be accessible via
 Docker.
 
 Migrations
-^^^^^^^^^^
+==========
 
 Migrations should be run as a part of a startup script, so the DB schema
 is always up to date with the currently running code.
@@ -296,7 +298,7 @@ Note: migration conflicts should be resolved when merging ``develop``
 into your working branch and not as part of operations work.
 
 Deploying Updates To Projects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
 
 While everything uses Docker as described above, every project is
 basically a unique unicorn in terms of hosting. We use Jenkins for CI,
@@ -315,11 +317,11 @@ branch
    git merge develop
    git push origin master
 
-Some projects use `Jenkins to automatically test and deploy new
+Some projects use Jenkins to automatically test and deploy new
 commits.
 
 Static Files
-^^^^^^^^^^^^
+============
 
 An nginx container may as well always serve all static files in all
 environments. This prevents us needing to worry about differences in
@@ -330,7 +332,7 @@ need collected. ``python manage.py collectstatic --noprompt`` should be
 run as part of the startup script for any Django project.
 
 Moving sites to a new server
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+============================
 
 Move the "stage" version of any site, first.
 
@@ -364,7 +366,7 @@ to refactor this away where possible, and use things like S3 for
 permanent file storage.
 
 Hosting Choices
-~~~~~~~~~~~~~~~
+===============
 
 The benefits of bare metal:
 
@@ -382,14 +384,15 @@ The benefits of VM/cloud instances:
    really, and depends on many things).
 3. Ability to deploy new hardware automatically such as via Terraform
 
+******************
 Release Management
-------------------
+******************
 
 This document touches upon first our ideal release management process, then some concrete processes to follow to pursue that ideal.
 
 
 Ideal Release Management Process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================
 
 Each project may have some differences by the ideal release management process should aspire to these goals:
 
@@ -398,9 +401,6 @@ Each project may have some differences by the ideal release management process s
 -  Implement automated end-to-end (puppeteer) testing of core user flows
    is first, then other tests as desired.
 -  Be able to confidently release every sprint (every week usually).
-
-Specific Processes to Employ
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Specific processes that help with the above:
 
@@ -417,12 +417,12 @@ Specific processes that help with the above:
 -  Critical bugfixes may bypass the above process by pushing `hotfixes <../developers/GIT.rst>`__ to ``master``. Do this sparingly.
 
 Servers
--------
+=======
 
 Standardize setting up new servers. These steps are generic to AWS, Digital Ocean, and Scaleway currently.
 
 Process For Troubleshooting Production Servers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==============================================
 
 Nodes are typically accessible directly with a ``direct`` prefix the following forms.
 
@@ -445,10 +445,10 @@ using SSH keys, so if you don't have one already, do this for example.
 You can now SSH in from this device without a password.
 
 Process For Creating Nodes
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+==========================
 
 Providers
-^^^^^^^^^
+=========
 
 To choose a hosting provider.
 
@@ -458,7 +458,7 @@ To choose a hosting provider.
 4. If there are no restrictions, use Scaleway.
 
 Node Creation
-^^^^^^^^^^^^^
+=============
 
 -  For Digital Ocean, choose "create->Droplet".
 -  Choose the latest LTS Ubuntu as the OS.
@@ -466,7 +466,7 @@ Node Creation
 -  Choose a name for the node that uses the project slug (e.g. ``cortico``) as the name. If the Node is only used in a subset of cases, indicate that, e.g. ``cortico-clientname``.
 
 Bootstrapping
-^^^^^^^^^^^^^
+=============
 
 -  Log in as root (or ec2-user on AWS), and create a user for yourself in the ``sudo``, ``dev``, and ``docker`` groups.
 
@@ -477,7 +477,6 @@ Bootstrapping
 
    # create groups if they don't exist
    groupadd dev
-   groupadd docker
 
    usermod -aG dev myname
    usermod -aG sudo myname
@@ -490,13 +489,13 @@ Bootstrapping
 Run your jenkins job to test the software works.
 
 Future Work
-^^^^^^^^^^^
+===========
 
--  This process should be replaced with an IAS solution (Terraform + Ansible for example)
+-  Document IAS usage (Terraform + Ansible for example)
 
 
 Stack Choices
--------------
+=============
 
 TLDR, read `this <http://boringtechnology.club/>`__
 
@@ -509,7 +508,7 @@ We don't want to support every stack, so we chose the best for most cases and wa
 5. Performance.
 
 Back End
-~~~~~~~~
+========
 
 We've found the following back end stack to be very good on these
 metrics.
@@ -532,31 +531,18 @@ franca.
 
 |python popularity|
 
-Django modules
-^^^^^^^^^^^^^^
-
-========== ======== ====================
-Technology Current  Ideal
-========== ======== ====================
-celery     not used avoid, use django_rq
-========== ======== ====================
-
-``TODO: add more to the above table``
-
-Operations
-~~~~~~~~~~
-
-Avoid language-specific environmental dependencies that can be met by built in functions or by Docker. ie, you don't need virtualenv, pyenv, grunt, gulp.
+Avoid language-specific environment dependencies that can be met by built in functions or by Docker. ie, you don't need virtualenv, pyenv, grunt, gulp.
 
 Follow 12 factor principles
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===========================
 
 These are progressive principles for making your application predictable and scalable.
 
 `12factor <https://12factor.net/>`__
 
+*********
 Front End
-~~~~~~~~~
+*********
 
 We have a lot less prescription on the front end, and choices are based on developer skill. However, we observe guidelines:
 
@@ -567,7 +553,7 @@ We have a lot less prescription on the front end, and choices are based on devel
 These tables capture our current thoughts on the outlook for front end dependencies in our projects.
 
 JS Frameworks
-^^^^^^^^^^^^^
+=============
 
 ========== ===================================
 Technology Ideal
@@ -580,7 +566,7 @@ Vue        preferred for SPA projects
 ========== ===================================
 
 CSS
-^^^
+===
 
 ================================== ============================= =====
 Technology                         Current                       Ideal
@@ -591,28 +577,17 @@ SCSS                               preferred
 other preprocessors (less/ stylus) avoid, migrate away           
 ================================== ============================= =====
 
-Build System
-^^^^^^^^^^^^
-
-For front end builds, we always use `Parcel js <https://parceljs.org/>`__ and NPM scripts (no webpack, no gulp, no grunt)
-
-Test Framework
-^^^^^^^^^^^^^^
-
-We use mocha, native Node.js assert, and puppeteer for e2e tests.
-
-Superagent for API tests.
-
 .. |python popularity| image:: https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/09/growth_major_languages-1-1024x878.png
 
-Information Security Design at Countable
-----------------------------------------
+********************
+Information Security
+********************
 
 This draft document focuses on design of actual systems, not processes for
 performing work (covered elsewhere).
 
 Web Application Host OS Hardening
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================
 
 -  Apply 'least privilege' in general. Only give users/systems access to
    sensitive information to the extent who need it, and only the minimum
@@ -626,7 +601,7 @@ Web Application Host OS Hardening
    mechanism.
 
 Container Security Practices [1]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================
 
 Countable's applications are always containerized. That consistent
 design lets us re-use security hardening work across projects.
@@ -645,227 +620,3 @@ design lets us re-use security hardening work across projects.
 [1]
 `DP Kumar Your Container is in Security Risk By Design <https://medium.com/@dpkumar/your-container-is-in-security-risk-by-design-8a7034f2f9b1>`__
 
-Docker Training
----------------
-
-This explains the basics of using Docker, specifically written for
-Countable devs. If you want to know WHY we use docker, see `A Pure Docker Workflow <https://docs.google.com/document/d/1F_LvoR1R6_GEiwqBWviYVXLUuOnzSl-q5WcFspYqmUY/edit#heading=h.dgi1cb6nx4tu>`__
-and `The Allure Of Docker <https://docs.google.com/document/d/1aWJFw5DcBC0sj1x2UukruNSldfxMAJqO3fBqzx6ubDQ/edit>`__
-
-Basic docker for new devs. It assumes you did `these exercises on Linux <https://github.com/countable-web/open-source-corporation/blob/master/product/engineering/TRAINING.md#linux>`__.
-
-Docker 101
-~~~~~~~~~~
-
-Docker is a command line interface (CLI), and also a Linux daemon for
-running containers from images. Let's define those two terms:
-
-A Docker container is:
-
--  Like a lightweight virtual machine (VM), so in some ways Docker is
-   comparable to Vagrant or other VM scripting environment.
--  A single `chrooted <https://en.wikipedia.org/wiki/Chroot>`__ process,
-   run when the container is created. It's just like any process in the
-   operating system, but it has its own filesystem.
--  Created from an image.
-
-A Docker image is:
-
--  Used to create and run containers.
--  The filesystem the container runs in, together with what command it
-   runs. For example, run the command ``pwd`` in a stock Ubuntu
-   filesystem would be an image, and you could "run" it to create a
-   container that actually executes that command. The actual command to
-   do this is ``docker run ubuntu pwd`` FYI.
--  Defined by a Dockerfile, a text file that indicates what's in the
-   image and what command it runs. ie) Ubuntu, with Python 3 installed,
-   which opens a Python prompt by default.
-
-Functionally, the most obvious difference with a container is that it
-starts up very quickly, in seconds instead of minutes.
-
-First, install Docker. It's really easy on Linux, which you should be
-using. You could also consider using `the official
-sandbox <https://training.play-with-docker.com/ops-s1-hello/>`__ for
-this similar lab hosted by Docker the company.
-
-You should add yourself to the docker group.
-
-::
-
-   usermod -aG `whoami` docker
-
-Now you can access the Docker CLI.
-
-::
-
-   docker
-
-This just prints out the help, and list of commands available for
-managing containers. We care mostly about these for now:
-
--  ``docker run`` - creates and starts a container.
--  ``docker start`` - starts an existing container.
--  ``docker stop`` - stops a container.
--  ``docker rm`` - removes a stopped container.
--  ``docker ps`` - shows currently running containers.
--  ``docker ps -a`` - shows all existing containers.
--  ``docker exec`` - executes a shell command inside a specified running
-   container.
--  *BONUS* ``docker cp`` - copies a file into or out of a container.
-
-This is mostly what we as web developers know as a CRUD (Create, Read,
-Update, Delete) for containers.
-
-Let's do an example:
-
-Create a container from the hello-world image (provided by Docker to
-greet you).
-
-::
-
-   docker run hello-world
-
-There, you've run a mini Linux VM. Congrats! It printed some stuff out,
-and exited. That's because by default, this image just runs a script
-that says Hello to us.
-
-Let's look at your container. It's already exited so you won't see
-anything with:
-
-::
-
-   docker ps
-
-which only shows running containers. You have to do:
-
-::
-
-   docker ps -a
-
-   CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                          PORTS               NAMES
-   4876208e98d8        hello-world                            "/hello"                 4 minutes ago       Exited (0) 4 minutes ago                                 flamboyant_sinoussi
-
-There we go! A table of info about the container. We can see it's ID,
-what image was used to create it, the command that was run, its age,
-status, ports, and optional name (a nicer ID).
-
-Let's switch to another image called ``python:alpine``, which has Python
-in it already. We'll specify ``-it`` which means we want to interact
-with the container directly when it's running.
-
-::
-
-   docker run -it python:alpine
-
-Nice, a python shell! You can run Python or any other scripting language
-or database this way directly in Docker without installing it on your
-host. It's isolated and can be easily removed.
-
-Try some other commands in this container. Just append the command you
-want. Each time you'll create a new container, and it will complete your
-command and then exit:
-
-::
-
-   docker run -it python:alpine ls
-
-Look, it's the root of the container's Linux filesystem with all the
-usual folders like ``etc`` and ``bin``.
-
-::
-
-   docker run -it python:alpine pwd
-
-We start off in the root (/) directory.
-
-::
-
-   docker run -it python:alpine whoami
-
-Docker containers run as the ``root`` (admin) user by default.
-
-::
-
-   docker run -it python:alpine ps
-
-Just as promised, there's only one process. It's the ``ps`` process you
-just run. All the other commands earlier died in their containers when
-they finished. Now, we've made quite a mess! Let's delete all these
-containers!
-
-::
-
-   docker ps -a
-
-To get all the container IDs, and then
-
-::
-
-   docker rm <ID>
-
-To get rid of the containers you no longer want.
-
-When we're developing web apps, we normally want to run a web server,
-database or any other service we need. We normally run these in the
-"background", meaning we don't want to see their output on our screen
-directly, so we use ``-d`` instead of ``-it``.
-
-As an example of this, let's create a container that lasts a long time.
-It can just "sleep" for a day. Let's give it a name, ``sleepy`` as well:
-
-::
-
-   docker run --name sleepy python:alpine sleep
-
-Now, we can see the container running with:
-
-::
-
-   docker run -d --name sleepy python:alpine sleep 1d
-
-There it is, sleeping away.
-
-::
-
-   docker ps
-
-Let's copy a file into the container!
-
-::
-
-   touch file.txt
-   docker cp file.txt sleepy:/
-   docker exec -it sleepy ls
-
-We can see the root folders as before, but now ``file.txt`` is also
-there!
-
-Let's stop it.
-
-::
-
-   docker stop sleepy
-
-It's only viewable with ``docker ps -a`` now because it's stopped.
-
-::
-
-   docker ps
-   docker ps -a
-
-Let's delete it.
-
-::
-
-   docker rm
-   docker ps -a
-
-Gone. Ok, what about images? They just seem to take care of themselves.
-Well, you can see them too. Docker's downloaded some you needed earlier.
-
-::
-
-   docker images
-
-There they are.

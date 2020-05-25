@@ -2,8 +2,10 @@ Philosophy
 ==========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Ah:
+
+   philosophy/PHILOSOPHY
 
 Purpose
 ~~~~~~~
