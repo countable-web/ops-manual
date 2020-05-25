@@ -323,7 +323,7 @@ Commission is divided as follows.
    kept. (sourcer)
 
 Estimation
-----------
+~~~~~~~~~~
 
 Software project cost estimation is `notoriously difficult <https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html>`__.
 A typical problem is the team appears to have 70% of the information
@@ -331,19 +331,20 @@ when estimating a project, when they really have 30% because by
 definition, they can't see black swan conditions (unknown unknowns).
 
 Effort Estimation Process
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 For all projects:
 
 -  Make sure you summarize the purpose of the work at the top of any
    estimation document.
+-  Ask for any details you can to reduce scope uncertainty. Book a (voice) meeting to review this and discuss.
 -  Tell the client what you need by when to finish within the budget
    (data, access, creds).
 -  Determine their deadline, and build a prototype that captures the
    general idea of the system within 25% of the alloted time.
 
 Quoting
-~~~~~~~
+-------
 
 Some companies require a quote in order to issue a purchase order. This
 is appropriate when:
@@ -365,7 +366,7 @@ To fill it:
    hourly rate from our accounting team.
 
 Billing
-~~~~~~~
+-------
 
 We have several models depending on what works for a client. Two most
 common / preferred:
@@ -382,7 +383,7 @@ common / preferred:
    paying.
 
 Sprint Meeting Schedule
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 -  If there's over 40 hours per week, we should have a sprint meeting
    every week.
@@ -392,7 +393,7 @@ Sprint Meeting Schedule
    meeting once per month.
 
 Lead Time
-~~~~~~~~~
+---------
 
 -  We normally want 1 week of lead time to deliver items up to 2 days of
    effort. For larger items, we want a week lead time before starting,
@@ -402,7 +403,7 @@ Lead Time
    delivering the user stories as quickly and well as possible).
 
 Minimum Billable Amount
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 -  Any additional request (ie, via email) for technical work (anything
    not administrative, that requires opening adobe illustrator for
@@ -413,7 +414,7 @@ Minimum Billable Amount
    small requests since it's much less efficient that way.
 
 During the Project
-~~~~~~~~~~~~~~~~~~
+------------------
 
 -  During the project, if we expect to exceed the budget, tell the
    client and your manager ASAP, and explain what happened.
@@ -425,7 +426,7 @@ During the Project
    budgets is a useful way to identify a bad client relationship.
 
 Project Discovery
------------------
+~~~~~~~~~~~~~~~~~
 
 Our first job on a project is to create a clear shared vision to set the
 team up for rapid progress toward product-market fit.
@@ -433,32 +434,32 @@ team up for rapid progress toward product-market fit.
 Here we provide a checklist of key steps when starting a new project.
 
 Kick-off Meeting
-~~~~~~~~~~~~~~~~
+----------------
 
 For the Kick-off Meeting, meet the product owner (client) in person or
 over video chat. Text based interaction isn't good enough for these
 critical questions.
 
--  What problem does this project solve, for whom? This should be a list
-   of the personas, and high level stories (also called value hypothesis
-   or value proposition).
--  How are the users currently solving or working around the problem?
--  What is the most important benefit you expect this project to provide
-   to the user?
--  How will success be measured?
--  What is the impact hypothesis using the above metric? How many people
-   will use the solution, and how does it impact their lives/jobs? How
-   can that be maximized?
--  What does success look like for you (qualitatively)? Provide as much
-   detail as possible about that vision.
--  Who will we need to work with and in what capacity? (make a list)
-   Book dates/times to meet them. Book any travel plans necessary.
--  What assets and access is required for the project and who will
-   provide it, by when?
--  Set up a weekly or bi-weekly sprint meeting with product owner and
-   team. What other meetings should we attend? Book these.
--  What are the first key deliverables, by whom, and by when, in order
-   to accelerate the project?
+Goals: Get an initial understanding of the problem, and the project success vision. Start the stakeholder map, so we can loop those people in and make them feel part of the team. Get clarity and empathy on what the users really need, and set the process underway to refine that knowledge (Get buy-in on user research).
+
+Understand the problem:
+- What problem does this project solve, for whom? This should be a list of the personas, and high level stories (also called value hypothesis or value proposition).
+- How are the users currently solving or working around the problem?
+- What is the SINGLE most important benefit you expect this project to provide to the user?
+
+Envision what it would be like if magically solved:
+- What does success look like for you (qualitatively)? Provide as much detail as possible about that vision.
+- How will success overall be measured (what numbers would move)?
+- What is the ideal overall measurable impact of the project to the organization? What about on those it serves?
+
+Identify stakeholders:
+- Who will we get to work with and in what capacity? (make a list) Book dates/times to meet them. Book any travel plans necessary.
+- Who else is involved with, affected by, or has input into this project, and how?
+
+Next Steps:
+- What assets and access is required for the project and who will provide it, by when?
+- Set up a weekly or bi-weekly sprint meeting with product owner and team. What other meetings should we attend? Book these.
+- What are the first key deliverables, by whom, and by when, in order to accelerate the project? Include a UXD / user resarch plan, draft of User Epics, and critical path document (phased deliverables, including prototype phase), stakeholder map.
 
 User Experience Design (UX) Planning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
