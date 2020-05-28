@@ -91,8 +91,7 @@ please remember to:
 
 `Resources for blog writing <https://www.youtube.com/watch?v=ygiAqYJq8No>`__
 
-Finally
-~~~~~~~
+**Finally**
 
 If you have any questions, or good resources/tutorials, please contact
 julie@countable.ca
