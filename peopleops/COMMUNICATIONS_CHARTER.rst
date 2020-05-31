@@ -6,17 +6,17 @@ Communications Charter
    :caption: Contents:
 
 Purpose
-~~~~~~~
+-------
 
 Help everyone at Countable understand how to indicate their availability, reach out to others using various appropriate channels, conduct meetings of appropriate scope, get feedback on our work every day, and give feedback to our teammates.
 
 Scope
-~~~~~
+-----
 
 Define how we designate our availability to the team, use different communication channels for different purposes, utilize feedback loops to get better at our work, and communicate with teammates.
 
 Availability
-------------
+~~~~~~~~~~~~
 
 -  Each team member determines their own hours and communicates that to
    the team.
@@ -32,7 +32,7 @@ Availability
 
 
 Guidelines for All Communication
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We want to restrict types of communication by channel so people aren't
 stressed by having to listen on all channels at all times. For example,
@@ -63,7 +63,7 @@ time off.
    else or a client requests a special deadline.
 
 Calendar Expectations
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 -  The calendar is the single source of truth for meetings. They are
    only held by people invited to actual calendar events.
@@ -75,7 +75,7 @@ Calendar Expectations
    following: “Name” vacation (# of days )
 
 Email Hygiene
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
 
 -  We recommend you disable email notifications on your phone. It's a
    non-urgent channel and we don't want to be distracted by it.
@@ -101,7 +101,7 @@ Email Hygiene
    team members and clients to take a break outside work hours.
 
 Text
-~~~~
+^^^^
 
 -  If you'd like someone's attention because you're blocked and they're
    not responding on Slack, we recommend you text them. Do this only
@@ -109,12 +109,10 @@ Text
 -  This means, we should share our phone numbers, but only use them for
    urgent requests.
 
-.. _whereby-video-chat-and-in-person-meetings:
+Guidelines for Communicating Face-to-Face
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Whereby (Video Chat, and in-person meetings)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Guidelines for communicating face-to-face**
+(On Whereby or other video chat, and in-person meetings)
 
 -  Make eye contact 50% of the time when speaking, and 100% of the time
    when listening.
@@ -127,20 +125,20 @@ Whereby (Video Chat, and in-person meetings)
    as equal as possible.
 
 Phone
-~~~~~
+^^^^^
 
 -  For truly urgent or critical things, we call each other (cell phone).
    Only do this in the evening or weekend of the recipient's timezone if
    it's an emergency. This should be RARE.
 
 Trello
-~~~~~~
+^^^^^^
 
 -  Trello is for tracking what we need to get done (reminders). We use
    variants of Scrum, details `here <../operations/TRELLO.rst>`__.
 
 Office Hours and Presence
-~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Overall objective: achieving our goals but also balancing work &
    private life in a meaningful way
@@ -149,8 +147,8 @@ Office Hours and Presence
 -  Make sure your calendar is up-to-date and shared/public so we know
    how to reach someone if urgent
 
-Meetings in General
-~~~~~~~~~~~~~~~~~~~
+Meetings
+~~~~~~~~
 
 See `meetings <MEETINGS.rst>`__
 
@@ -190,7 +188,7 @@ people direct message or mention you, and only during your work hours.
 .. |Slack Notification Setting| image:: recommended-slack-setting.png
 
 Feedback Loops on Your Work at Countable
-----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 One of our core principles at Countable is to shorten feedback loops.
 There is overwhelming evidence of the benefits of this. One example is
@@ -198,15 +196,14 @@ the biggest predictor of happiness in the YCombinator Startup School
 program was that startups who talked to users. They were 12.8% happier.
 
 Feedback Sources
------------------
+^^^^^^^^^^^^^^^^
 
 This is a list of the different places you can get feedback from,
 depending on what's most helpful. You don't need them all for every
 project, but you should *use at least one of them each day*, ideally
 several times per day.
 
-Clients
-~~~~~~~
+**Clients**
 
 -  Where possible, talk or email with clients directly *rather than
    getting your manager to relay information*.
@@ -217,8 +214,7 @@ Clients
 -  Ship your work every sprint (usually 2 weeks), and show them a link
    to your changes.
 
-Metrics
-~~~~~~~
+**Metrics**
 
 -  What can you measure that captures the value of your work. Ask your
    team and manager to figure this out.
@@ -226,8 +222,7 @@ Metrics
    score of "1" on these, and by estimating your score, you can get
    feedback by yourself.
 
-End-users
-~~~~~~~~~
+**End-users**
 
 -  These people are often your client's customers. It's whoever actually
    uses the product you're working on.
@@ -236,31 +231,28 @@ End-users
    update on new features they've asked about, and ask them what they
    think.
 
-Testing
-~~~~~~~
+**Testing**
 
 -  Use the software yourself and pretend to be a user. The goal is to
    get inside your persona's head.
 -  Write automated tests.
 -  Use this sparingly as it's less reliable as outside feedback.
 
-Your Team
-~~~~~~~~~
+**Your Team**
 
 -  Discuss all the above results with your team, and show them your
    work, asking for how to improve.
 -  Send your team screenshots, videos, code reviews and other artefacts
    of what you did.
 
-Your Manager
-~~~~~~~~~~~~
+**Your Manager**
 
 -  Your manager can give you feedback sometimes, but their more
    important job is to help you get feedback from the real word (see
    above)
 
 Forward Feedback (Status Reporting)
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You should update your team and clients each day with what you've been
 working on via Slack, Email and Trello. For the latter 2, these are some
@@ -305,7 +297,7 @@ Example of updating your team:
    What do you guys think of moving the phone number after the initial signup form? I'm assuming it's better and will go ahead if no one objects.
 
 Giving Feedback to Teammates
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our team must provide each other with feedback regularly in order to
 improve. Some references on why this is:
@@ -320,7 +312,7 @@ improve. Some references on why this is:
 -  `Gratitude makes you happier <https://www.health.harvard.edu/healthbeat/giving-thanks-can-make-you-happier>`__
 
 When To Give Feedback
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 -  `Code reviews <../developers/GIT.rst>`__. The benefits of
    Senior developers reviewing Junior developers' code is obvious I
@@ -346,7 +338,7 @@ When To Give Feedback
    suggests this makes you, the recipient, and the whole team happier.
 
 Guidelines Around Feedback
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Ask your team for feedback. Make it easy for them by sharing a link,
    getting a code review, making a little demo video of what you did, or
