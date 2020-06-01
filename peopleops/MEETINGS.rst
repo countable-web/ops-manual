@@ -6,13 +6,12 @@ Meetings
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Help everyone at Countable understand the different types of meetings we define internally.
 
-Scope
-~~~~~
+**Scope**
+
 Defines expectations for all meetings, then goes into details for specific types of meetings.
 
 All Meetings
