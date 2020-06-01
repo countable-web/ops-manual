@@ -5,13 +5,11 @@ Performance Evaluation Policy
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 To outline a clear, fair, and replicable process for performance evaluation.
 
-Scope
-~~~~~
+**Scope**
 
 Covers our process for self-evaluation, technical tracks and their levels, and the dismissal process.
 
