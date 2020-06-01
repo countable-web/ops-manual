@@ -6,28 +6,30 @@ How to Do Your Job
    :caption: Contents:
 
 Purpose
-~~~~~~~
+-------
 
 Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our `Onboarding Guide <ONBOARDING_GUIDE.rst>`__ first!
 
 Scope
-~~~~~
+-----
 
-Covers our team management platform Eightmeters (todo), workflow checklists, remote work basics, professional conduct, setting up your desk, expenses, and a subcontractor's guide.
+Covers our team management platform Eightmeters, workflow checklists, remote work basics, professional conduct, setting up your desk, expenses, and a subcontractor's guide.
 
 Using Eightmeters
------------------
+~~~~~~~~~~~~~~~~~
 
-TODO
+At Countable, we built `Eightmeters <https://eightmeters.countable.ca/>`__ to overcome some of the
+challenges of remote work. Make sure to log your time daily according to appropriate project tags,
+including links to appropriate Trello cards or document deliverables when possible.
 
 Workflow Checklist
-------------------
+~~~~~~~~~~~~~~~~~~
 
 This workflow checklist covers mostly things we should already be doing. If it's something
 we're still working towards, it's in *italics*.
 
 Meetings
-~~~~~~~~
+--------
 
 -  Be on time, or notify as early as possible about absence or lateness
    and offer something instead (here's my summary so you can read it).
@@ -39,7 +41,7 @@ Meetings
    ahead of time. Indicate how it impacts something we care about (OKR).
 
 Commitments
-~~~~~~~~~~~
+-----------
 
 -  Be clear and specific about commitments. Say "I'll send you a
    prototype link at 2pm" rather than "I'll be done after lunch". *This
@@ -50,7 +52,7 @@ Commitments
    Explain what else you can do to help.
 
 Every Day You Work
-~~~~~~~~~~~~~~~~~~
+------------------
 
 -  Share something with the team every day. The simplest way to do this
    is to report what you did on Slack in your team's channel, and
@@ -63,7 +65,7 @@ Every Day You Work
 -  Check your company Email
 
 Every Week
-~~~~~~~~~~
+----------
 
 -  Communicate with each client you are working with. Send them an
    update on what's done and what's pending out of their current
@@ -72,7 +74,7 @@ Every Week
    `Transparency <../philosophy/PHILOSOPHY.rst>`__
 
 Do Not
-~~~~~~
+------
 
 -  Use private messages for things that don't need to be private. Share
    your experiences on your projects in your client channel, and if it's
@@ -80,7 +82,7 @@ Do Not
    `Transparency <../philosophy/PHILOSOPHY.rst>`__
 
 Time Off
---------
+~~~~~~~~
 
 Countable's intention is allow a great deal of flexibility to everyone, while ensuring we work at predictable times and can depend on one another. The important things are to make sure your team can rey on you being around when you say you will, and that you don't burn out. So, you can generally work when you want, but you should communicate when that will be.
 
@@ -92,7 +94,7 @@ Countable's intention is allow a great deal of flexibility to everyone, while en
 - We expect remote team members outside of the America/Vancouver timezone to have a 50% overlap with the Vancouver timezone (work half their time in PST).
 
 Remote Work Basics
-------------------
+~~~~~~~~~~~~~~~~~~
 
 Countable is a fully remote team, which has certain pros and cons. The
 top "cons" reported on other remote teams are:
@@ -111,12 +113,12 @@ Things to try.
    `Gitlab Remote work tipis <https://about.gitlab.com/company/culture/all-remote/tips/>`__
 
 References
-~~~~~~~~~~
+----------
 
 `Quu Blog <https://blog.quuu.co/lessons-worth-learning-from-remote-workers/>`__
 
 Professional Conduct
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 How to communicate with clients, and general practices. TLDR: Act
 professionally with clients. You're given flexibility (schedule,
@@ -124,7 +126,7 @@ location, school) at Countable because we trust you to minimize the
 impact of those things on clients.
 
 Maintaining Professionalism with Clients
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 As a team, Countable leans towards being casual with one another. In
 general, we believe this is a strength. However, we must keep in mind
@@ -165,10 +167,10 @@ In practice this means:
    revisit this in the future."
 
 Setting Up Your Desk
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Equipment Requirements
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 You'll need:
 
@@ -188,7 +190,7 @@ You'll need:
    packets or numbers over 100ms.
 
 Equipment Expenses
-~~~~~~~~~~~~~~~~~~
+------------------
 
 -  Countable will pay for a linux laptop if you use that as your primary
    work machine. We subsidize Linux because it helps the team learn
@@ -206,10 +208,10 @@ Equipment Expenses
 
 
 Expenses
---------
+~~~~~~~~
 
 Things The Company Will Pay For
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 -  Grammarly pro
 -  Adobe CS (if you work in a design capacity)
@@ -222,19 +224,19 @@ Things The Company Will Pay For
 -  Hotels/flights when travelling for business.
 
 Claiming Expenses
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Note your expenses in `Eightmeters <http://eightmeters.countable.ca>`__
 
 Subcontractor's Guide
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 Currently covers taxes, categorization as a subcontractor, and benefits of incorporating. 
 
 Also check out our template :doc:`SUBCONTRACTOR_AGREEMENT`__.
 
 Taxes
-~~~~~
+-----
 
 You have to claim self employment income once per year. We recommend
 using `SimpleTax <https://simpletax.ca/>`__
@@ -251,14 +253,14 @@ using `SimpleTax <https://simpletax.ca/>`__
    `CRA Business Expenses <https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/business-expenses.html>`__
 
 Categorization as a Subcontractor
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 
 1. You should supply your own computer equipment
 2. You should determine where, when and how the work will be done.
 3. Bears risk of loss, damage or delay.
 
 Should You Incorporate?
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 This section is only if you're in Canada for now.
 
@@ -279,7 +281,7 @@ This section is only if you're in Canada for now.
    your CCPC.
 
 Things You Can Deduct From Taxes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
 
 Countable doesn't reimburse these things but if you're a subcontractor
 you can deduct them from your income to avoid tax.
