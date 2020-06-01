@@ -5,11 +5,13 @@ UX Practices
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
-Scope
-~~~~~
+To identify the norms and practices of our UX-driven process at Countable.
+
+**Scope**
+
+Currently covers marketing, branding, user experience design and testing.
 
 Marketing
 ---------
