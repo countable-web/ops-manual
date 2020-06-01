@@ -5,17 +5,17 @@ Architecture
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 This is a guideline on architecture for web applications, with the goal
 of minimizing technical debt, saving time and making our programming
 work more enjoyable.
 
-Scope
-~~~~~
+**Scope**
 
-This document provides many starting points for deep research: please give it an initial broad read-through, then feel free to explore particular links or topics within in greater detail.
+This document provides many starting points for deep research: please 
+give it an initial broad read-through, then feel free to explore 
+particular links or topics within in greater detail.
 
 Getting Started
 ---------------
