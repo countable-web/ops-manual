@@ -7,7 +7,7 @@ Dependency Strategy
 
 **Purpose**
 
-This page covers dependency selection and management.
+This page covers dependency and framework selection and management. See also https://web.archive.org/web/20180223065908/http://discuss.joelonsoftware.com/default.asp?joel.3.219431
 
 **Scope**
 
