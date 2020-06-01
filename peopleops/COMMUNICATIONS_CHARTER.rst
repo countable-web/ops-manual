@@ -5,13 +5,11 @@ Communications Charter
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
--------
+**Purpose**
 
 Help everyone at Countable understand how to indicate their availability, reach out to others using various appropriate channels, conduct meetings of appropriate scope, get feedback on our work every day, and give feedback to our teammates.
 
-Scope
------
+**Scope**
 
 Define how we designate our availability to the team, use different communication channels for different purposes, utilize feedback loops to get better at our work, and communicate with teammates.
 
