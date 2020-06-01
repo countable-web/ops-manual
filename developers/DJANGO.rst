@@ -5,13 +5,11 @@ Django Standards
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 To share things we've found to solve common issues with Django and save lots of time.
 
-Scope
-~~~~~
+**Scope**
 
 Covers numerous specific issues and makes overall recommendations.
 
