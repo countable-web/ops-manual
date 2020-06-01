@@ -5,13 +5,11 @@ Team Norms at Countable
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Establishes the norms and policies which guide our collaboration at Countable.
 
-Scope
-~~~~~
+**Scope**
 
 Covers our principles of diversity and inclusion, training, performance evaluation, and team events. 
 
