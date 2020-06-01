@@ -5,13 +5,11 @@ How to Do Your Job
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
--------
+**Purpose**
 
 Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our `Onboarding Guide <ONBOARDING_GUIDE.rst>`__ first!
 
-Scope
------
+**Scope**
 
 Covers our team management platform Eightmeters, workflow checklists, remote work basics, professional conduct, setting up your desk, expenses, and a subcontractor's guide.
 
