@@ -208,6 +208,8 @@ Operations
 Contributing
 ------------
 
+Technical things to learn when working on this manual: :doc:`operations/META`
+
 If you want to suggest a change to Countable Web Productions, make a
 pull request. The rules:
 
