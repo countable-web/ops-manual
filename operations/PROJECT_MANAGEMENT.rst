@@ -13,8 +13,8 @@ Set conventions for communication between project stakeholders to maximize our v
 
 This document summarizes project management tooling and practices at Countable to assist with onboarding.
 
-Process
-~~~~~~~
+Project Management Process
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Every project has a "Purpose" which must be documented and visible.
 -  Every project has at least one `Objective and Key Result <OKRS.rst>`__ every month.
@@ -23,8 +23,8 @@ Process
 -  Every day, coordinate with team mates on slack and prioritize.
 -  Work together to minimize the amount of time anyone is blocked or waiting for someone's output as their input. The list of items in which people depend on each other's work is called the `critical path <CRITICAL_PATH.rst>`__.
 
-Things We Want To Improve
--------------------------
+Project Management Objectives
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Increase transparency of our work to clients, team mates, managers.
 -  Dashboard for client.
