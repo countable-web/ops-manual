@@ -6,12 +6,12 @@ Is Countable A Good Fit For You?
    :caption: Contents:
 
 Purpose
-~~~~~~~
+-------
 
 This helps us screen for people who enjoy working this way.
 
 Scope
-~~~~~
+-----
 
 Define what we'd like to offer our employees, compared with their other options.
 
