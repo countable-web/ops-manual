@@ -5,13 +5,11 @@ Project Management
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
--------
+**Purpose**
 
 Set conventions for communication between project stakeholders to maximize our velocity towards objectives.
 
-Scope
------
+**Scope**
 
 This document summarizes project management tooling and practices at Countable to assist with onboarding.
 
