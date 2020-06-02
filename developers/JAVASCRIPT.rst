@@ -5,13 +5,11 @@ Javascript Best Practices
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Document our coding standards and best practices for the Javascript language ecosystem.
 
-Scope
-~~~~~
+**Scope**
 
 Covers the specifics of multiple tools and frameworks.
 

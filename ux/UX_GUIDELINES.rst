@@ -5,11 +5,11 @@ UX Guidelines
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
-Scope
-~~~~~
+Provides the Countable team with guidelines for when our work intersects with the UX domain.
+
+**Scope**
 
 This document currently sets guidelines for usability, content writing, publishing on social media, and SEO.
 
@@ -91,8 +91,7 @@ please remember to:
 
 `Resources for blog writing <https://www.youtube.com/watch?v=ygiAqYJq8No>`__
 
-Finally
-~~~~~~~
+**Finally**
 
 If you have any questions, or good resources/tutorials, please contact
 julie@countable.ca

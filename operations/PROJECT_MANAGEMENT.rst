@@ -6,17 +6,17 @@ Project Management
    :caption: Contents:
 
 Purpose
-~~~~~~~
+-------
 
 Set conventions for communication between project stakeholders to maximize our velocity towards objectives.
 
 Scope
-~~~~~
+-----
 
 This document summarizes project management tooling and practices at Countable to assist with onboarding.
 
 Process
--------
+~~~~~~~
 
 -  Every project has a "Purpose" which must be documented and visible.
 -  Every project has at least one `Objective and Key Result <OKRS.rst>`__ every month.
@@ -39,7 +39,7 @@ Things We Want To Improve
 -  Provide our customers with a constant feedback loop, updating them upon a new feature release or any significant changes on their current project.
 
 SCRUM
------
+~~~~~
 
 Countable uses`Scrum <https://en.wikipedia.org/wiki/Scrum_(software_development)>`__
 to manage work delivery and collaboratively learn about problem domains.
@@ -47,19 +47,19 @@ to manage work delivery and collaboratively learn about problem domains.
 Check out the guide book from the inventor of Scrum`here <https://www.scrumguides.org/scrum-guide.html>`__.
 
 Principles
-~~~~~~~~~~
+----------
 
 1. Ship work to real users and get feedback *every sprint*. Don't allow "work in progress" to not be released. Instead, plan your work so it can be released every 2 weeks or *ideally, every day*.
 2. Make sure everyone's clear regarding their *Objectives* and team members' Objectives and Key Results.
 3. *Communicate* with your project team daily about meeting KRs.
 
 User Stories
-~~~~~~~~~~~~
+------------
 
 User Stories serve as the central planning document for any given project. The purpose of User Stories is to ensure all stakeholders can understand what we're trying to accomplish, no matter their level of technical expertise. Check out the `User Stories <USER_STORIES.rst>`__ page for more detail and how to compose User Stories.
 
 Process
-~~~~~~~
+-------
 
 Project Objective and Key Results
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -99,7 +99,7 @@ Stand-up Meetings
 Countable doesn't hold synchronous stand-up meetings. Instead, every day, please share something on your team's public slack channel regarding the work you did. It's best to show a screenshot of your work for feedback.
 
 Reference
-~~~~~~~~~
+---------
 
 Roles
 ^^^^^
@@ -140,13 +140,13 @@ For a visual aid of how our work is processed, see this `Business Process Diagra
 Note: Instead of just talking about what did you do this week, try to use a screen share feature to walk along all of your "done" trello tickets, explaining one by one. This helps the team to better understand all of your work.
 
 Tools - GIT
------------
+~~~~~~~~~~~
 
 For developers - We follow the `git flow <https://datasift.github.io/gitflow/IntroducingGitFlow.html>`__ branching conventions loosely. All projects should have a master (production) branch which releases are made from, and a develop (stable)
 branch for developers as a foundation to build features on. Feature branches are created from develop and merged back in via pull request when ready. Here are some `examples <../developers/GIT.rst>`__ of how we'd use GIT in different cases.
 
 Tools - Trello
---------------
+~~~~~~~~~~~~~~
 
 We use Trello for project management, as it allows unlimited access to boards by partners and clients, encouraging collaboration and transparency. 
 
@@ -157,13 +157,13 @@ We use Trello because:
 `See video version <https://www.youtube.com/watch?v=6X9x4SCLhKs>`__.
 
 Trello Basics
-~~~~~~~~~~~~~
+-------------
 
 We use Trello for project management, as it's simple to set up access to the appropriate boards by partners and clients. A Trello board consists
 of a set of `Cards <#trello-cards>`__ (tasks) arranged in `Columns <#trello-board-columns>`__.
 
 Trello Cards
-~~~~~~~~~~~~
+------------
 
 A card should contain a clear description of work to be done by one person required to support a given `User Story <USER_STORIES.rst>`__.
 This may correspond to a single User Acceptance Test. 
@@ -171,7 +171,7 @@ This may correspond to a single User Acceptance Test.
 A card should typically be between 1 hour and 1 day of work. If it's longer, split it into 2 cards in that column.
 
 Trello Board Columns
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 Ideas
 ^^^^^
@@ -216,17 +216,16 @@ possible, by the consultant). A test can take the form of a client
 approval, code review, or automated test written.
 
 Moving cards between columns
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 A diagram shows how cards can move from conception to completion
 `here <https://drive.google.com/open?id=1VrniT1lRqVu9sJr0ZMK1aQLnFwEuFIQD>`__.
 As the diagram illustrates, each column corresponds to a specific within the adapted `SCRUM <SCRUM.rst>`__ framework.
 
 Progress Awareness
-~~~~~~~~~~~~~~~~~~
+------------------
 
-**It's essential to keep our clients informed about our current progress** on particular tasks, so our professional relationship is
-strengthened and trust is built. 
+**It's essential to keep our clients informed about our current progress** on particular tasks, so our professional relationship is strengthened and trust is built. 
 
 For this objective, we suggest that you:
 
@@ -235,14 +234,14 @@ For this objective, we suggest that you:
 3) Use "Screencastify" chrome extension for recording short screencasts and attaching into your trello ticket
 
 The "critical" label
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 If you find something that's severly broken in any of our websites, please create a Trello card with a red label ``critical``, and tell the developer who you've assigned it to. Do this sparingly: only when it's something we're likely to quickly lose customers over such as a service being down completely or a button not working. 
 
 For less serious bugs, don't use this label, just make a regular card.
 
 Boards
-~~~~~~
+------
 
 We typically have one board per codebase with a client, and one per internal product orproject. 
 
@@ -255,7 +254,7 @@ The board background color indicates the following:
 -  Blue - internal product (private)
 
 Getting everything into Trello
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Clients will often email you rather than use Trello. This can be fixed by forwarding their email to the Trello board.
 
@@ -263,8 +262,8 @@ Go to their Trello board, and click settings -> email-to-board settings, and add
 
 However, it does make a bit of a mess since email signature images and other junk show up in the tickets, so it's nice to clean them up when you look at them in Trello.
 
-Tools - Screencastify chrome extension
---------------------------------------
+Tools - Screencastify
+~~~~~~~~~~~~~~~~~~~~~
 
 Especially when dealing with a remote team, customers tend to be more anxious about project progress and features implementation. To overcome this situation and to keep our customers aware of our current development status we can use this chrome extension to **record short screencasts with a brief summary of the latest changes**. After this,
 generate a shareable link and send to them through e-mail, in a **weekly basis**.

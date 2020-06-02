@@ -5,13 +5,11 @@ Coding Standards and Style
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Encourage consistent and effective coding practices in the team, arising out of specific cases where different conventions of developers caused us to waste time.
 
-Scope
-~~~~~
+**Scope**
 
 Covers principles of our coding standards, then branches out to specific language pages.
 

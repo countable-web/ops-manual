@@ -5,13 +5,11 @@ Project Structure and Ops
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 To describe the minimum requirements and expected structure of technical projects at Countable.
 
-Scope
-~~~~~
+**Scope**
 
 Covers project requirements, processes, automation, and structure.
 

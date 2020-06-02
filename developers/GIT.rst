@@ -5,13 +5,11 @@ How Countable Uses GIT
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Outlining the norms of git collaboration at Countable.
 
-Scope
-~~~~~
+**Scope**
 
 Broad coverage of multiple elements of git workflow.
 

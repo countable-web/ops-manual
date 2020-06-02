@@ -5,18 +5,16 @@ Communications Charter
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Help everyone at Countable understand how to indicate their availability, reach out to others using various appropriate channels, conduct meetings of appropriate scope, get feedback on our work every day, and give feedback to our teammates.
 
-Scope
-~~~~~
+**Scope**
 
 Define how we designate our availability to the team, use different communication channels for different purposes, utilize feedback loops to get better at our work, and communicate with teammates.
 
 Availability
-------------
+~~~~~~~~~~~~
 
 -  Each team member determines their own hours and communicates that to
    the team.
@@ -32,7 +30,7 @@ Availability
 
 
 Guidelines for All Communication
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We want to restrict types of communication by channel so people aren't
 stressed by having to listen on all channels at all times. For example,
@@ -63,7 +61,7 @@ time off.
    else or a client requests a special deadline.
 
 Calendar Expectations
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 -  The calendar is the single source of truth for meetings. They are
    only held by people invited to actual calendar events.
@@ -75,7 +73,7 @@ Calendar Expectations
    following: “Name” vacation (# of days )
 
 Email Hygiene
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
 
 -  We recommend you disable email notifications on your phone. It's a
    non-urgent channel and we don't want to be distracted by it.
@@ -101,7 +99,7 @@ Email Hygiene
    team members and clients to take a break outside work hours.
 
 Text
-~~~~
+^^^^
 
 -  If you'd like someone's attention because you're blocked and they're
    not responding on Slack, we recommend you text them. Do this only
@@ -109,12 +107,10 @@ Text
 -  This means, we should share our phone numbers, but only use them for
    urgent requests.
 
-.. _whereby-video-chat-and-in-person-meetings:
+Guidelines for Communicating Face-to-Face
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Whereby (Video Chat, and in-person meetings)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Guidelines for communicating face-to-face
+(On Whereby or other video chat, and in-person meetings)
 
 -  Make eye contact 50% of the time when speaking, and 100% of the time
    when listening.
@@ -127,20 +123,20 @@ Guidelines for communicating face-to-face
    as equal as possible.
 
 Phone
-~~~~~
+^^^^^
 
 -  For truly urgent or critical things, we call each other (cell phone).
    Only do this in the evening or weekend of the recipient's timezone if
    it's an emergency. This should be RARE.
 
 Trello
-~~~~~~
+^^^^^^
 
 -  Trello is for tracking what we need to get done (reminders). We use
    variants of Scrum, details `here <../operations/TRELLO.rst>`__.
 
 Office Hours and Presence
-~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Overall objective: achieving our goals but also balancing work &
    private life in a meaningful way
@@ -149,8 +145,8 @@ Office Hours and Presence
 -  Make sure your calendar is up-to-date and shared/public so we know
    how to reach someone if urgent
 
-Meetings in General
-~~~~~~~~~~~~~~~~~~~
+Meetings
+~~~~~~~~
 
 See `meetings <MEETINGS.rst>`__
 
@@ -190,7 +186,7 @@ people direct message or mention you, and only during your work hours.
 .. |Slack Notification Setting| image:: recommended-slack-setting.png
 
 Feedback Loops on Your Work at Countable
-----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 One of our core principles at Countable is to shorten feedback loops.
 There is overwhelming evidence of the benefits of this. One example is
@@ -198,15 +194,14 @@ the biggest predictor of happiness in the YCombinator Startup School
 program was that startups who talked to users. They were 12.8% happier.
 
 Feedback Sources
------------------
+^^^^^^^^^^^^^^^^
 
 This is a list of the different places you can get feedback from,
 depending on what's most helpful. You don't need them all for every
 project, but you should *use at least one of them each day*, ideally
 several times per day.
 
-Clients
-~~~~~~~
+**Clients**
 
 -  Where possible, talk or email with clients directly *rather than
    getting your manager to relay information*.
@@ -217,8 +212,7 @@ Clients
 -  Ship your work every sprint (usually 2 weeks), and show them a link
    to your changes.
 
-Metrics
-~~~~~~~
+**Metrics**
 
 -  What can you measure that captures the value of your work. Ask your
    team and manager to figure this out.
@@ -226,8 +220,7 @@ Metrics
    score of "1" on these, and by estimating your score, you can get
    feedback by yourself.
 
-End-users
-~~~~~~~~~
+**End-users**
 
 -  These people are often your client's customers. It's whoever actually
    uses the product you're working on.
@@ -236,31 +229,28 @@ End-users
    update on new features they've asked about, and ask them what they
    think.
 
-Testing
-~~~~~~~
+**Testing**
 
 -  Use the software yourself and pretend to be a user. The goal is to
    get inside your persona's head.
 -  Write automated tests.
 -  Use this sparingly as it's less reliable as outside feedback.
 
-Your Team
-~~~~~~~~~
+**Your Team**
 
 -  Discuss all the above results with your team, and show them your
    work, asking for how to improve.
 -  Send your team screenshots, videos, code reviews and other artefacts
    of what you did.
 
-Your Manager
-~~~~~~~~~~~~
+**Your Manager**
 
 -  Your manager can give you feedback sometimes, but their more
    important job is to help you get feedback from the real word (see
    above)
 
 Forward Feedback (Status Reporting)
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You should update your team and clients each day with what you've been
 working on via Slack, Email and Trello. For the latter 2, these are some
@@ -304,213 +294,8 @@ Example of updating your team:
 
    What do you guys think of moving the phone number after the initial signup form? I'm assuming it's better and will go ahead if no one objects.
 
-Meetings
---------
-
-All Meetings
-~~~~~~~~~~~~
-
-The meeting organiser (chair, or guild leader) is responsible for a)
-taking minutes in Google Docs and b) that follow-up actions (acc. to 3W
-rule) are noted in the minutes, and shared as Trello cards.
-
-Date and Time of Meetings
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
--  Our calendar is the source of truth regarding meeting times,
-   attendees and cancellation status. All updates to meeting times go
-   directly in the calendar.
--  Meetings start on time and stop on time. If someone is late, start
-   without them.
--  Anyone who is late should notify the team in advance of the meeting
-   so they can proceed.
--  When meeting with external stakeholders, book 50 minutes meetings
-   generally (or 25) so there are 5 mintues for the team to discuss how
-   the meeting could have been better.
--  When meeting online, like in whereby, list the specific room link in the meeting invite.
-
-Clarity of Purpose at Meetings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
--  The purpose and agenda of the meeting must be clear, and listed in
-   the meeting event details on the calendar.
--  Recurring meetings should review the previous meeting's
-   follow-ups/action items. Open up the last week's minutes (or Trello
-   board) and review them.
--  If you are presenting in a meeting, send out the meeting goal, agenda
-   and materials (such as slides) in advance so the attendees can get in
-   the right headspace. Ask for feedback on your agenda, such as topics
-   they group thinks will help with the goal.
--  In general, try to make meetings shorter and more specific. If
-   possible, make the goal and agenda visible in the meeting.
--  Do not attend meetings if you don't have a good reason to be there.
-
-Record of Meetings
-^^^^^^^^^^^^^^^^^^
-
--  Meetings should have an "output" recorded. For Scrum, this can simply
-   be updated Trello board and KR scores. Other meetings should have a
-   stream of minutes in a Google Doc that is continually added-to (most
-   recent first). Here's a (template)[https://docs.google.com/document/d/13iyjpQAuxwlEYiW85tJbufXrC-CAw-0AAdzO9FzHSio/edit?folder=1EJtwoxGXasYlv3UbRuzxKVNfgArFSJMn#].
-   Each time you meet, fill out:
-
-::
-
-   Meeting minutes template: (copy this for each meeting)
-   Date: (202X-XX-XX)
-   Agenda (topics discussed, with headlines): 
-   (add bullets here)
-   Follow-ups (who does what by when):
-   (add bullets here)
-
--  Minutes are just the "headlines". What's the important point? Action
-   items can be noted, but should be should be transcribed into Trello.
--  Send a follow-up email with the minutes too, if it includes any
-   external stakeholders.
--  3W rule: Meeting follow-up actions must contain the three Ws: WHO
-   does WHAT by WHEN
-
-General Meeting Guidelines
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
--  Work to create an atmosphere of psychological safety. Detect concerns
-   of individuals and shed light on them.
--  The maximum number of people at any meeting should be limited to 7
-   (except occasional company-wide meets).
--  Avoid speaking for more than two minutes without pausing and letting
-   people respond, so you can listen to your audience and steer your
-   material to be more helpful. Meetings should be interactive, not
-   monologues.
-
-Scrum Meetings
-~~~~~~~~~~~~~~
-
-All active projects should have a Sprint meeting every 1 to 4 weeks.
-
--  Discuss how the current sprint will accomplish our "OKR" for the
-   project.
--  See `Scrum <../peopleops/getting_started/SCRUM.md>`__ for full
-   instructions
-
-One-on-one Meetings
-~~~~~~~~~~~~~~~~~~~
-
-One-on-one meetings between each manager and reports should be once per
-month. This is our chance to catch up on what matters, and think about
-how we can work better together. People mentioning problems even once is
-a gift: We can't fix systemic problems if I don't know about them.
-
-As an Employee
-^^^^^^^^^^^^^^
-
-1. This is your time to talk about whatever is on your mind. If you want
-   to talk about what's going on with your life, hobbies, etc, that's
-   fine. If you want to talk about work or issues at home or career
-   progression, that's fine.
-2. Give feedback about what went well last month, and what didn't. How
-   can we do better from now on?
-3. The discussion is confidential by default, unless there are
-   suggestions or requests that come out of the discussion to relay to
-   the team.
-
-As a Manager
-^^^^^^^^^^^^
-
-1. Practice listening. Try to contain the impulse to give advice unless
-   they specifically ask for it for at least the first 10 minutes of the
-   meeting.
-2. Raise anything you felt was a problem. Say how you feel about it, and
-   let them lead.
-3. If they don't bring it up on their own I'll ask questions about
-   emotional state and emotional reactions to situations. E.g., "How did
-   you feel about what happened at Countable last month?" (be specific),
-   "Are you feeling sufficiently challenged?", "What would you like to
-   learn?", "What do you enjoy working on most?"
-4. TBD: Review job levels. Employees should check off each job level
-   requirement, and self-promote when they reach completion of their
-   current level. Give the employee a simple desription of what you
-   think would really get them "to the next level". Make this as
-   actionable and objective as possible, and frame it as a mentor.
-
-The First One-on-one
-^^^^^^^^^^^^^^^^^^^^
-
-1. On first one-on-one, ask "tell me about your life starting in
-   kindergarten". Write down moments of change, decisions on direction
-   and why they were made. 45 mins discussion.
-2. What are the person's dreams? Ask "what would you like to do most
-   after Countable, if anything was possible? Provide 3 possible
-   visions". Make dreams columns and put rows for skills necessary for
-   each vision. Ask questions about everything fits together. What
-   skills can be developed in their role?
-
-Themes
-^^^^^^
-
-Some ideas to pick from, not needed every month.
-
-1. Give each other (employee first) you'd like the other to "continue"
-   doing, and something to "consider" changing.
-2. Ask: Who did you work with this month, and how did that go? Why did
-   it go that way?
-3. Ask: What are you learning, and from whom? What are you teaching, and
-   to whom? What would you like to learn?
-
-Performance Reviews
-^^^^^^^^^^^^^^^^^^^
-
-Each year, the one-on-one should include performance review
-self-assessment. These questions are answered by the employee in
-advance.
-
-1.  Is the purpose of your job clear to you? What is it?
-2.  Write a paragraph describing what it would be like if you did
-    extremely well at your job?
-3.  What objectives did you have this quarter?
-4.  What were some good key results, and some bad ones? Why did they go
-    that way?
-5.  Do you feel you took ownership of understanding and meeting (or
-    exceeding) customers' needs yourself? Or expected to be given clear
-    tasks.
-6.  Did you seek feedback from metrics, team members, customers and
-    end-users on your work?
-7.  How do you feel about your performance?
-8.  How do you feel about your learning and professional development?
-9.  What would you like to get better at?
-10. What would you like to learn, or do more of?
-
-The manager should answer:
-
-1. What can you do to get to the next level in your current role?
-2. What's holding you back?
-
-Guild Meetings
-~~~~~~~~~~~~~~
-
-We currently have a UX, DevOps, Operations, and Developers guild meetings,
-periodically. The purpose of this meeting is:
-
--  Standardize, train, and define how we work in key technical
-   disciplines to become the best in our fields.
--  Present and review each others' work and provide peer feedback.
--  Hold collaborative design activities such as "Mob" programming to
-   create something together in the meeting.
-
-Discuss goals for each guild and roadmap for meeting them:
-
--  UX - improve the end-user experience of all our work.
--  DevOps - make our work delivery automatic, frequent and reliable.
--  Developers - write better code, minimize technical debt.
--  Operations - conduct business efficiently and maintain excellent client relations.
-
-All-Hands Meetings
-~~~~~~~~~~~~~~~~~~
-
-The entire team meets once per month to plan work pipeline and roadmap
-at a high level, and practice new processes together.
-
 Giving Feedback to Teammates
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our team must provide each other with feedback regularly in order to
 improve. Some references on why this is:
@@ -525,7 +310,7 @@ improve. Some references on why this is:
 -  `Gratitude makes you happier <https://www.health.harvard.edu/healthbeat/giving-thanks-can-make-you-happier>`__
 
 When To Give Feedback
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 -  `Code reviews <../developers/GIT.rst>`__. The benefits of
    Senior developers reviewing Junior developers' code is obvious I
@@ -551,7 +336,7 @@ When To Give Feedback
    suggests this makes you, the recipient, and the whole team happier.
 
 Guidelines Around Feedback
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Ask your team for feedback. Make it easy for them by sharing a link,
    getting a code review, making a little demo video of what you did, or

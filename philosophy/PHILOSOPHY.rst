@@ -3,17 +3,13 @@ Philosophy
 
 .. toctree::
    :maxdepth: 1
-   :caption: Ah:
+   :caption: Contents
 
-   philosophy/PHILOSOPHY
-
-Purpose
-~~~~~~~
+**Purpose**
 
 To provide a foundation for all we do at Countable (processes) rooted in why we do it (philosophy).
 
-Scope
-~~~~~
+**Scope**
 
 Covers our company's purpose, vision, values, and principles, as well as covering our philosophies on transparency and management. We also provide references at the end that have influenced these philosophies.
 

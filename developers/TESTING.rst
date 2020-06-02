@@ -5,13 +5,11 @@ Testing and Bug Reporting
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 To establish how and why we do testing at Countable.
 
-Scope
-~~~~~
+**Scope**
 
 Currently covers basic testing principles and bug reporting procedures.
 

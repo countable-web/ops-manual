@@ -6,21 +6,31 @@ Recruiting Process
    :caption: Contents:
 
 Purpose
-~~~~~~~
+-------
+
+To transparently define a replicable recruiting process for the Countable team.
 
 Scope
-~~~~~
+-----
 
+Covers why we recruit the way we do, and the hiring process all the way up to onboarding.
 
 Background
 ----------
 
-A study of 200 silicon valley startup investigated the effect of 3 hiring policies: The "star" blueprint which sought the best technical candidates; The "commitment" blueprint which hired based on values; And the "professional" blueprint which commoditized skills. The commitment
-blueprint was starkly the best, with zero failures in the 2000 market
-bubble and triple the chance of making an IPO the next best model. Two other models, the "autocratic" and "beaurocratic" performed even worse than the aforementioned three.
+A study of 200 Silicon Valley startups investigated the effect of 3 hiring policies: 
+
+1. The "star" blueprint which sought the best technical candidates; 
+2. The "commitment" blueprint which hired based on values; 
+3. And the "professional" blueprint which commoditized skills. 
+
+The commitment blueprint was **starkly the best**, with zero failures in the 2000 market
+bubble and triple the chance of making an IPO the next best model. 
+
+Two other models, the "autocratic" and "beaurocratic" performed even worse than the aforementioned three.
 
 Recruiting for Staff Contractors
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Countable has two "tracks" for our team members. Outside consultants,
 and staff contractors. This page is about hiring the latter team members
@@ -74,7 +84,7 @@ Initial Screening
 -  We should improve our company profile on recruiting platforms (etc) so the right people will apply.
 
 Point System
-~~~~~~~~~~~~
+------------
 
 Due to the volume of resumes in initial screenings, we need a quick,
 quanitiative way to screen them. This is far from perfect, but early
@@ -97,7 +107,7 @@ question. This is required for them to advance.
 Reaching Out
 ------------
 
-Ask the Candidate to meet you on appear.in, and to schedule the time
+Ask the Candidate to meet you on whereby.com, and to schedule the time
 with you. Chat with the candidate and rate their communication ability.
 We are marking their ability to create clarity, and to give and respond to "belonging cues".
 
@@ -176,7 +186,7 @@ Research on the #1 thing developers look for in a job:
 -  The opportunity to work from home/remotely - 10.3%
 
 Temporary Workers Hiring Flow
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is a suggested hiring flow to make your life easier and standardize
 our process while recruiting temporary staff. On this case, I'm using
@@ -184,7 +194,7 @@ Upwork platform to accomplish this goal, but you can adapt this system
 according to your needs.
 
 Pre-Requisite Tools
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 1) Download Upwork app to receive instant notifications from potential
    leads when they answer to your offer. It's an important step because
@@ -241,19 +251,19 @@ Initial Screening
    not confusing timezones!
 
 Scheduling
-~~~~~~~~~~
+----------
 
 -  Please use `Calendly <https://calendly.com/>`__ to schedule your
    meetings and avoid timezone issues.
 
 Interviewing
-~~~~~~~~~~~~
+------------
 
--  Prepare yourself to the interview. Take a look at our standard
+-  Prepare yourself for the interview. Take a look at our standard
    `interview questions <https://docs.google.com/document/d/130KCrw5WGYTGgJYKBVec3iEXxKkNoEkm1urHzEWznMo/edit#heading=h.7h8atrac1axk>`__
    and pick the ones that you find relevant for the situation
 
--  Communicate your supervisor about the scheduled meetings, since he
+-  Communicate with your supervisor about the scheduled meetings, since they
    should participate as well.
 
 -  On this step you and your selected candidate should join a video-chat
@@ -263,7 +273,7 @@ Interviewing
 -  `Here is a link to the Countable video chat room <http://whereby.com/countable>`__
 
 Tests
-~~~~~
+-----
 
 -  Try to use our internal technical test, if possible.
 
@@ -309,7 +319,7 @@ Onboarding
 
 
 References
-~~~~~~~~~~
+----------
 
 [1]
 `Harvard business review on how to hire <https://hbr.org/2018/01/how-to-hire>`__

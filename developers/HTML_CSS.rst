@@ -5,13 +5,11 @@ HTML and CSS Standards at Countable
    :maxdepth: 2
    :caption: Contents:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Documenting Countable's coding standards specific to front-end languages and their formatting.
 
-Scope
-~~~~~
+**Scope**
 
 Currently covers HTML, CSS, our preferred use of SCSS, and formatting.
 
