@@ -16,6 +16,7 @@ Developers Reference
    developers/JAVASCRIPT
    developers/PROTOTYPING
    developers/TESTING
+   developers/BUG_REPORTING
    developers/TRAINING
 
 
