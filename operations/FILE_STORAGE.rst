@@ -89,7 +89,7 @@ things stored in the correct place in Google Drive.
 Google Drive
 ------------
 
-See `File Organization <FILE_ORGANIZATION.rst>`__
+See `File Organization <FILE_ORGANIZATION>`__
 
 Storing Non Code Assets
 -----------------------

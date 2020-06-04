@@ -14,6 +14,8 @@
 #
 import os
 import sys
+import sphinx_rtd_theme
+
 # sys.path.insert(0, os.path.abspath('.'))
 
 sys.path.insert(0, os.path.abspath('_ext'))
@@ -45,6 +47,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'recommonmark',
     'edit_on_github',
+    'sphinx_rtd_theme',
 ]
 
 edit_on_github_project = 'countable-web/ops-manual'
@@ -83,7 +86,10 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+
+html_theme = "sphinx_rtd_theme"
+
+#html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -193,3 +199,5 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+html_show_sourcelink = True

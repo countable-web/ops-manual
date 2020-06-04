@@ -7,7 +7,7 @@ Working With Clients
    :caption: Contents:
 
 
-Check out our `Delivery Workflow Documentation for clients <../CLIENT_WORK_REQUEST_INSTRUCTIONS.rst>`__
+Check out our `Delivery Workflow Documentation for clients <../CLIENT_WORK_REQUEST_INSTRUCTIONS>`__
 
 Communicating With Clients
 --------------------------
@@ -17,7 +17,7 @@ Reporting on Work
 
 -  Use Trello for quick updates, mention all relevant parties so they get a notification.
 -  Email may be appropriate as well for more substantial updates that deal with several Trello cards.
--  Show the clients you work for something at least once a week. You can use **Screencastify chrome extension** for it (`More details <../PROJECT_MANAGEMENT.rst>`__).
+-  Show the clients you work for something at least once a week. You can use **Screencastify chrome extension** for it (`More details <../PROJECT_MANAGEMENT>`__).
 -  Keep it visual. Use screenshots, mockups, videos, and links to staged apps as the primary way to demonstrate work to clients.
 -  Try to anticipate what problems they will have when using the app, and test the ways you expect them to use it in order to make a seamless experience.
 -  When reporting on work to clients, re-state what your commitments were and how much is done.

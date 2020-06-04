@@ -41,7 +41,7 @@ TODO: sourcing leads.
 TODO: qualifying leads. 
 TODO: learn about their
 challenges and determine if we can help. 
-See `Discovery <DISCOVERY.rst>`__
+See `Discovery <DISCOVERY>`__
 
 Day to Day Practices
 ~~~~~~~~~~~~~~~~~~~~
@@ -207,7 +207,7 @@ effort, just time to leave open)
 1. RFP Lead Capture
 ^^^^^^^^^^^^^^^^^^^
 
-See `Filter <FILTER.rst>`__
+See `Filter <FILTER>`__
 
 .. _2-pre-qualify:
 

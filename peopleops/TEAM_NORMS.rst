@@ -1,10 +1,6 @@
 Team Norms at Countable
 =======================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 Establishes the norms and policies which guide our collaboration at Countable.
@@ -110,10 +106,10 @@ Countable is divided into Teams and Guilds. The job of Guilds is to be really go
 
 **List of Guilds**
 
--  :doc:`../devops/DEVOPS` `DevOps Guild <../devops/DEVOPS.rst>`__ - Their goal is to ensure our software is delivered to customers as quickly, reliably and automatically as possible.
--  `Developer Guild <../developers/DEVELOPERS.rst>`__ - Their goal is to improve our code, solve problems for users, and demonstrate working software to our team every day.
--  `User Experience Guild <../ux/UX.rst>`__ - Their goal is to help everyone, from users to product owners and developers, enjoy and benefit from interacting with our software.
--  `Operations Guild <../operations/OPERATIONS.rst>`__ - Their goal is maintaining clear and open communication with our clients, and maintaining the roadmap to sustainable growth for our firm.
+-  :doc:`../devops/DEVOPS` `DevOps Guild <../devops/DEVOPS>`__ - Their goal is to ensure our software is delivered to customers as quickly, reliably and automatically as possible.
+-  `Developer Guild <../developers/DEVELOPERS>`__ - Their goal is to improve our code, solve problems for users, and demonstrate working software to our team every day.
+-  `User Experience Guild <../ux/UX>`__ - Their goal is to help everyone, from users to product owners and developers, enjoy and benefit from interacting with our software.
+-  `Operations Guild <../operations/OPERATIONS>`__ - Their goal is maintaining clear and open communication with our clients, and maintaining the roadmap to sustainable growth for our firm.
 
 **Cross-Functional Teams**
 
@@ -132,12 +128,12 @@ Training at Countable
 ---------------------
 
 We have official training materials
-`here <../developers/TRAINING.rst>`__. Bill for your time
+`here <../developers/TRAINING>`__. Bill for your time
 doing any of these.
 
 **Books**
 
-If you buy a book for work, the company will reimburse you. `Suggested reading in References <../philosophy/PHILOSOPHY.rst>`__ that's influenced our culture and
+If you buy a book for work, the company will reimburse you. `Suggested reading in References <../philosophy/PHILOSOPHY>`__ that's influenced our culture and
 methods.
 
 **Monthly Guild Meetings**
@@ -149,7 +145,7 @@ and a design/ux guild meet.
 Performance Evaluation Policy
 -----------------------------
 
-See our dedicated `Performance Evaluation page <EVALUATION.rst>`__
+See our dedicated `Performance Evaluation page <EVALUATION>`__
 
 Team Event Basics
 ------------------

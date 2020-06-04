@@ -7,7 +7,7 @@ How to Do Your Job
 
 **Purpose**
 
-Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our `Onboarding Guide <ONBOARDING_GUIDE.rst>`__ first!
+Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our `Onboarding Guide <ONBOARDING_GUIDE>`__ first!
 
 **Scope**
 
@@ -69,7 +69,7 @@ Every Week
    update on what's done and what's pending out of their current
    expectations. Include a link to staged work, and a screenshot or
    video. It's best to do this Friday or Monday.
-   `Transparency <../philosophy/PHILOSOPHY.rst>`__
+   `Transparency <../philosophy/PHILOSOPHY>`__
 
 Do Not
 ------
@@ -77,7 +77,7 @@ Do Not
 -  Use private messages for things that don't need to be private. Share
    your experiences on your projects in your client channel, and if it's
    more widely applicable, (#client-) in #general.
-   `Transparency <../philosophy/PHILOSOPHY.rst>`__
+   `Transparency <../philosophy/PHILOSOPHY>`__
 
 Time Off
 ~~~~~~~~

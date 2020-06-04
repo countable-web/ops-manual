@@ -3,10 +3,7 @@ Accounting at Countable
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-   Purpose
-   Scope
    Timesheets and Expenses
    Taxes
       List of Tax Deductible Items

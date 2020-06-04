@@ -46,7 +46,7 @@ Set your profile photo
 Set up Eightmeters
 ~~~~~~~~~~~~~~~~~~
 
-`See here <EIGHTMETERS.rst>`__
+`See here <EIGHTMETERS>`__
 
 Team Calendar
 ~~~~~~~~~~~~~
@@ -66,11 +66,11 @@ Payment Info
 Environment
 ~~~~~~~~~~~
 
--  Set up a `physical space and equipment <PHYSICAL_SETUP.rst>`__ to
+-  Set up a `physical space and equipment <PHYSICAL_SETUP>`__ to
    work.
 -  devs only - Read about our
-   `ops <../devops/DEV_OPERATIONS.rst>`__ and `coding standards <../developers/CODING_STANDARDS.rst>`__.
--  devs only - Complete the `training exercises <../developers/TRAINING.rst>`__ following these
+   `ops <../devops/DEV_OPERATIONS>`__ and `coding standards <../developers/CODING_STANDARDS>`__.
+-  devs only - Complete the `training exercises <../developers/TRAINING>`__ following these
    practices and get a team member to code review it using a feature
    branch and pull request.
 -  Order a book that will help you learn your job, and bill the company
@@ -89,7 +89,7 @@ Join these using your Google account:
 How to Do Work
 ~~~~~~~~~~~~~~
 
-Skim this so you know the language and how we work `Project Management <PROJECT_MANAGEMENT.rst>`__.
+Skim this so you know the language and how we work `Project Management <PROJECT_MANAGEMENT>`__.
 
 Confirm
 ~~~~~~~
@@ -122,7 +122,7 @@ complete tasks every day when you work. But, you are expected to:
 -  Try your best to complete a tiny task, rather than partially
    finishing a big task.
 -  Expectations that are required to be part of Countable (level 1) and
-   for promotion are documented `here <PERFORMANCE_EVALUATION.rst>`__.
+   for promotion are documented `here <PERFORMANCE_EVALUATION>`__.
 
 How To Ask For Help
 ~~~~~~~~~~~~~~~~~~~

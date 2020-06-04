@@ -133,7 +133,7 @@ Trello
 ^^^^^^
 
 -  Trello is for tracking what we need to get done (reminders). We use
-   variants of Scrum, details `here <../operations/TRELLO.rst>`__.
+   variants of Scrum, details `here <../operations/TRELLO>`__.
 
 Office Hours and Presence
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -148,7 +148,7 @@ Office Hours and Presence
 Meetings
 ~~~~~~~~
 
-See `meetings <MEETINGS.rst>`__
+See `meetings <MEETINGS>`__
 
 
 Slack Hygiene
@@ -312,7 +312,7 @@ improve. Some references on why this is:
 When To Give Feedback
 ^^^^^^^^^^^^^^^^^^^^^
 
--  `Code reviews <../developers/GIT.rst>`__. The benefits of
+-  `Code reviews <../developers/GIT>`__. The benefits of
    Senior developers reviewing Junior developers' code is obvious I
    hope, but it's just as critical to provide feedback as a Jr
    dev because (1) you can learn much faster by reading others' code,

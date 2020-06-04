@@ -80,7 +80,7 @@ We carry this convention to other languages when possible, but some will use a d
 Docker
 ~~~~~~
 
-Use `Docker <./DOCKER.rst>`__ for any web application project (and other projects where applicable). It should be possible to bring up a new environment by only the following for any of our projects.
+Use `Docker <./DOCKER>`__ for any web application project (and other projects where applicable). It should be possible to bring up a new environment by only the following for any of our projects.
 
 ::
 
@@ -114,4 +114,4 @@ Consistency and quality can be further improved by proactively managing technica
 Coding Standards for Specific Languages
 ---------------------------------------
 
-Check out the individual pages for `HTML CSS <HTML_CSS.rst>`__, `Javascript <JAVASCRIPT.rst>`__, and `Python <PYTHON.rst>`__ for more specific coding standards.
+Check out the individual pages for `HTML CSS <HTML_CSS>`__, `Javascript <JAVASCRIPT>`__, and `Python <PYTHON>`__ for more specific coding standards.

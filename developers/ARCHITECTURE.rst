@@ -1,10 +1,6 @@
 Architecture
 ============
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 This is a guideline on architecture for web applications, with the goal

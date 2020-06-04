@@ -58,7 +58,7 @@ style and technical needs.
 -  Regularly review other team members' work to learn from it (code
    reviews, XD links, shared videos, stage sites). To prove you are
    doing this you must ask questions.
--  Ask for help with (or more generally, be highly engaged with and discuss) your `OKRs <../operations/OKRS.rst>`__
+-  Ask for help with (or more generally, be highly engaged with and discuss) your `OKRs <../operations/OKRS>`__
 -  **You regularly use this operations manual, ask questions about things that are hard to understand or you disagree with, and suggest improvements for clarity.** JC: use this as a model for how to phrase the rest of these items more clearly/implementable
 CP: quantifying these items more in general, e.g. "regularly review" becomes "1 hour code review per week"
 -  Try to solve problems yourself (10 to 30 minutes). If no clear solution was found, ask specific questions while providing details obtained from the initial investigation. Clarify and state your assumptions when you ask for help.
@@ -89,7 +89,7 @@ stakeholders on delivering results, only escalating as needed.
 -  Manages client's expectation of deliverables and timelines. Is aware
    of bigger picture of project, and helps the team course correct to
    stay on track.
--  Help team members with their `OKRs <../operations/OKRS.rst>`__.
+-  Help team members with their `OKRs <../operations/OKRS>`__.
 -  Take responsibility for large tasks (> 1 day) and breaks them down
    into Trello cards (< 1 day each).
 -  Is aware of clients' satisfaction with work, and ensure a timely fix

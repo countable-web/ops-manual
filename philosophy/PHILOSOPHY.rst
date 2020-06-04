@@ -1,10 +1,6 @@
 Philosophy
 ==========
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents
-
 **Purpose**
 
 To provide a foundation for all we do at Countable (processes) rooted in why we do it (philosophy).
@@ -185,7 +181,7 @@ Principles
 ----------
 
 The purpose of this page is to address a specific issue with our
-`OKR <../operations/OKRS.rst>`__ process, wherein by focusing exclusively on some OKR we neglect some important assumption we should have had all along. ie, by releasing fast we neglect privacy. 
+`OKR <../operations/OKRS>`__ process, wherein by focusing exclusively on some OKR we neglect some important assumption we should have had all along. ie, by releasing fast we neglect privacy. 
 
 We list principles below in order of descending priority. 
 

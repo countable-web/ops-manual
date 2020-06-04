@@ -1,5 +1,5 @@
 HTML and CSS Standards at Countable
-==================================
+===================================
 
 .. toctree::
    :maxdepth: 2

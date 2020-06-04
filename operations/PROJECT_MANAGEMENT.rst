@@ -17,11 +17,11 @@ Project Management Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Every project has a "Purpose" which must be documented and visible.
--  Every project has at least one `Objective and Key Result <OKRS.rst>`__ every month.
--  We use Scrum like `this <SCRUM.rst>`__.
--  Every day, try to get some `feedback <../peopleops/FEEDBACK_LOOPS.rst>`__ on your work.
+-  Every project has at least one `Objective and Key Result <OKRS>`__ every month.
+-  We use Scrum like `this <SCRUM>`__.
+-  Every day, try to get some `feedback <../peopleops/FEEDBACK_LOOPS>`__ on your work.
 -  Every day, coordinate with team mates on slack and prioritize.
--  Work together to minimize the amount of time anyone is blocked or waiting for someone's output as their input. The list of items in which people depend on each other's work is called the `critical path <CRITICAL_PATH.rst>`__.
+-  Work together to minimize the amount of time anyone is blocked or waiting for someone's output as their input. The list of items in which people depend on each other's work is called the `critical path <CRITICAL_PATH>`__.
 
 Project Management Objectives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,7 +54,7 @@ Principles
 User Stories
 ------------
 
-User Stories serve as the central planning document for any given project. The purpose of User Stories is to ensure all stakeholders can understand what we're trying to accomplish, no matter their level of technical expertise. Check out the `User Stories <USER_STORIES.rst>`__ page for more detail and how to compose User Stories.
+User Stories serve as the central planning document for any given project. The purpose of User Stories is to ensure all stakeholders can understand what we're trying to accomplish, no matter their level of technical expertise. Check out the `User Stories <USER_STORIES>`__ page for more detail and how to compose User Stories.
 
 Process
 -------
@@ -62,7 +62,7 @@ Process
 Project Objective and Key Results
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Every team should have one or more`Objectives <OKRS.rst>`__. This is a written goal discussed with the team to ensure clarity, and is used by the `Product Owner <#product-owner>`__ to order the `Backlog <#backlog>`__. An objective may be to meet a particular User Story.
+Every team should have one or more`Objectives <OKRS>`__. This is a written goal discussed with the team to ensure clarity, and is used by the `Product Owner <#product-owner>`__ to order the `Backlog <#backlog>`__. An objective may be to meet a particular User Story.
 
 Sprint
 ^^^^^^
@@ -108,7 +108,7 @@ Product Owner
 """""""""""""
 
 -  Develops User Stories by talking to real users and ensures those users' needs are being met by the team.
--  Clarifies how to achieve our `Key Results <../OKRS.rst>`__, while taking input from team.
+-  Clarifies how to achieve our `Key Results <../OKRS>`__, while taking input from team.
 -  Triage the Trello Requests column into an Ordered Backlog of work.
 -  Makes sure items in the backlog are clear to developers. The product owner is typically our client.
 
@@ -141,7 +141,7 @@ Tools - GIT
 ~~~~~~~~~~~
 
 For developers - We follow the `git flow <https://datasift.github.io/gitflow/IntroducingGitFlow.html>`__ branching conventions loosely. All projects should have a master (production) branch which releases are made from, and a develop (stable)
-branch for developers as a foundation to build features on. Feature branches are created from develop and merged back in via pull request when ready. Here are some `examples <../developers/GIT.rst>`__ of how we'd use GIT in different cases.
+branch for developers as a foundation to build features on. Feature branches are created from develop and merged back in via pull request when ready. Here are some `examples <../developers/GIT>`__ of how we'd use GIT in different cases.
 
 Tools - Trello
 ~~~~~~~~~~~~~~
@@ -163,7 +163,7 @@ of a set of `Cards <#trello-cards>`__ (tasks) arranged in `Columns <#trello-boar
 Trello Cards
 ------------
 
-A card should contain a clear description of work to be done by one person required to support a given `User Story <USER_STORIES.rst>`__.
+A card should contain a clear description of work to be done by one person required to support a given `User Story <USER_STORIES>`__.
 This may correspond to a single User Acceptance Test. 
 
 A card should typically be between 1 hour and 1 day of work. If it's longer, split it into 2 cards in that column.
@@ -218,7 +218,7 @@ Moving cards between columns
 
 A diagram shows how cards can move from conception to completion
 `here <https://drive.google.com/open?id=1VrniT1lRqVu9sJr0ZMK1aQLnFwEuFIQD>`__.
-As the diagram illustrates, each column corresponds to a specific within the adapted `SCRUM <SCRUM.rst>`__ framework.
+As the diagram illustrates, each column corresponds to a specific within the adapted `SCRUM <SCRUM>`__ framework.
 
 Progress Awareness
 ------------------

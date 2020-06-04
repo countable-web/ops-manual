@@ -25,7 +25,7 @@ The best way to learn something is by doing it: use it for a project and put in 
 Once you tinker for a while playing with the basics of what you know, you'll start to feel more confident and familiar, have questions about things that you can't resolve through playing around, and want to move on. At this point, find a good tutorial on the next material you
 want to study.
 
-For this training, be sure to follow the practices `here <DEVELOPERS.rst>`__.
+For this training, be sure to follow the practices `here <DEVELOPERS>`__.
 
 All training materials here are pre-approved to do on company time.
 
@@ -60,7 +60,7 @@ If you're new to Docker, do this. We use Docker for everything so you should get
 
 To set up a new Django environment in Docker.
 
-`More on Docker <../DOCKER_TRAINING.rst>`__
+`More on Docker <../DOCKER_TRAINING>`__
 
 Django Training
 ---------------
@@ -93,22 +93,15 @@ From linuxjourney.com - this site's quite a good overall resource of concise, us
 *The key is to do these exercises while following along and trying out the commands in your own linux terminal.* If you just read, you won't retain very well. These exercise assume you're using ``bash``, but some computers may use ``zsh`` by defualt. To remedy this, just open
 your shell and type ``bash`` to be sure the shell matches that in the exercises.
 
--   `Command Line Interface <https://linuxjourney.com/lesson/the-shell>`__
-   (all)
+-   `Command Line Interface <https://linuxjourney.com/lesson/the-shell>` (all)
 -  `Permissions <https://linuxjourney.com/lesson/file-permissions>`__
    (1,2,3,4)
--  `Text <https://linuxjourney.com/lesson/stdout-standard-out-redirect#>`__
-   (1,2,3,4,5,9,16)
--  `Users <https://linuxjourney.com/lesson/users-and-groups>`__
-   (1,2)
--  `Processes <https://linuxjourney.com/lesson/monitor-processes-ps-command>`__
-   (1,7)
--  `File System <https://linuxjourney.com/lesson/filesystem-hierarchy>`__
-   (1, 9)
--  `Networking <https://linuxjourney.com/lesson/network-basics>`__
-   (1, 2, 3, 4) - this one's not great, no explanation of ports.
--  `Domain Name System <https://linuxjourney.com/lesson/what-is-dns>`__
-   (all) - not great, a bit wordy.
+-  `Text <https://linuxjourney.com/lesson/stdout-standard-out-redirect#>`__ (1,2,3,4,5,9,16)
+-  `Users <https://linuxjourney.com/lesson/users-and-groups>`__ (1,2)
+-  `Processes <https://linuxjourney.com/lesson/monitor-processes-ps-command>`__ (1,7)
+-  `File System <https://linuxjourney.com/lesson/filesystem-hierarchy>`__ (1, 9)
+-  `Networking <https://linuxjourney.com/lesson/network-basics>`__ (1, 2, 3, 4) - this one's not great, no explanation of ports.
+-  `Domain Name System <https://linuxjourney.com/lesson/what-is-dns>`__ (all) - not great, a bit wordy.
 
 TODO: If someone is feeling energetic, please create an interactive tutorial bash script with key points from the above linuxjourney.com chapters.
 

@@ -8,22 +8,72 @@ Countable Web Productions Inc Operations Manual
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: PHILOSOPHY:
+   :hidden:
 
    philosophy/PHILOSOPHY
+
+.. toctree::
+   :maxdepth: 2
+   :caption: PEOPLE OPS:
+   :hidden:
+
    peopleops/TEAM_NORMS
-   sales/SALES
-   operations/PROJECT_MANAGEMENT
    peopleops/ONBOARDING_GUIDE
    peopleops/COMMUNICATIONS_CHARTER
    peopleops/DOING_YOUR_JOB
-   operations/CLIENTS
-   devops/DEVOPS
-   developers/DEVELOPERS
-   ux/UX
-   ux/UX_GUIDELINES
    peopleops/recruiting/RECRUITING
    peopleops/recruiting/HIRING_FIT
+
+.. toctree::
+   :maxdepth: 2
+   :caption: OPERATIONS:
+   :hidden:
+
+   operations/CLIENTS
+   operations/PROJECT_MANAGEMENT
+
+.. toctree::
+   :maxdepth: 2
+   :caption: SALES:
+   :hidden:
+
+   sales/SALES
+
+.. toctree::
+   :maxdepth: 2
+   :caption: DEVOPS:
+   :hidden:
+
+   devops/DEVOPS
+
+.. toctree::
+   :maxdepth: 2
+   :caption: DEVELOPERS:
+   :hidden:
+
+   developers/DEVELOPERS
+   developers/ARCHITECTURE
+   developers/GIT
+   developers/PROJECT_STANDARDS
+   developers/TESTING
+   developers/CODING_STANDARDS
+   developers/HTML_CSS
+   developers/PROTOTYPING
+   developers/TRAINING
+   developers/DEPENDENCIES
+   developers/DJANGO
+   developers/JAVASCRIPT
+   developers/PYTHON
+
+.. toctree::
+   :maxdepth: 2
+   :caption: UX:
+   :hidden:
+
+   ux/UX
+   ux/UX_GUIDELINES
+
 
 What Is This?
 -------------
@@ -60,7 +110,7 @@ discussion and amendment.
 -- "The Great CEO Within", By Matt Mochary
 
 *Second, why is it open source?* To promote
-`transparency <./philosophy/PHILOSOPHY.rst>`__.
+`transparency <./philosophy/PHILOSOPHY>`__.
 
 Scope
 -----
@@ -99,12 +149,12 @@ that do this. What makes us different?
    effort.
 -  We work hard to be transparent, interactive, and have fun.
 
-`Read about the purpose of Countable <./philosophy/PHILOSOPHY.rst>`__.
+`Read about the purpose of Countable <./philosophy/PHILOSOPHY>`__.
 
 Who is Countable?
 -----------------
 
-We are selective in order to embody our `values <./philosophy/PHILOSOPHY.rst>`__. This
+We are selective in order to embody our `values <./philosophy/PHILOSOPHY>`__. This
 starts with hiring, all the way to the kinds of partners we seek out. In
 the end, we want to bring together people to have a big impact by
 improving all the industries we engage with, through better technology
@@ -118,41 +168,41 @@ Recruiting
 Finding the right people is one of our biggest challenges, so we need
 every advantage we can find in this way.
 
--  `General Posting <./peopleops/recruiting/RECRUITING.rst>`__
--  `Are You A Good Fit For Countable <./peopleops/recruiting/HIRING_FIT.rst>`__?
+-  `General Posting <./peopleops/recruiting/RECRUITING>`__
+-  `Are You A Good Fit For Countable <./peopleops/recruiting/HIRING_FIT>`__?
 
 Marketing
 ~~~~~~~~~
 
 Helps us find the best partners and team members who share our passion.
 
--  `Value Proposition <./sales/VALUE_PROP.rst>`__
--  `Creative Brief <./ux/UX.rst>`__
--  `Design Asset Storage <./operations/FILE_STORAGE.rst>`__
--  `Social Media Posting Policy <./ux/UX_GUIDELINES.rst>`__
--  `SEO <./ux/UX_GUIDELINES.rst>`__
--  `Usability <./ux/UX.rst>`__
+-  `Value Proposition <./sales/VALUE_PROP>`__
+-  `Creative Brief <./ux/UX>`__
+-  `Design Asset Storage <./operations/FILE_STORAGE>`__
+-  `Social Media Posting Policy <./ux/UX_GUIDELINES>`__
+-  `SEO <./ux/UX_GUIDELINES>`__
+-  `Usability <./ux/UX>`__
 
 Getting Started
 ~~~~~~~~~~~~~~~
 
 If you're a new Countable team member, start here!
 
--  `Onboarding <./peopleops/ONBOARDING.rst>`__
--  `Your Contract <./peopleops/SUBCONTRACTOR_AGREEMENT.rst>`__
--  `Diversity and Inclusion <./peopleops/DIVERSITY_AND_INCLUSION.rst>`__
--  `Physical Setup <./peopleops/PHYSICAL_SETUP.rst>`__
--  `Project Management <./operations/PROJECT_MANAGEMENT.rst>`__
--  `Evaluation <./peopleops/PERFORMANCE_EVALUATION.rst>`__
--  `Compensation <./peopleops/COMPENSATION.rst>`__
--  `Scrum <./operations/SCRUM.rst>`__
--  `Trello <./operations/TRELLO.rst>`__
--  `Client Data Protection <./operations/CLIENT_DATA_PROTECTION.rst>`__
+-  `Onboarding <./peopleops/ONBOARDING>`__
+-  `Your Contract <./peopleops/SUBCONTRACTOR_AGREEMENT>`__
+-  `Diversity and Inclusion <./peopleops/DIVERSITY_AND_INCLUSION>`__
+-  `Physical Setup <./peopleops/PHYSICAL_SETUP>`__
+-  `Project Management <./operations/PROJECT_MANAGEMENT>`__
+-  `Evaluation <./peopleops/PERFORMANCE_EVALUATION>`__
+-  `Compensation <./peopleops/COMPENSATION>`__
+-  `Scrum <./operations/SCRUM>`__
+-  `Trello <./operations/TRELLO>`__
+-  `Client Data Protection <./operations/CLIENT_DATA_PROTECTION>`__
 
 If you're a new client, start here!
 
--  `Scrum <./operations/SCRUM.rst>`__
--  `Trello <./operations/TRELLO.rst>`__
+-  `Scrum <./operations/SCRUM>`__
+-  `Trello <./operations/TRELLO>`__
 
 Engineering
 ~~~~~~~~~~~
@@ -162,35 +212,35 @@ product/engineering processes in order to improve the team's
 performance, and take advantage of an experience curve by eliminating
 arbitrary process differences.
 
--  `Code Project Standards <./developers/PROJECT_STANDARDS.rst>`__
--  `Coding Standards <./developers/CODING_STANDARDS.rst>`__
--  `Operations <./devops/DEV_OPERATIONS.rst>`__
--  `Prototyping <./developers/PROTOTYPING.rst>`__
--  `Testing <./developers/TESTING.rst>`__
--  `Training <./developers/TRAINING.rst>`__
--  `Architechture <./developers/ARCHITECTURE.rst>`__
--  `Dependencies <./developers/DEPENDENCIES.rst>`__
--  `Django <./developers/DJANGO.rst>`__
--  `Docker <./devops/DOCKER.rst>`__
--  `Git <./developers/GIT.rst>`__
--  `Jenkins <./devops/JENKINS.rst>`__
--  `Stack Choices <./devops/STACK_CHOICES.rst>`__
+-  `Code Project Standards <./developers/PROJECT_STANDARDS>`__
+-  `Coding Standards <./developers/CODING_STANDARDS>`__
+-  `Operations <./devops/DEV_OPERATIONS>`__
+-  `Prototyping <./developers/PROTOTYPING>`__
+-  `Testing <./developers/TESTING>`__
+-  `Training <./developers/TRAINING>`__
+-  `Architechture <./developers/ARCHITECTURE>`__
+-  `Dependencies <./developers/DEPENDENCIES>`__
+-  `Django <./developers/DJANGO>`__
+-  `Docker <./devops/DOCKER>`__
+-  `Git <./developers/GIT>`__
+-  `Jenkins <./devops/JENKINS>`__
+-  `Stack Choices <./devops/STACK_CHOICES>`__
 
 Consulting
 ~~~~~~~~~~
 
 How to provide the best results for clients.
 
--  `Methodology <./operations/METHODOLOGY.rst>`__
--  `Communicating with Clients <./operations/COMMUNICATING_WITH_CLIENTS.rst>`__
+-  `Methodology <./operations/METHODOLOGY>`__
+-  `Communicating with Clients <./operations/COMMUNICATING_WITH_CLIENTS>`__
 
 Operations
 ----------
 
--  `Meetings <./peopleops/MEETINGS.rst>`__
--  `Processes <./operations/PROCESSES.rst>`__
--  `Storage <./operations/FILE_STORAGE.rst>`__
--  `Gathering Team Feedback <./peopleops/GIVING_FEEDBACK_TO_TEAMMATES.rst>`__
+-  `Meetings <./peopleops/MEETINGS>`__
+-  `Processes <./operations/PROCESSES>`__
+-  `Storage <./operations/FILE_STORAGE>`__
+-  `Gathering Team Feedback <./peopleops/GIVING_FEEDBACK_TO_TEAMMATES>`__
 
 Contributing
 ------------
@@ -216,7 +266,7 @@ pull request. The rules:
 -  Keep it concise, to-the-point, actionable. If you do use an
    abstraction, provide a corresponding example.
 -  Each page should state it's purpose for existing, as related to the
-   company's `mission <./philosophy/PHILOSOPHY.rst>`__. Clarity and utility over
+   company's `mission <./philosophy/PHILOSOPHY>`__. Clarity and utility over
    completeness. Try to maximize "usefulness density", or the total
    benefit (ie, in saved time, dollars) of the content divided by its
    length (in characters).
@@ -237,4 +287,4 @@ Similar Efforts
    :)
 -  `X team <https://x-team.com/remote-team-guide/>`__ has been proactive
    in publishing their processes online in some detail on their website.
--  `netlify culture handbook <https://github.com/netlify/culture-handbook/blob/master/values.rst>`__
+-  `netlify culture handbook <https://github.com/netlify/culture-handbook/blob/master/values>`__

@@ -140,7 +140,7 @@ Validation
    product owner and users, adjust, and repeat until everyone on your
    team has a clear shared vision.
 -  You're now ready to hand off the wireframes to technical team members
-   to build a `functional prototype <../developers/PROTOTYPING.rst>`__.
+   to build a `functional prototype <../developers/PROTOTYPING>`__.
 
 Feedback
 ~~~~~~~~
@@ -149,7 +149,7 @@ While user experience design can be front-loaded in a project somewhat,
 it's critical to continue throughout the project to ensure incremental
 improvements are made and a great end result is achieved.
 
--  Conduct `usability tests <./USABILITY.rst>`__ of the
+-  Conduct `usability tests <./USABILITY>`__ of the
    functional prototype as you iterate on it, each sprint.
 -  Perform follow-up interviews on users after they've tried the
    product.
@@ -246,7 +246,7 @@ Follow and document these steps:
    mark it.
 -  Assign the bug to someone who can either fix or triage it.
 -  (Refer to 
-   `Bug Reporting in our Developers page <./developers/DEVELOPERS.rst>`__)
+   `Bug Reporting in our Developers page <./developers/DEVELOPERS>`__)
 
 6. Finishing up and debrief:
 

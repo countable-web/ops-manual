@@ -1,10 +1,6 @@
 How Countable Uses GIT
 ======================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 Outlining the norms of git collaboration at Countable.
