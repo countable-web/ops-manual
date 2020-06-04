@@ -53,18 +53,6 @@ Countable Web Productions Inc Operations Manual
    :hidden:
 
    developers/DEVELOPERS
-   developers/ARCHITECTURE
-   developers/GIT
-   developers/PROJECT_STANDARDS
-   developers/TESTING
-   developers/CODING_STANDARDS
-   developers/HTML_CSS
-   developers/PROTOTYPING
-   developers/TRAINING
-   developers/DEPENDENCIES
-   developers/DJANGO
-   developers/JAVASCRIPT
-   developers/PYTHON
 
 .. toctree::
    :maxdepth: 2
