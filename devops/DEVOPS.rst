@@ -8,17 +8,15 @@ DevOps
 
 
    
-Purpose
-=======
+**Purpose**
 
 The purpose of DevOps is to ensure that software is always deployed and tested reliably and automatically in a way that helps us and our customers.
 
 DevOps is the practice of writing code and configurations to accomplish
 this.
 
-***************
 Goals of DevOps
-***************
+~~~~~~~~~~~~~~~
 
 1. Every code project should be deployed automatically, reliably and
    predictably (by the devs and clients) to production.
@@ -45,7 +43,7 @@ Goals of DevOps
 -  minimize what's on the host server. Dockerize it all so it can be tested fully locally, and host as minimal state. ie, backup jobs are currently done wrong as they use the host's CRON.
 
 More specific goals (draft, may change)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 -  It would be ideal to bring up a project environment with one short command. (currently, it's ``git clone <repo>``, ``docker-compose up``, and then you often need to get some test data, so 2 or more commands, which is a good start). The easier this is, the more our front end people will be able to work the same way as everyone else.
 -  Committing to the master branch should run tests, and if those succeed, deploy to production.
@@ -54,40 +52,37 @@ More specific goals (draft, may change)
 -  Sentry.countable.ca should have a project for every production environment, and spam slack with any errors.
 -  TODO: It should be fully automated to create a new jenkins slave server.
 
-Scope
-=====
+**Scope**
 
 This page introduces the areas we call DevOps at Countable, from standards and conventions, to specific tools, 
 release management, and information security.
 
 
-*************************
 Standards and Conventions
-*************************
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Servers
-=======
+-------
 
 Each client typically has a different server environment, and Docker mostly prevents us from caring about the differences.
 
 Jenkins
-=======
+-------
 
 See the Jenkins section of this DevOps document for how we use jenkins to automate many environment instances.
 
 Docker
-======
+------
 
 See the Docker section of this DevOps document for how we use Docker to manage project environments.
 
 Cloudflare
-==========
+~~~~~~~~~~
 
 We use cloudflare as an SSL proxy and DNS server. Your project should have an A record for its primary domain ``project.com`` which is proxied through Cloudflare's CDN. You should have a second CNAME record which is NOT proxied for directly accessing the server. ``direct.project.com`` .
 
-*****
 CI/CD
-*****
+~~~~~
 
 For every project, we should typically have 3 jenkins jobs, a
 ``<projectname>-stage``, ``<projectname>-prod``, and
@@ -117,16 +112,15 @@ Tips for debugging CI/CD jobs.
    ``docker-compose up`` (including any other steps the jenkins job
    does).
 
-******
 Docker
-******
+~~~~~~
 
 Docker is vital to our dev workflow, so this section covers the basics and getting set up, as well as providing resources further down for more in-depth learning.
 
 Docker Basics
-=============
+-------------
 
-We have some training materials on Docker `here <DOCKER.html>`_
+We have some training materials on Docker `here <DOCKER.html>`_ and we explain why we like to use it `here <WHY_DOCKER.html>`_.
 
 We use Docker to manage dev, test, stage and prod environments. Specific conventions we follow:
 
@@ -138,7 +132,7 @@ We use Docker to manage dev, test, stage and prod environments. Specific convent
 -  The docker-compose.override.yml file should only contain differences between dev and prod and other environments. This includes the ports, restart policy, secrets, and normally not much else. If a line doesn't need to be in the overrides for a specific reason, move it to the main docker-compose.yml instead.
 
 Setting Up An Environment
-=========================
+-------------------------
 
 1. `Install Docker on your machine <https://docs.docker.com/engine/installation/>`__
 
@@ -151,7 +145,7 @@ Setting Up An Environment
 5. Navigate to `localhost <http://localhost>`__. Ensure only one project is running at a time if you're using port 80 (as we do here)
 
 Editing the Dockerfiles
-=======================
+-----------------------
 
 When you change something about the operating system environment your container exposes, such as installing a new package, this is often done in the Dockerfile itself. This will result in changes being propagated to other environments including production when you commit the modified Dockerfile, triggering a Docker build there. However, if you modify a file used during the build step such as requirements.txt , other environments won't be updated by default. To force environments to rebuild, commit a small change to the Dockerfile. Our convention is:
 
@@ -162,16 +156,15 @@ When you change something about the operating system environment your container 
 Bumping this version will trigger the rebuild as desired.
 
 Troubleshooting
-===============
+---------------
 
 When starting with Docker there are a few common issues:
 
 -  A port you need is blocked. Typically our apps run on port 80. To see if something's running there, ``sudo lsof -n -i :80 | grep LISTEN`` on Linux, Mac.
 -  Make sure you have a docker-compose.override.yml with port 80 mapped to your application.
 
-*******
 Jenkins
-*******
+~~~~~~~
  
 -  Changes to ``develop`` (branch in bitbucket) are detected and Jenkins automatically runs our tests and notifies us in slack of status. If they pass they should be deployed to a staging area.
 -  Changes to ``master`` are deployed to the production website.
@@ -179,7 +172,7 @@ Jenkins
 .. _setting-up-a-new-project:
 
 Setting up a new project
-========================
+------------------------
 
 -  Items in Jenkins (jobs) are named after their repository name. Each
    repo gets 2 items in jenkins. For a repo called wizards, the Jenkins
@@ -192,7 +185,7 @@ Setting up a new project
 -  Configure slack to `post job status to the project channel <https://github.com/jenkinsci/slack-plugin#install-instructions-for-slack>`__.
 
 Troubleshooting Jenkins
-=======================
+-----------------------
 
 -  Look at the console log from your Jenkins Job
 -  Test that a fresh clone of your project works with the commands your
@@ -201,7 +194,7 @@ Troubleshooting Jenkins
 .. _setting-up-a-jenkins-node--project:
 
 Setting up a Jenkins node & project
-===================================
+-----------------------------------
 
 Create a `new server <SERVERS>`__ first.
 
@@ -213,20 +206,19 @@ Create a `new server <SERVERS>`__ first.
 3. Create a Build Project In Jenkins, click new Item. Refer to existing projects for the configurations. Make sure the node you just created is being used!
 
 Discussion on Usage of Jenkins
-==============================
+------------------------------
 
 -  Jenkins is pretty great but also has a lot of shortcomings. The big one is you bury all this important config info in GUI menus instead of in a versionable place like code. Travis is better that way, but they're less flexible in some other ways.
 -  If you find yourself building complicated scripts as Jenkins commands, instead script them into a bash file and just call that from Jenkins instead.
 
 Provisioning (Terraform, Ansible)
-=================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We are currently using these tools in some projects to set up nodes to
 run our software on.
 
-*******
 Backups
-*******
+~~~~~~~
 
 *ALL* production data of ours and clients' must be backed up. We must have reasonable evidence that backups can actually be restored. For example, periodically update your development environment's database using a backup from production.
 
@@ -268,9 +260,8 @@ installed)
 
 .. _servers-1:
 
-*********
 Databases
-*********
+~~~~~~~~~
 
 We use postgres and occasionally mongodb. You can restore a postgres DB
 in our projects as follows. Include this portion ``-T template_postgis``
@@ -289,7 +280,7 @@ Never expose the db management port, it should only be accessible via
 Docker.
 
 Migrations
-==========
+----------
 
 Migrations should be run as a part of a startup script, so the DB schema
 is always up to date with the currently running code.
@@ -298,7 +289,7 @@ Note: migration conflicts should be resolved when merging ``develop``
 into your working branch and not as part of operations work.
 
 Deploying Updates To Projects
-=============================
+-----------------------------
 
 While everything uses Docker as described above, every project is
 basically a unique unicorn in terms of hosting. We use Jenkins for CI,
@@ -321,7 +312,7 @@ Some projects use Jenkins to automatically test and deploy new
 commits.
 
 Static Files
-============
+------------
 
 An nginx container may as well always serve all static files in all
 environments. This prevents us needing to worry about differences in
@@ -332,7 +323,7 @@ need collected. ``python manage.py collectstatic --noprompt`` should be
 run as part of the startup script for any Django project.
 
 Moving sites to a new server
-============================
+----------------------------
 
 Move the "stage" version of any site, first.
 
@@ -366,12 +357,12 @@ to refactor this away where possible, and use things like S3 for
 permanent file storage.
 
 Hosting Choices
-===============
+---------------
 
 The benefits of bare metal:
 
 1. lower cost per unit of RAM.
-2. serviceability in Vancouer (I can drive there in 20 minutes)
+2. serviceability in Vancouver (I can drive there in 20 minutes)
 3. faster ping for us in Vancouver
 4. much higher burstable hardware specs than any of our other hosts, so
    everything will run faster in general in production and devops tasks
@@ -384,15 +375,14 @@ The benefits of VM/cloud instances:
    really, and depends on many things).
 3. Ability to deploy new hardware automatically such as via Terraform
 
-******************
 Release Management
-******************
+~~~~~~~~~~~~~~~~~~
 
 This document touches upon first our ideal release management process, then some concrete processes to follow to pursue that ideal.
 
 
 Ideal Release Management Process
-================================
+--------------------------------
 
 Each project may have some differences by the ideal release management process should aspire to these goals:
 
@@ -403,6 +393,7 @@ Each project may have some differences by the ideal release management process s
 -  Be able to confidently release every sprint (every week usually).
 
 Specific processes that help with the above:
+--------------------------------------------
 
 -  Developers work on ``feature-branch`` named branches (see
    `GIT <../developers/GIT>`__) and commit and push often. Atomic
@@ -417,12 +408,12 @@ Specific processes that help with the above:
 -  Critical bugfixes may bypass the above process by pushing `hotfixes <../developers/GIT>`__ to ``master``. Do this sparingly.
 
 Servers
-=======
+-------
 
 Standardize setting up new servers. These steps are generic to AWS, Digital Ocean, and Scaleway currently.
 
 Process For Troubleshooting Production Servers
-==============================================
+----------------------------------------------
 
 Nodes are typically accessible directly with a ``direct`` prefix the following forms.
 
@@ -445,7 +436,7 @@ using SSH keys, so if you don't have one already, do this for example.
 You can now SSH in from this device without a password.
 
 Process For Creating Nodes
-==========================
+--------------------------
 
 Providers
 =========
@@ -495,7 +486,7 @@ Future Work
 
 
 Stack Choices
-=============
+~~~~~~~~~~~~~
 
 TLDR, read `this <http://boringtechnology.club/>`__
 
@@ -508,7 +499,7 @@ We don't want to support every stack, so we chose the best for most cases and wa
 5. Performance.
 
 Back End
-========
+~~~~~~~~
 
 We've found the following back end stack to be very good on these
 metrics.
@@ -534,15 +525,14 @@ franca.
 Avoid language-specific environment dependencies that can be met by built in functions or by Docker. ie, you don't need virtualenv, pyenv, grunt, gulp.
 
 Follow 12 factor principles
-===========================
+---------------------------
 
 These are progressive principles for making your application predictable and scalable.
 
 `12factor <https://12factor.net/>`__
 
-*********
 Front End
-*********
+~~~~~~~~~
 
 We have a lot less prescription on the front end, and choices are based on developer skill. However, we observe guidelines:
 
@@ -579,15 +569,14 @@ other preprocessors (less/ stylus) avoid, migrate away
 
 .. |python popularity| image:: https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/09/growth_major_languages-1-1024x878.png
 
-********************
 Information Security
-********************
+~~~~~~~~~~~~~~~~~~~~
 
 This draft document focuses on design of actual systems, not processes for
 performing work (covered elsewhere).
 
 Web Application Host OS Hardening
-=================================
+---------------------------------
 
 -  Apply 'least privilege' in general. Only give users/systems access to
    sensitive information to the extent who need it, and only the minimum
@@ -601,7 +590,7 @@ Web Application Host OS Hardening
    mechanism.
 
 Container Security Practices [1]
-================================
+--------------------------------
 
 Countable's applications are always containerized. That consistent
 design lets us re-use security hardening work across projects.
