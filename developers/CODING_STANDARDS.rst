@@ -61,6 +61,13 @@ Functional Modules
 -  Modules should be responsible for a specific task or set of RELATED tasks.
 -  Modules should communicate through easily testable interfaces. A huge hierarchy of objects shouldn't be required to test a single method, because the method should only take arguments it actually uses (not a big tree which happens to contain those)
 
+Error Handling
+--------------
+-  Error messags must be uniquly identifiable so the root cause in code can be traced. They should contain unique text.
+-  (500) Errors should be sent to administrators when on production (or Sentry)
+-  When we are in an invalid state, it's better to throw an exception and avoid corrupting data or causing more confusing downstream issues. Catch errors early and loudly.
+-  Use HTTP Error codes correctly. https://developer.mozilla.org/en-US/docs/Web/HTTP/Status . For example, for an unauthorized error, return 401, not 400 or 500.
+
 Comments
 --------
 
