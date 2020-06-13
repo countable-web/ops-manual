@@ -6,7 +6,7 @@ This explains the basics of using Docker, specifically written for
 Countable devs. If you want to know WHY we use docker, see `A Pure Docker Workflow <https://docs.google.com/document/d/1F_LvoR1R6_GEiwqBWviYVXLUuOnzSl-q5WcFspYqmUY/edit#heading=h.dgi1cb6nx4tu>`__
 and `The Allure Of Docker <https://docs.google.com/document/d/1aWJFw5DcBC0sj1x2UukruNSldfxMAJqO3fBqzx6ubDQ/edit>`__
 
-Basic docker for new devs. It assumes you did `these exercises on Linux <https://github.com/countable-web/open-source-corporation/blob/master/product/engineering/TRAINING.md#linux>`__.
+Basic docker for new devs. It assumes you did `these exercises on Linux <https://countable-ops-manual.readthedocs.io/developers/TRAINING.html#linux>`__.
 
 Docker 101
 ==========

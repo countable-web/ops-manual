@@ -98,7 +98,7 @@ discussion and amendment.
 -- "The Great CEO Within", By Matt Mochary
 
 *Second, why is it open source?* To promote
-`transparency <./philosophy/PHILOSOPHY>`__.
+`transparency <https://countable-ops-manual.readthedocs.io/philosophy/PHILOSOPHY.html#transparency-policy>`__.
 
 Scope
 -----
@@ -137,12 +137,12 @@ that do this. What makes us different?
    effort.
 -  We work hard to be transparent, interactive, and have fun.
 
-`Read about the purpose of Countable <./philosophy/PHILOSOPHY>`__.
+`Read about the purpose of Countable <https://countable-ops-manual.readthedocs.io/philosophy/PHILOSOPHY.html#basics-of-our-purpose-at-countable>`__.
 
 Who is Countable?
 -----------------
 
-We are selective in order to embody our `values <./philosophy/PHILOSOPHY>`__. This
+We are selective in order to embody our `values <https://countable-ops-manual.readthedocs.io/philosophy/PHILOSOPHY.html#values>`__. This
 starts with hiring, all the way to the kinds of partners we seek out. In
 the end, we want to bring together people to have a big impact by
 improving all the industries we engage with, through better technology
@@ -156,8 +156,8 @@ Recruiting
 Finding the right people is one of our biggest challenges, so we need
 every advantage we can find in this way.
 
--  `General Posting <./peopleops/recruiting/RECRUITING>`__
--  `Are You A Good Fit For Countable <./peopleops/recruiting/HIRING_FIT>`__?
+-  `General Posting <./peopleops/recruiting/RECRUITING.html>`__
+-  `Are You A Good Fit For Countable <./peopleops/recruiting/HIRING_FIT.html>`__?
 
 Marketing
 ~~~~~~~~~
@@ -206,7 +206,7 @@ arbitrary process differences.
 -  `Prototyping <./developers/PROTOTYPING>`__
 -  `Testing <./developers/TESTING>`__
 -  `Training <./developers/TRAINING>`__
--  `Architechture <./developers/ARCHITECTURE>`__
+-  `Architecture <./developers/ARCHITECTURE>`__
 -  `Dependencies <./developers/DEPENDENCIES>`__
 -  `Django <./developers/DJANGO>`__
 -  `Docker <./devops/DOCKER>`__

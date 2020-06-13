@@ -196,7 +196,7 @@ Troubleshooting Jenkins
 Setting up a Jenkins node & project
 -----------------------------------
 
-Create a `new server <SERVERS>`__ first.
+Create a `new server <https://countable-ops-manual.readthedocs.io/devops/DEVOPS.html#id6>`__ first.
 
 1. Bootstrap the slave `using dotfiles <https://github.com/countable-web/dotfiles/blob/master/README.md#set-up-a-jenkins-slave>`__.
 
@@ -229,8 +229,7 @@ Backups mostly go to S3 for projects we manage hosting for. To get a backup:
 2. Then, make yourself a token
    `here <https://console.aws.amazon.com/iam/home>`__. Go to your
    username -> Security credentials -> Create access key .
-3. To download a backup, you have to install `aws
-   cli <https://docs.aws.amazon.com/cli/latest/userguide/installing.html>`__.
+3. To download a backup, you have to install `aws cli <https://docs.aws.amazon.com/cli/latest/userguide/installing.html>`__.
    You'll be prompted for some information:
 4. Enter your creds you generated in #2 above. The region is us-east-1.
 5. Use the aws cli tools to get a backup.
@@ -257,8 +256,6 @@ installed)
 
    brew install lrzip
    lrzip -d $filename
-
-.. _servers-1:
 
 Databases
 ~~~~~~~~~
@@ -396,16 +393,16 @@ Specific processes that help with the above:
 --------------------------------------------
 
 -  Developers work on ``feature-branch`` named branches (see
-   `GIT <../developers/GIT>`__) and commit and push often. Atomic
+   `GIT <https://countable-ops-manual.readthedocs.io/developers/GIT.html>`__) and commit and push often. Atomic
    commits increase developer happiness by 10% according to the 2017
    StackOverflow survey.
 -  Developers take responsibility for cleaning up their code, testing,
    and then making a Pull Reqeust.
--  The pull request should be reviewed by a peer to adhere to our `code standards <../developers/PROJECT_STANDARDS>`__, ensure the code is readable and self-documenting, and to help us learn from each other.
+-  The pull request should be reviewed by a peer to adhere to our `code standards <../developers/CODING_STANDARDS.html>`__, ensure the code is readable and self-documenting, and to help us learn from each other.
 -  When approved, anyone may merge the Pull Request into ``develop`` (never ``master`` directly)
 -  The ``develop`` branch is automatically staged so we can review the product together and report any bugs prior to it being released.
 -  Ideally once per week, ``develop`` is auto-merged into ``master`` which triggers a release.
--  Critical bugfixes may bypass the above process by pushing `hotfixes <../developers/GIT>`__ to ``master``. Do this sparingly.
+-  Critical bugfixes may bypass the above process by pushing `hotfixes <https://countable-ops-manual.readthedocs.io/developers/GIT.html>`__ to ``master``. Do this sparingly.
 
 Servers
 -------
@@ -474,7 +471,7 @@ Bootstrapping
 
 -  Add your SSH key to ``/home/[myname]/.ssh/authorized_keys`` of the user you just created (create the file if it doesn't exist)
 -  Install `dotfiles <https://github.com/countable-web/dotfiles>`__
--  Set up `Jenkins <JENKINS>`__ if needed.
+-  Set up `Jenkins <https://countable-ops-manual.readthedocs.io/devops/DEVOPS.html#id3>`__ if needed.
 -  Create an account for any team member who needs access, and add them to the ``dev`` ``sudo`` and ``docker`` groups.
 
 Run your jenkins job to test the software works.
