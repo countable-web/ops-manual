@@ -12,14 +12,15 @@ Countable Web Productions Inc Operations Manual
    :hidden:
 
    philosophy/PHILOSOPHY
+   philosophy/REFERENCES
 
 .. toctree::
    :maxdepth: 2
    :caption: PEOPLE OPS:
    :hidden:
 
-   peopleops/TEAM_NORMS
    peopleops/ONBOARDING_GUIDE
+   peopleops/TEAM_NORMS
    peopleops/COMMUNICATIONS_CHARTER
    peopleops/DOING_YOUR_JOB
    peopleops/recruiting/RECRUITING
@@ -32,6 +33,10 @@ Countable Web Productions Inc Operations Manual
 
    operations/CLIENTS
    operations/PROJECT_MANAGEMENT
+   operations/MAKING_DECISIONS
+   operations/CRITICAL_PATH
+   operations/USER_STORIES
+   operations_OKRS
 
 .. toctree::
    :maxdepth: 2
@@ -39,6 +44,10 @@ Countable Web Productions Inc Operations Manual
    :hidden:
 
    sales/SALES
+   sales/PROPOSALS
+   sales/DISCOVERY
+   sales/SALES_ACCOUNTING
+   sales/EXPERIMENTS
 
 .. toctree::
    :maxdepth: 2
@@ -46,6 +55,8 @@ Countable Web Productions Inc Operations Manual
    :hidden:
 
    devops/DEVOPS
+   devops/DOCKER
+   devops/WHY_DOCKER
 
 .. toctree::
    :maxdepth: 2
@@ -61,6 +72,8 @@ Countable Web Productions Inc Operations Manual
 
    ux/UX
    ux/UX_GUIDELINES
+   ux/UX_DESIGN
+   ux/USABILITY_TESTING
 
 
 What Is This?
