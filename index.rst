@@ -59,6 +59,16 @@ Countable Web Productions Inc Operations Manual
 
 .. toctree::
    :maxdepth: 2
+   :caption: UX:
+   :hidden:
+
+   ux/UX
+   ux/UX_GUIDELINES
+   ux/UX_DESIGN
+   ux/USABILITY_TESTING
+
+.. toctree::
+   :maxdepth: 2
    :caption: DEVOPS:
    :hidden:
 
@@ -84,16 +94,6 @@ Countable Web Productions Inc Operations Manual
    developers/JAVASCRIPT
    developers/PYTHON
    developers/DJANGO
-
-.. toctree::
-   :maxdepth: 2
-   :caption: UX:
-   :hidden:
-
-   ux/UX
-   ux/UX_GUIDELINES
-   ux/UX_DESIGN
-   ux/USABILITY_TESTING
 
 
 What Is This?
