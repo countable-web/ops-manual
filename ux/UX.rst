@@ -27,6 +27,9 @@ Branding Projects
 Branding Process
 ~~~~~~~~~~~~~~~~
 
+:doc: `./UX#branding-projects`
+:doc: `#branding-projects`
+
 1. Brand development questionnaire
 2. Discovery meeting (review other work, discuss answers to
    questionnaire). The person delivering the work must attend this
