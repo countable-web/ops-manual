@@ -145,7 +145,7 @@ and a design/ux guild meet.
 Performance Evaluation Policy
 -----------------------------
 
-See our dedicated `Performance Evaluation page <../EVALUATION.html>`__
+See our dedicated `Performance Evaluation page <../developers/EVALUATION.html>`__
 
 Team Event Basics
 ------------------
