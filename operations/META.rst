@@ -6,11 +6,13 @@ Read the `RST Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtex
 Tips and Tricks for Formatting
 ------------------------------
 
-Link to other documents:
+Link to other documents (3 formats provided):
 
 .. code-block:: rst
 
-   :doc:`path/to/document`
+   :doc:`CRITICAL_PATH`
+   :doc:`../operations/CRITICAL_PATH`
+   :doc:`/operations/CRITICAL_PATH`
 
 External links:
 

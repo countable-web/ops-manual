@@ -22,9 +22,8 @@ Project Management Process
 -  We use Scrum like `this <../operations/SCRUM.html>`__.
 -  Every day, try to get some `feedback <../peopleops/FEEDBACK_LOOPS.html>`__ on your work.
 -  Every day, coordinate with team mates on slack and prioritize.
--  Work together to minimize the amount of time anyone is blocked or waiting for someone's output as their input. The list of items in which people depend on each other's work is called the `critical path <../operations/CRITICAL_PATH.html>`__ 
+-  Work together to minimize the amount of time anyone is blocked or waiting for someone's output as their input. The list of items in which people depend on each other's work is called the :doc:`CRITICAL_PATH`
 
-OR :doc: `OPERATIONS/CRITICAL_PATH`
 
 Project Management Objectives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
