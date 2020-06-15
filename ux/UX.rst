@@ -19,16 +19,13 @@ Marketing
 
 Defines how we communicate with potential clients. It screens for
 clients with similar values, with whom we'd like to collaborate on
-exciting projects. To anchor this, revisit our `Value Prop for Clients <../philosophy/PHILOSOPHY.html>`__
+exciting projects. To anchor this, revisit our `Value Prop for Clients <../sales/SALES.html#value-prop>`__
 
 Branding Projects
 -----------------
 
 Branding Process
 ~~~~~~~~~~~~~~~~
-
-:doc: `./UX#branding-projects`
-:doc: `#branding-projects`
 
 1. Brand development questionnaire
 2. Discovery meeting (review other work, discuss answers to
@@ -146,7 +143,8 @@ work. Here are some we admire, and why.
 -  `Caktus Group <https://www.caktusgroup.com>`__ -
    They've focused on a specific technology (Django) to be best at.
    `Open source <https://www.caktusgroup.com/about/>`__
--  `TWG <https://twg.io>`__ - Great services page, `very clear <https://twg.io/services/>`__. Agile, fellow Canadian.
+-  `TWG <https://twg.io>`__ - Great services page, 
+`very clear <https://twg.io/services/>`__. Agile, fellow Canadian.
 
 Top google results for "Web Application Firm" and "Web Software Firm".
 This means they have pretty effective SEO/copy.
