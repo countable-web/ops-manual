@@ -133,7 +133,8 @@ Phone
 Trello
 ------
 
--  Trello is for tracking what we need to get done (reminders). We use variants of Scrum, details `here <../operations/TRELLO.html>`__.
+-  Trello is for tracking what we need to get done (reminders). 
+We use variants of Scrum, details `here <../operations/TRELLO.html>`__.
 
 Office Hours and Presence
 -------------------------
@@ -145,7 +146,7 @@ Office Hours and Presence
 Meetings
 ~~~~~~~~
 
-See `meetings <../MEETINGS.html>`__
+See `meetings <../peopleops/MEETINGS.html>`__
 
 Slack Hygiene
 ~~~~~~~~~~~~~
@@ -163,16 +164,29 @@ people direct message or mention you, and only during your work hours.
    recipient's work hours, so they should check it twice a day. When
    people are in "focus mode", they shouldn't have slack open as it's a
    distraction.
+   
 -  If the message could be useful to more than one person, post it in
    the most relevant public or project channel.
+   
 -  No instant reply required. Our communication priority order is: 1)
    Call/Text 2) Slack 3) Email 4) Trello 5) Reddit
+   
 -  Try to interact with the team about twice per work day on slack, but
    don't leave it open all day, you need some quiet time to focus on
    work. Catch up on your channels, skim and respond where needed.
+   
 -  if you read something on a public slack channel, understand it, and
-   find it useful, please give a thumbs up 👍 or ✔️ or whatever emoticon. It helps the people who post in public channels the most to know who's read things and what to post.
--  The perfect example of what to use Slack for is: (1) When you're blocked by something, make noise to the team channel. (2) Create clarity around objectives and user stories. State your understanding in your own words so team mates can confirm we're on the same page.
+   find it useful, please give a thumbs up or whatever emoticon. 
+   It helps the people who post in public channels the most 
+   to know who's read things and what to post.
+   
+-  The perfect example of what to use Slack for is: 
+
+   (1) When you're blocked by something, make noise to the team channel. 
+
+   (2) Create clarity around objectives and user stories. State your 
+   understanding in your own words, so teammates can confirm we're on 
+   the same page.
 
 .. |Slack Notification Setting| image:: recommended-slack-setting.png
 
@@ -197,22 +211,31 @@ When To Give Feedback
 -  `Code reviews <../developers/GIT.html>`__. The benefits of
    Senior developers reviewing Junior developers' code is obvious I
    hope, but it's just as critical to provide feedback as a Jr
-   dev because (1) you can learn much faster by reading others' code,
-   and asking questions. (2) your questions will help Sr devs make their
-   work more understandable. (3) it motivates Sr devs to have someone
-   learning from them and seeing their work in general. (4) you can help
-   other Jr devs learn. (5) It forces you to understand our standards
-   and apply them better if you have to measure other people's work
-   against them (6) Sr devs still make of mistakes
+   dev because: 
+   (1) you can learn much faster by reading others' code,
+   and asking questions. 
+   (2) your questions will help Sr devs make their
+   work more understandable. 
+   (3) it motivates Sr devs to have someone
+   learning from them and seeing their work in general. 
+   (4) you can help other Jr devs learn. 
+   (5) It forces you to understand our standards and apply them better 
+   if you have to measure other people's work against them 
+   (6) Sr devs still make of mistakes
+   
 -  Peer reviews of UX and Art assets. Ask our team members to share XD
    links, screenshots your work on slack, and give them feedback in
    comments in XD, or right on Slack.
+   
 -  When there's a new release, review the stage site for your product.
+
 -  Post a video of using a new product or UI, for the creator to see in
    that project channel.
+   
 -  Just PM (Private Message) someone on slack with your thoughts. Ask
    questions, state exact observations, and say how you feel about them.
    (See below, Guidelines)
+   
 -  Use the #thanks channel to show appreciation and gratitude. A ton of
    `evidence <https://www.health.harvard.edu/healthbeat/giving-thanks-can-make-you-happier>`__
    suggests this makes you, the recipient, and the whole team happier.
@@ -224,14 +247,18 @@ Guidelines Around Feedback
    getting a code review, making a little demo video of what you did, or
    just asking a specific question "What could I improve in my fireball
    casting technique?".
+   
 -  When someone does something you like, let them know! That's how we
    get them to do it more. Positive feedback is *easy* to give, everyone
    feels good!
+   
 -  Remember the purpose of feedback. We have a team so we can help each
    other improve.
+   
 -  Keep it simple and clear. Mention the most important facts
    (observations) to avoid overwhelming the recipient. Small bits of
    frequent feedback are better than a huge essay.
+   
 -  It's not about who's right. The process of talking about performance
    and how do things improves everyone's work and helps us work together
    constructively. So don't stress. If you can give and receive feedback
@@ -249,11 +276,14 @@ about it."
 -  Make it clear the goal is to improve the work, and you're giving
    feedback because our team has high expectations, but you think the
    other person can meet them.
+   
 -  Be very respectful, constructive, helpful, humble and never mean or
    demeaning.
+   
 -  it's ok to be blunt. If you do have evidence of what the problem is,
    be very specific. It's not about your opinion, it's about the facts,
    you're just pointing out evidence.
+   
 -  It's also ok to be subtle. Especially if you're not sure what the
    problem is, try being subtle first. Pause to show you're thinking and
    then ask "Does that really work?" "I never thought of doing it that
@@ -261,10 +291,12 @@ about it."
    genuine curiousity, the person will stop and do the same, without
    being offended. They may not change the behaviour right away but it
    helps more than you think.
+   
 -  It often helps to be clear about the actual problem. "I'm concerned
    that if we cast green fireballs, it causes too much pollution." This
    invites them to dismiss you of course, but it will stick in their
    mind.
+   
 -  Sometimes it helps to suggest an alternative but stick to the facts.
    "I use blue fireballs because it seems like it saves the environment,
    have you tried it?"
@@ -277,11 +309,13 @@ Receiving Feedback
 -  Don't interrupt, dismiss, or show impatience or offence. Show
    appreciation for them putting themselves out there to help you
    improve.
+   
 -  Paraphrase in your own words. "It sounds like you're saying blue
    fireballs produce less harmful carbon, but defeat just as many
    goblins."
 
 Resources
 ^^^^^^^^^
+
  - `Video on presenting <https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm>`__ 
  - `Quiz with targetted advice on general communication skills <https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm>`__  
