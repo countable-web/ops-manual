@@ -12,7 +12,7 @@ Sales
 
 **Purpose**
 
-The chapter documents our approach to taking on new work so we curate a
+This chapter documents our approach to taking on new work so we curate a
 group of clients we love working with over time, and stay profitable.
 
 **Scope**
