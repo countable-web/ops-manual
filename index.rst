@@ -254,7 +254,7 @@ Consulting
 How to provide the best results for clients.
 
 -  `Methodology <../operations/OPERATIONS.html>`__
--  `Communicating with Clients <../operations/COMMUNICATING_WITH_CLIENTS.html>`__
+-  `Communicating with Clients <../operations/CLIENTS.html>`__
 
 Operations
 ----------
