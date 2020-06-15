@@ -31,7 +31,7 @@ SCRUM Process
 Project Objective and Key Results
 ---------------------------------
 
-Every team should have one or more`Objectives <../operations/OKRS.html>`__. This is a written goal discussed with the team to ensure clarity, and is used by the **Product Owner** to order the **Backlog**. An objective may be to meet a particular `User Story <../operations/USER_STORIES.html>`__.
+Every team should have one or more `Objectives <../operations/OKRS.html>`__. This is a written goal discussed with the team to ensure clarity, and is used by the **Product Owner** to order the **Backlog**. An objective may be to meet a particular `User Story <../operations/USER_STORIES.html>`__.
 
 Sprint
 ------
