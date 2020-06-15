@@ -3,21 +3,13 @@ Accounting at Countable
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
-   Timesheets and Expenses
-   Taxes
-      List of Tax Deductible Items
-      Tax Categories
-   SRED
-
-
-Purpose
--------
+**Purpose**
 
 To cover the major points of accounting practices at Countable.
 
-Scope
------
+**Scope**
 
 Currently touches upon any unique categories we track or pay attention to, and how we do so.
 

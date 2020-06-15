@@ -4,14 +4,14 @@ Delivery Workflow Documentation (for Clients)
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 This is a client-facing process intended to open useful channels of communication and collaboration.
 
-Scope
-~~~~~
+**Scope**
+
 It covers the details of the linked process diagram, and what to expect after submitting a work request.
 
 
@@ -32,7 +32,7 @@ We use Trello to communicate work items with our clients.
 4. Add any file attachments with any examples, templates, screenshots or other specification files.
 5. If you want a specific person's attention, mention them in a comment under the card or add them as a "member". Otherwise, it may be some time before someone sees your card.
 
-For more information on how we use Trello, see `here <TRELLO>`__.
+For more information on how we use Trello, see `here <../TRELLO.html>`__.
 
 How We Process Your Work Request
 --------------------------------

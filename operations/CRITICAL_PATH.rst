@@ -4,23 +4,19 @@ Critical Path
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-   Purpose
-   Scope
+   :hidden:
 
 
-Purpose
--------
+**Purpose**
 
 Release a prototype as quickly as possible.
 
-Scope
------
+**Scope**
 
 Identify dependencies to complete a finished product, and make sure the "critical path" these items define is minimized.
 
-Process
--------
+Critical Path Process
+---------------------
 
 The "critical path" is the *longest* list of dependencies to completing a project. To find this, work back from the goal.
 

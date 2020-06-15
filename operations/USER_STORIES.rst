@@ -4,26 +4,18 @@ User Stories
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
-   Purpose
-   Scope
-   Process
-   Personas
-   Epics
-   User Acceptance Tests (UATs)
-
-Purpose
--------
+**Purpose**
 
 To describe the business goals of the project, and the features and functionality its product must include to be considered "complete."
 
-Scope
------
+**Scope**
 
 Use the following process as a template for user stories documentation.
 
-Process
--------
+User Stories Process
+~~~~~~~~~~~~~~~~~~~~
 
 The User Stories document should be created after the process of `Project Discovery <product/DISCOVERY.md>`__ has progressed to the stage
 that we are discussing real, tangible possibilities for a project to deliver.
@@ -33,19 +25,19 @@ that we are discussing real, tangible possibilities for a project to deliver.
 If you are new to this concept overall, the `User story Wikipedia <https://en.wikipedia.org/wiki/User_story>`__ provides some great beginning resources.
 
 Personas
---------
+~~~~~~~~
 
 Who uses the product (software you are developing in the project)? List them and determine their roles within context.
 
 Epics
------
+~~~~~
 
 Make a list of stories (in groups called Epics) that explain how the user uses the product and why, i.e.:
 
 **(PERSONA)** needs to **(ACTION)** so they can accomplish **(GOAL)**.
 
 User Acceptance Tests (UATs)
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 User Acceptance Tests, usually denoted in User Stories as UATs, comprise a listing of the technical requirements that must be met within the project to meet the User Story requirements. Generally, it's useful to
 list all of these below the related Epics, and strikethrough tasks as the team accomplishes them and they're approved by clients and project

@@ -4,18 +4,13 @@ Areas of Responsibility
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
-   Purpose
-   Scope
-   Deprecated Text to Revisit and Rework
+**Purpose**
 
-
-Purpose
--------
 The purpose of AORs is to determine what work matters most to Countable's mission, and make specific team members accountable for improving and tracking progress on each one. 
 
-Scope
------
+**Scope**
 
 This document is intended to standardize and clarify the process of owning an AOR.
 
@@ -29,11 +24,11 @@ An AOR is an area of work that we've identified that someone should be responsib
 Deprecated Scope
  This [spreadsheet](https://docs.google.com/spreadsheets/d/1S6VesJN11u7oxYceimjOucrW-7Be62JRianhzuy68kQ/edit#gid=0) lists the responsibilities necessary for Countable to achieve its' mission, and who's accountable for them. Each AOR is assigned a DRI, and an heir who is shadowing and assisting the owner.
 
-## How to Manage an AOR
+**How to Manage an AOR**
 Owning an AOR comes with great power and responsibility. Within the constraints of this page, you may manage your area as you see fit. As a DRI:
 
 You MUST:
-  * Document any processeses the team is required to follow under your AOR in the Ops manual.
+  * Document any processes the team is required to follow under your AOR in the Ops manual.
   * Champion your AOR and ensure everyone follows its process. If someone doesn't follow the process you're overseeing, you must send them a link to the documentation page.
   * Evaluate and report to the team. Report on any KPI.
 
