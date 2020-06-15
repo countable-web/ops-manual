@@ -21,23 +21,23 @@ The best way to learn something is by doing it: use it for a project and put in 
 Once you tinker for a while playing with the basics of what you know, you'll start to feel more confident and familiar, have questions about things that you can't resolve through playing around, and want to move on. At this point, find a good tutorial on the next material you
 want to study.
 
-For this training, be sure to follow the practices `here <../DEVELOPERS.html>`__.
+For this training, be sure to follow the practices `here <../developers/DEVELOPERS.html>`__.
 
 All training materials here are pre-approved to do on company time.
 
 Core Training
-=============
+-------------
 
 All developers should do the Kick Off, and any additional sections where you need training.
 
 Kick Off
---------
+~~~~~~~~
 
 1. Clone this repository (our operations manual).
 
 ::
 
-   git clone https://github.com/countable-web/open-source-corporation.git
+   git clone https://github.com/countable-web/ops-manual.git
 
 2. Install a code editor. We recommend Sublime Text, VS Code, or GitHub Atom. PyCharm can also work well if you prefer an IDE. We'll reimburse a license if you want Sublime to PyCharm.
 
@@ -46,7 +46,7 @@ Kick Off
 4. Make a pull request to this repository.
 
 Docker Training
----------------
+~~~~~~~~~~~~~~~
 
 If you're new to Docker, do this. We use Docker for everything so you should get familiar with the basic concepts of running containers from images, and docker-compose which runs multiple containers at once.
 
@@ -56,17 +56,17 @@ If you're new to Docker, do this. We use Docker for everything so you should get
 
 To set up a new Django environment in Docker.
 
-`More on Docker <../DOCKER_TRAINING>`__
+`More on Docker <../devops/DOCKER.html>`__
 
 Django Training
----------------
+~~~~~~~~~~~~~~~
 
 If you’re new to Django, `do this <https://docs.djangoproject.com/en/1.11/intro/tutorial01/>`__. Most of our back end projects are Django and it's good to know how to structure a back end MVC anyway for any project.
 
  `Use this method of setting up Django <https://docs.docker.com/compose/django/>`__
 
 Further Training
-================
+----------------
 
 These are optional based on what specific gaps you need to fill. 
 
@@ -75,14 +75,14 @@ I'm starting with a list of resources I've found helpful myself, or have found a
 To provide a feedback loop on training efficacy, copy `this Trello Ticket <https://trello.com/c/rUsXiFoO/3-training-session-tracker-replace-title>`__ for each section you begin below.
 
 Javascript Training
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 -  *intermediate* `Functional programming intro <http://reactivex.io/learnrx/>`__
 -  *intermediate* Read "Javascript, The Good Parts"
 -  *advanced* `Watch Hey Underscore You're Doing it Wrong <https://www.youtube.com/watch?v=m3svKOdZijA/>`__
 
 Linux
------
+~~~~~
 
 From linuxjourney.com - this site's quite a good overall resource of concise, useful and modular lessons. I've listed the chapters and sections (in parens) that are most useful for our work at Countable here. 
 
@@ -110,14 +110,14 @@ If you want to learn Linux deeply after doing the above, it's hard to beat compi
 -  `LFS The Book <http://www.linuxfromscratch.org/lfs/view/stable/>`__
 
 Startup School Videos
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 These apply quite generally to the kind of product development we take on.
 `Latest Startup School Videos <https://www.startupschool.org/latest>`__.
 You must take notes and share them with the team.
 
 References
-==========
+----------
 
 [1]
 `Originals <https://www.amazon.ca/Originals-How-Non-Conformists-Move-World/dp/0525429565>`__
