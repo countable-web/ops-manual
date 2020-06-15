@@ -1,10 +1,6 @@
 HTML and CSS Standards at Countable
 ===================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 Documenting Countable's coding standards specific to front-end languages and their formatting.
@@ -14,7 +10,7 @@ Documenting Countable's coding standards specific to front-end languages and the
 Currently covers HTML, CSS, our preferred use of SCSS, and formatting.
 
 HTML Coding Standards
---------------
+---------------------
 
 Opening and closing tag should have same indentation level, or on the same line. Use 4 spaces per indent level. 
 

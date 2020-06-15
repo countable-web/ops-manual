@@ -1,10 +1,6 @@
 Project Structure and Ops
 =========================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 To describe the minimum requirements and expected structure of technical projects at Countable.

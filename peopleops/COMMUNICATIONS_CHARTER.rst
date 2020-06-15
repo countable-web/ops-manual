@@ -4,6 +4,7 @@ Communications Charter
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
 **Purpose**
 
@@ -61,7 +62,7 @@ time off.
    else or a client requests a special deadline.
 
 Calendar Expectations
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 -  The calendar is the single source of truth for meetings. They are
    only held by people invited to actual calendar events.
@@ -73,7 +74,7 @@ Calendar Expectations
    following: “Name” vacation (# of days )
 
 Email Hygiene
-^^^^^^^^^^^^^
+-------------
 
 -  We recommend you disable email notifications on your phone. It's a
    non-urgent channel and we don't want to be distracted by it.
@@ -99,7 +100,7 @@ Email Hygiene
    team members and clients to take a break outside work hours.
 
 Text
-^^^^
+----
 
 -  If you'd like someone's attention because you're blocked and they're
    not responding on Slack, we recommend you text them. Do this only
@@ -108,7 +109,7 @@ Text
    urgent requests.
 
 Guidelines for Communicating Face-to-Face
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------------
 
 (On Whereby or other video chat, and in-person meetings)
 
@@ -123,33 +124,28 @@ Guidelines for Communicating Face-to-Face
    as equal as possible.
 
 Phone
-^^^^^
+-----
 
 -  For truly urgent or critical things, we call each other (cell phone).
    Only do this in the evening or weekend of the recipient's timezone if
    it's an emergency. This should be RARE.
 
 Trello
-^^^^^^
+------
 
--  Trello is for tracking what we need to get done (reminders). We use
-   variants of Scrum, details `here <../operations/TRELLO>`__.
+-  Trello is for tracking what we need to get done (reminders). We use variants of Scrum, details `here <../operations/TRELLO.html>`__.
 
 Office Hours and Presence
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
--  Overall objective: achieving our goals but also balancing work &
-   private life in a meaningful way
--  However, also take team spirit, team efficiency and feeling of
-   togetherness into account.
--  Make sure your calendar is up-to-date and shared/public so we know
-   how to reach someone if urgent
+-  Overall objective: achieving our goals but also balancing work & private life in a meaningful way
+-  However, also take team spirit, team efficiency and feeling of togetherness into account.
+-  Make sure your calendar is up-to-date and shared/public so we know how to reach someone if urgent
 
 Meetings
 ~~~~~~~~
 
-See `meetings <MEETINGS>`__
-
+See `meetings <../MEETINGS.html>`__
 
 Slack Hygiene
 ~~~~~~~~~~~~~
@@ -175,124 +171,10 @@ people direct message or mention you, and only during your work hours.
    don't leave it open all day, you need some quiet time to focus on
    work. Catch up on your channels, skim and respond where needed.
 -  if you read something on a public slack channel, understand it, and
-   find it useful, please give a thumbs up 👍 or ✔️ or whatever emoticon
-   . It helps the people who post in public channels the most to know
-   who's read things and what to post.
--  The perfect example of what to use Slack for is: (1) When you're
-   blocked by something, make noise to the team channel. (2) Create
-   clarity around objectives and user stories. State your understanding
-   in your own words so team mates can confirm we're on the same page.
+   find it useful, please give a thumbs up 👍 or ✔️ or whatever emoticon. It helps the people who post in public channels the most to know who's read things and what to post.
+-  The perfect example of what to use Slack for is: (1) When you're blocked by something, make noise to the team channel. (2) Create clarity around objectives and user stories. State your understanding in your own words so team mates can confirm we're on the same page.
 
 .. |Slack Notification Setting| image:: recommended-slack-setting.png
-
-Feedback Loops on Your Work at Countable
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-One of our core principles at Countable is to shorten feedback loops.
-There is overwhelming evidence of the benefits of this. One example is
-the biggest predictor of happiness in the YCombinator Startup School
-program was that startups who talked to users. They were 12.8% happier.
-
-Feedback Sources
-^^^^^^^^^^^^^^^^
-
-This is a list of the different places you can get feedback from,
-depending on what's most helpful. You don't need them all for every
-project, but you should *use at least one of them each day*, ideally
-several times per day.
-
-**Clients**
-
--  Where possible, talk or email with clients directly *rather than
-   getting your manager to relay information*.
--  Provide screenshots and a report discussing your work to your clients
-   at least once per week, and as often as once per day in between. If
-   you don't have access to the client, send this to your manager
-   instead.
--  Ship your work every sprint (usually 2 weeks), and show them a link
-   to your changes.
-
-**Metrics**
-
--  What can you measure that captures the value of your work. Ask your
-   team and manager to figure this out.
--  Use your "key results" from our OKR spreadsheet. Your job is to get a
-   score of "1" on these, and by estimating your score, you can get
-   feedback by yourself.
-
-**End-users**
-
--  These people are often your client's customers. It's whoever actually
-   uses the product you're working on.
--  Talk to them. Connect with them any way you can so they can tell you
-   about their experience and thoughts. Send them a video, screenshot or
-   update on new features they've asked about, and ask them what they
-   think.
-
-**Testing**
-
--  Use the software yourself and pretend to be a user. The goal is to
-   get inside your persona's head.
--  Write automated tests.
--  Use this sparingly as it's less reliable as outside feedback.
-
-**Your Team**
-
--  Discuss all the above results with your team, and show them your
-   work, asking for how to improve.
--  Send your team screenshots, videos, code reviews and other artefacts
-   of what you did.
-
-**Your Manager**
-
--  Your manager can give you feedback sometimes, but their more
-   important job is to help you get feedback from the real word (see
-   above)
-
-Forward Feedback (Status Reporting)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You should update your team and clients each day with what you've been
-working on via Slack, Email and Trello. For the latter 2, these are some
-guidelines to help ensure effective reporting.
-
--  Make sure the business goal under discussion is clear, mention it
-   directly.
--  Indicate what steps you've taken.
--  It's great to provide an example (stage site link, screenshot, video,
-   etc) of your work.
--  Ask any questions you have, or anything you're unsure about.
--  Indicate your assumptions about the questions, and how you'll proceed
-   by default because this way you make it easy for the person reading
-   the update to respond. They can say "That's right", or "Yes,
-   except..." or "No, I meant this other thing." or "No, let's have a
-   quick chat on the phone, something's been missed.".
--  Use the language of your user (user stories) in the update.
-
-For example, updating a client:
-
-::
-
-   Hi Merlin (client name);
-
-   I worked on helping increasing customer signups (business goal) today, and fixed a number of small usability issues (steps taken). See stage.countable.ca and let me know how it looks (example of work)!
-
-   I assume it's ok in the signup form to ask for a phone number after they've already given an email, so we don't lose the customer, right (question with default assumption)?
-
-   As always, let me know if you have any questions!
-
-Nervous? Just send it to your team first and they'll tell you if it
-sounds good for the client.
-
-Example of updating your team:
-
-::
-
-   Hey team,
-
-   Signup flow UX fixes are staged, I hope it will help us improve signup metrics (business goal), any feedback much appreciated! See stage.countable.ca (work example)
-
-   What do you guys think of moving the phone number after the initial signup form? I'm assuming it's better and will go ahead if no one objects.
 
 Giving Feedback to Teammates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -310,9 +192,9 @@ improve. Some references on why this is:
 -  `Gratitude makes you happier <https://www.health.harvard.edu/healthbeat/giving-thanks-can-make-you-happier>`__
 
 When To Give Feedback
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
--  `Code reviews <../developers/GIT>`__. The benefits of
+-  `Code reviews <../developers/GIT.html>`__. The benefits of
    Senior developers reviewing Junior developers' code is obvious I
    hope, but it's just as critical to provide feedback as a Jr
    dev because (1) you can learn much faster by reading others' code,
@@ -336,7 +218,7 @@ When To Give Feedback
    suggests this makes you, the recipient, and the whole team happier.
 
 Guidelines Around Feedback
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 -  Ask your team for feedback. Make it easy for them by sharing a link,
    getting a code review, making a little demo video of what you did, or
@@ -356,7 +238,7 @@ Guidelines Around Feedback
    respectfully we've already won at this no matter what that leads to.
 
 Negative Feedback
-^^^^^^^^^^^^^^^^^
+-----------------
 
 Giving negative feedback can be hard, as we don't want to offend. The
 problem is often that people just say "I don't like when you cast green
@@ -388,7 +270,7 @@ about it."
    have you tried it?"
 
 Receiving Feedback
-^^^^^^^^^^^^^^^^^^
+------------------
 
 -  It's hard for others to give you feedback, and it's precious. Don't
    bite. You don't have to agree, you just have to listen.
@@ -401,5 +283,5 @@ Receiving Feedback
 
 Resources
 ^^^^^^^^^
- - Video on presenting: https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
- - Quiz with targetted advice on general communication skills. https://www.mindtools.com/pages/article/newCS_99.htm
+ - `Video on presenting <https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm>`__ 
+ - `Quiz with targetted advice on general communication skills <https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm>`__  

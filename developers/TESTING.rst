@@ -1,10 +1,6 @@
 Testing and Bug Reporting
 =========================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 To establish how and why we do testing at Countable.

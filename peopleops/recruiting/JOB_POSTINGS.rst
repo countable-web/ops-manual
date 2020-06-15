@@ -4,14 +4,13 @@ Countable Job Postings
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 This serves as a root page with all example job postings we commonly hire for at Countable.
 
-Scope
-~~~~~
+**Scope**
 
 Currently covers the base job posting, admin, devops, django, front end, and nodejs posts.
 
@@ -39,7 +38,7 @@ ridiculously transparent from the ground up: we've open-sourced our
 company's operations manual here if you want to learn more about our
 current thinking.
 
-`Our Open Source Ops Manual <https://countable-ops-manual.readthedocs.io/en/latest/index.html>`__
+`Our Open Source Ops Manual <https://countable-ops-manual.readthedocs.io/>`__
 
 ``responsibilities and skills``
 
@@ -66,7 +65,7 @@ You should:
 -  Be able to uncover, and focus on, what's really important in a
    complex environment with many distractions.
 
-`Here is a guide <https://countable-ops-manual.readthedocs.io/en/latest/peopleops/recruiting/HIRING_FIT.html>`__ to determining if you're a good fit. If these things
+`Here is a guide <https://countable-ops-manual.readthedocs.io/peopleops/recruiting/HIRING_FIT.html>`__ to determining if you're a good fit. If these things
 don't resonate with you, please don't apply. Our screening process will
 determine you're not a good fit so applying would be a waste of
 everyone's time.

@@ -4,14 +4,13 @@ Is Countable A Good Fit For You?
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
-Purpose
--------
+**Purpose**
 
 This helps us screen for people who enjoy working this way.
 
-Scope
------
+**Scope**
 
 Define what we'd like to offer our employees, compared with their other options.
 
@@ -21,7 +20,7 @@ Notes on Our Hiring
 -  Countable does not take into account, race and gender in hiring
    decisions or salary offers. Hiring should be done as if these
    attributes are not known at the time of offer.
--  We use `this <JOB_POSTINGS>`__ job posting.
+-  We use `this <../JOB_POSTINGS.html>`__ job posting.
 -  We try to be always hiring, in order to snap up the right person if
    they come along at any time.
 

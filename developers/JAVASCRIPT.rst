@@ -1,10 +1,6 @@
 Javascript Best Practices
 =========================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 Document our coding standards and best practices for the Javascript language ecosystem.
@@ -92,8 +88,7 @@ avoid:
 -  ``.after()``, ``.append()``, ``.attr()``, ``.before()``,
    ``.clone()``, ``.css()``, ``.remove()``, and everything else.
 
-When traversing the DOM many times, load one into memory first!
----------------------------------------------------------------
+**When traversing the DOM many times, load one into memory first!**
 
 ::
 

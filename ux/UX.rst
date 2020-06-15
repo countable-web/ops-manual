@@ -4,6 +4,7 @@ UX Resources
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
 **Purpose**
 
@@ -18,7 +19,7 @@ Marketing
 
 Defines how we communicate with potential clients. It screens for
 clients with similar values, with whom we'd like to collaborate on
-exciting projects. To anchor this, revisit our `Value Prop for Clients <./philosophy/PHILOSOPHY.html>`__
+exciting projects. To anchor this, revisit our `Value Prop for Clients <../philosophy/PHILOSOPHY.html>`__
 
 Branding Projects
 -----------------

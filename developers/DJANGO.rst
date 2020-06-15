@@ -1,10 +1,6 @@
 Django Standards
 ================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 To share things we've found to solve common issues with Django and save lots of time.

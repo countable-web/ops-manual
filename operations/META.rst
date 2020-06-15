@@ -5,6 +5,14 @@ Read the `RST Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtex
 
 Link to other documents:
 
+*Note* - the :doc: directive does not work properly as described below. Currently all active links are in the format of the example External links code like this:
+
+.. code-block:: rst
+
+   `Anchor Text <../folder/DOC.html>`_
+
+Clark listed this, and it's in RST docs, but doesn't work:
+
 .. code-block:: rst
 
    :doc:`path/to/document`
@@ -14,6 +22,17 @@ External links:
 .. code-block:: rest
 
    `Anchor Text <https://example.com>`_
+
+Tips and Tricks for Formatting
+------------------------------s
+
+When you include links in RST, punctuations in the featured text will break the link.
+
+Notice the difference with including an apostrophe:
+
+`This will work <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
+
+`This won't work <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
 Writing Ops Manual Pages
 ------------------------

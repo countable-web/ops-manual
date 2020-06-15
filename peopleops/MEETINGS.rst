@@ -1,10 +1,10 @@
-Meetings
-========
-
+Guidelines for Meetings
+=======================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
 **Purpose**
 
@@ -22,7 +22,7 @@ taking minutes in Google Docs and b) that follow-up actions (acc. to 3W
 rule) are noted in the minutes, and shared as Trello cards.
 
 Date and Time of Meetings
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 -  Our calendar is the source of truth regarding meeting times,
    attendees and cancellation status. All updates to meeting times go
@@ -37,7 +37,7 @@ Date and Time of Meetings
 -  When meeting online, like in whereby, list the specific room link in the meeting invite.
 
 Clarity of Purpose at Meetings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 -  The purpose and agenda of the meeting must be clear, and listed in
    the meeting event details on the calendar.
@@ -53,12 +53,12 @@ Clarity of Purpose at Meetings
 -  Do not attend meetings if you don't have a good reason to be there.
 
 Record of Meetings
-^^^^^^^^^^^^^^^^^^
+------------------
 
 -  Meetings should have an "output" recorded. For Scrum, this can simply
    be updated Trello board and KR scores. Other meetings should have a
    stream of minutes in a Google Doc that is continually added-to (most
-   recent first). Here's a (template)[https://docs.google.com/document/d/13iyjpQAuxwlEYiW85tJbufXrC-CAw-0AAdzO9FzHSio/edit?folder=1EJtwoxGXasYlv3UbRuzxKVNfgArFSJMn#].
+   recent first). Here's a `template <https://docs.google.com/document/d/13iyjpQAuxwlEYiW85tJbufXrC-CAw-0AAdzO9FzHSio/edit?folder=1EJtwoxGXasYlv3UbRuzxKVNfgArFSJMn#>`_.
    Each time you meet, fill out:
 
 ::
@@ -78,7 +78,7 @@ Record of Meetings
    does WHAT by WHEN
 
 General Meeting Guidelines
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 -  Work to create an atmosphere of psychological safety. Detect concerns
    of individuals and shed light on them.
@@ -96,7 +96,7 @@ All active projects should have a Sprint meeting every 1 to 4 weeks.
 
 -  Discuss how the current sprint will accomplish our "OKR" for the
    project.
--  See `Scrum <../peopleops/getting_started/SCRUM.md>`__ for full
+-  See `Scrum <../operations/SCRUM.html>`__ for full
    instructions
 
 One-on-one Meetings
@@ -108,7 +108,7 @@ how we can work better together. People mentioning problems even once is
 a gift: We can't fix systemic problems if I don't know about them.
 
 As an Employee
-^^^^^^^^^^^^^^
+--------------
 
 1. This is your time to talk about whatever is on your mind. If you want
    to talk about what's going on with your life, hobbies, etc, that's
@@ -121,7 +121,7 @@ As an Employee
    the team.
 
 As a Manager
-^^^^^^^^^^^^
+------------
 
 1. Practice listening. Try to contain the impulse to give advice unless
    they specifically ask for it for at least the first 10 minutes of the
@@ -140,7 +140,7 @@ As a Manager
    actionable and objective as possible, and frame it as a mentor.
 
 The First One-on-one
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 1. On first one-on-one, ask "tell me about your life starting in
    kindergarten". Write down moments of change, decisions on direction
@@ -152,7 +152,7 @@ The First One-on-one
    skills can be developed in their role?
 
 Themes
-^^^^^^
+------
 
 Some ideas to pick from, not needed every month.
 
@@ -164,7 +164,7 @@ Some ideas to pick from, not needed every month.
    to whom? What would you like to learn?
 
 Performance Reviews
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Each year, the one-on-one should include performance review
 self-assessment. These questions are answered by the employee in
@@ -192,7 +192,7 @@ The manager should answer:
 2. What's holding you back?
 
 Guild Meetings
-~~~~~~~~~~~~~~
+--------------
 
 We currently have a UX, DevOps, Operations, and Developers guild meetings,
 periodically. The purpose of this meeting is:
@@ -211,7 +211,7 @@ Discuss goals for each guild and roadmap for meeting them:
 -  Operations - conduct business efficiently and maintain excellent client relations.
 
 All-Hands Meetings
-~~~~~~~~~~~~~~~~~~
+------------------
 
 The entire team meets once per month to plan work pipeline and roadmap
 at a high level, and practice new processes together.

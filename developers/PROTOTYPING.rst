@@ -1,10 +1,6 @@
 Prototyping
 ===========
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 Explain prototyping as the anchor of our technical approach.

@@ -4,14 +4,13 @@ Subcontractor Work Agreement
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
-Purpose
-~~~~~~~
+**Purpose**
 
 Transparently share our work agreement.
 
-Scope
-~~~~~
+**Scope**
 
 TODO: This document is out of date and the official one has not been
 converted to markdown and open-sourced.

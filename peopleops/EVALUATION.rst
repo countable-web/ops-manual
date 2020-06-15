@@ -4,6 +4,7 @@ Performance Evaluation Policy
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
 **Purpose**
 
@@ -18,8 +19,8 @@ The purpose of this policy is to "get and keep the right people on the bus" [1].
 This page lists "job levels". Each employee should be assigned
 a level based on the behaviours listed below from levels 1 to 4.
 
-Process
-~~~~~~~
+Performance Evaluation Process
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Key Result score: What is your average score the last 4 months?
 -  What did you score in the self-evaluation. For each item in your job
@@ -50,7 +51,7 @@ Job Levels
 This section is used in the Process above for self-evaluation.
 
 Level 1
-^^^^^^^
+-------
 
 An internship or Junior. Evaluation of fit to Countable's culture, work
 style and technical needs.
@@ -58,7 +59,7 @@ style and technical needs.
 -  Regularly review other team members' work to learn from it (code
    reviews, XD links, shared videos, stage sites). To prove you are
    doing this you must ask questions.
--  Ask for help with (or more generally, be highly engaged with and discuss) your `OKRs <../operations/OKRS>`__
+-  Ask for help with (or more generally, be highly engaged with and discuss) your `OKRs <../operations/OKRS.html>`__
 -  **You regularly use this operations manual, ask questions about things that are hard to understand or you disagree with, and suggest improvements for clarity.** JC: use this as a model for how to phrase the rest of these items more clearly/implementable
 CP: quantifying these items more in general, e.g. "regularly review" becomes "1 hour code review per week"
 -  Try to solve problems yourself (10 to 30 minutes). If no clear solution was found, ask specific questions while providing details obtained from the initial investigation. Clarify and state your assumptions when you ask for help.
@@ -69,7 +70,7 @@ CP: quantifying these items more in general, e.g. "regularly review" becomes "1 
 -  Notify your client when work is ready, with a link or screenshot for them to see. **JC: this is a higher level AOR (talking directly to the client) and not achievable at this level - report to your teammates instead?**
 
 Level 2
-^^^^^^^
+-------
 
 Considered a permanent position. Works directly with clients and other
 stakeholders on delivering results, only escalating as needed.
@@ -96,7 +97,7 @@ stakeholders on delivering results, only escalating as needed.
    of issues they report.
 
 Level 3
-^^^^^^^
+-------
 
 Owns a client relationship, leads in a technical area within a guild, or
 takes on another area of responsibility.
@@ -126,7 +127,7 @@ takes on another area of responsibility.
    technical workers to review this as well.
 
 Level 4
-^^^^^^^
+-------
 
 Owns a guild, major client group or customer base (business line).
 
@@ -146,7 +147,7 @@ Owns a guild, major client group or customer base (business line).
    delegate work appropriately.
 
 Dismissal
-^^^^^^^^^
+---------
 
 While it sounds like a negative thing, not everyone is a fit for
 Countable's culture. We think many people are talented but could have a

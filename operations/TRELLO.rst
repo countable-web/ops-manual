@@ -22,13 +22,13 @@ This page describes the basics of Trello, then goes more into
 depth on how we use it at Countable.
 
 Trello Basics
--------------
+~~~~~~~~~~~~~
 
 We use Trello for project management, as it's simple to set up access to the appropriate boards by partners and clients. A Trello board consists
 of a set of **Cards** (tasks) arranged in **Columns**.
 
 Trello Cards
-------------
+~~~~~~~~~~~~
 
 A card should contain a clear description of work to be done by one person required to support a given `User Story <../USER_STORIES.html>`__.
 This may correspond to a single User Acceptance Test. 
@@ -36,15 +36,15 @@ This may correspond to a single User Acceptance Test.
 A card should typically be between 1 hour and 1 day of work. If it's longer, split it into 2 cards in that column.
 
 Trello Board Columns
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Ideas
-~~~~~
+-----
 
 *Optional*. Stuff that's not clear enough to be in backlog yet.
 
 Requests
-~~~~~~~~
+--------
 
 This is the starting point for anyone to add cards, and where cards the client has requested live until the Scrum Master can review and ensure they're actionable and clear.
 
@@ -54,13 +54,13 @@ If any additional requirements steps such as a mockup are required, mention that
 specifications to the card.
 
 Feedback
-~~~~~~~~
+--------
 
 *Optional*. On this column, we may store cards that somehow need client or manager review before proceeding further. In practical terms, we use this
 section whenever we need some client data or feedback to progress with our current task.
 
 Backlog
-~~~~~~~
+-------
 
 Cards that are **clear** and **actionable**. This is the traditional Scrum backlog list, **ordered by priority** (highest on top), by the Product Owner.
 
@@ -69,26 +69,26 @@ sprint's lessons to plan future sprints. So, we cannot plan future
 sprints in advance, we can only set card priority.
 
 Sprint
-~~~~~~
+------
 
 Cards actively being worked on in the current week.
 
 Done
-~~~~
+----
 
 Cards that are ready to be tested by the client (and when that's not
 possible, by the consultant). A test can take the form of a client
 approval, code review, or automated test written.
 
 Moving cards between columns
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A diagram shows how cards can move from conception to completion
 `here <https://drive.google.com/open?id=1VrniT1lRqVu9sJr0ZMK1aQLnFwEuFIQD>`__.
 As the diagram illustrates, each column corresponds to a specific within the adapted `SCRUM <../SCRUM.html>`__ framework.
 
 Progress Awareness
-------------------
+~~~~~~~~~~~~~~~~~~
 
 **It's essential to keep our clients informed about our current progress** on particular tasks, so our professional relationship is strengthened and trust is built. 
 
@@ -99,14 +99,14 @@ For this objective, we suggest that you:
 3) Use "Screencastify" chrome extension for recording short screencasts and attaching into your trello ticket
 
 The "critical" label
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 If you find something that's severly broken in any of our websites, please create a Trello card with a red label ``critical``, and tell the developer who you've assigned it to. Do this sparingly: only when it's something we're likely to quickly lose customers over such as a service being down completely or a button not working. 
 
 For less serious bugs, don't use this label, just make a regular card.
 
 Boards
-------
+~~~~~~
 
 We typically have one board per codebase with a client, and one per internal product or project. 
 
@@ -119,7 +119,7 @@ The board background color indicates the following:
 -  Blue - internal product (private)
 
 Forwarding Client Emails to Trello
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Clients will often email you rather than use Trello. This can be fixed by forwarding their email to the Trello board.
 

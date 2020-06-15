@@ -4,10 +4,11 @@ How to Do Your Job
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
 **Purpose**
 
-Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our `Onboarding Guide <ONBOARDING_GUIDE>`__ first!
+Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our `Onboarding Guide <../ONBOARDING_GUIDE.html>`__ first!
 
 **Scope**
 
@@ -54,7 +55,7 @@ Every Day You Work
 
 -  Share something with the team every day. The simplest way to do this
    is to report what you did on Slack in your team's channel, and
-   anything you're stuck on. Shooting a quick `screen cap video <>`__ to
+   anything you're stuck on. Shooting a quick `screen cap video <https://countable-ops-manual.readthedocs.io/operations/PROJECT_MANAGEMENT.html#tools-screencastify>`__ to
    share is a great idea to try out.
 -  Check slack twice a day at least, and react/respond to some other
    team members' posts.
@@ -69,7 +70,7 @@ Every Week
    update on what's done and what's pending out of their current
    expectations. Include a link to staged work, and a screenshot or
    video. It's best to do this Friday or Monday.
-   `Transparency <../philosophy/PHILOSOPHY>`__
+   `Transparency <https://countable-ops-manual.readthedocs.io/philosophy/PHILOSOPHY.html#transparency-policy>`__
 
 Do Not
 ------
@@ -77,7 +78,7 @@ Do Not
 -  Use private messages for things that don't need to be private. Share
    your experiences on your projects in your client channel, and if it's
    more widely applicable, (#client-) in #general.
-   `Transparency <../philosophy/PHILOSOPHY>`__
+   `Transparency <https://countable-ops-manual.readthedocs.io/philosophy/PHILOSOPHY.html#transparency-policy>`__
 
 Time Off
 ~~~~~~~~
@@ -108,7 +109,7 @@ Things to try.
 -  Video collaboration time on projects. Casual mob coding, async coding
    allowed too.
 -  review:
-   `Gitlab Remote work tipis <https://about.gitlab.com/company/culture/all-remote/tips/>`__
+   `Gitlab Remote work tips <https://about.gitlab.com/company/culture/all-remote/tips/>`__
 
 References
 ----------
@@ -231,7 +232,7 @@ Subcontractor's Guide
 
 Currently covers taxes, categorization as a subcontractor, and benefits of incorporating. 
 
-Also check out our template :doc:`SUBCONTRACTOR_AGREEMENT`__.
+Also check out our template `Subcontractor Agreement <../SUBCONTRACTOR_AGREEMENT.html>`__.
 
 Taxes
 -----

@@ -22,7 +22,10 @@ Countable Web Productions Inc Operations Manual
    peopleops/ONBOARDING_GUIDE
    peopleops/TEAM_NORMS
    peopleops/COMMUNICATIONS_CHARTER
+   peopleops/MEETINGS
    peopleops/DOING_YOUR_JOB
+   peopleops/FEEDBACK_LOOPS
+   peopleops/EVALUATION
    peopleops/recruiting/RECRUITING
    peopleops/recruiting/HIRING_FIT
 
@@ -31,12 +34,17 @@ Countable Web Productions Inc Operations Manual
    :caption: OPERATIONS:
    :hidden:
 
+   operations/OPERATIONS
    operations/CLIENTS
    operations/PROJECT_MANAGEMENT
+   operations/SCRUM
+   operations/TRELLO
    operations/MAKING_DECISIONS
    operations/CRITICAL_PATH
    operations/USER_STORIES
-   operations_OKRS
+   operations/OKRS
+   operations/FILE_STORAGE
+   operations/META
 
 .. toctree::
    :maxdepth: 2
@@ -64,6 +72,18 @@ Countable Web Productions Inc Operations Manual
    :hidden:
 
    developers/DEVELOPERS
+   developers/CODING_STANDARDS
+   developers/PROJECT_STANDARDS
+   developers/GIT
+   developers/PROTOTYPING
+   developers/TESTING
+   developers/TRAINING
+   developers/ARCHITECTURE
+   developers/DEPENDENCIES
+   developers/HTML_CSS
+   developers/JAVASCRIPT
+   developers/PYTHON
+   developers/DJANGO
 
 .. toctree::
    :maxdepth: 2
@@ -169,41 +189,42 @@ Recruiting
 Finding the right people is one of our biggest challenges, so we need
 every advantage we can find in this way.
 
--  `General Posting <./peopleops/recruiting/RECRUITING.html>`__
--  `Are You A Good Fit For Countable <./peopleops/recruiting/HIRING_FIT.html>`__?
+-  `General Posting <../peopleops/recruiting/JOB_POSTINGS.html>`__
+-  `Are You A Good Fit For Countable <../peopleops/recruiting/HIRING_FIT.html>`__?
 
 Marketing
 ~~~~~~~~~
 
 Helps us find the best partners and team members who share our passion.
 
--  `Value Proposition <./sales/VALUE_PROP>`__
--  `Creative Brief <./ux/UX>`__
--  `Design Asset Storage <./operations/FILE_STORAGE>`__
--  `Social Media Posting Policy <./ux/UX_GUIDELINES>`__
--  `SEO <./ux/UX_GUIDELINES>`__
--  `Usability <./ux/UX>`__
+-  `Value Proposition <https://countable-ops-manual.readthedocs.io/sales/SALES.html#value-prop>`__
+-  `Creative Brief <../ux/UX.html>`__
+-  `Design Asset Storage <../operations/FILE_STORAGE.html>`__
+-  `Social Media Posting Policy <../ux/UX_GUIDELINES.html>`__
+-  `SEO <../ux/UX_GUIDELINES.html>`__
+-  `Usability <../ux/USABILITY_TESTING.html>`__
 
 Getting Started
 ~~~~~~~~~~~~~~~
 
 If you're a new Countable team member, start here!
 
--  `Onboarding <./peopleops/ONBOARDING>`__
--  `Your Contract <./peopleops/SUBCONTRACTOR_AGREEMENT>`__
--  `Diversity and Inclusion <./peopleops/DIVERSITY_AND_INCLUSION>`__
--  `Physical Setup <./peopleops/PHYSICAL_SETUP>`__
--  `Project Management <./operations/PROJECT_MANAGEMENT>`__
--  `Evaluation <./peopleops/PERFORMANCE_EVALUATION>`__
--  `Compensation <./peopleops/COMPENSATION>`__
--  `Scrum <./operations/SCRUM>`__
--  `Trello <./operations/TRELLO>`__
--  `Client Data Protection <./operations/CLIENT_DATA_PROTECTION>`__
+-  `Onboarding <../peopleops/ONBOARDING_GUIDE.html>`__
+-  `Your Contract <../peopleops/SUBCONTRACTOR_AGREEMENT.html>`__
+-  `Diversity and Inclusion <https://countable-ops-manual.readthedocs.io/peopleops/TEAM_NORMS.html#diversity-and-inclusion-principles>`__
+-  `Physical Setup <https://countable-ops-manual.readthedocs.io/peopleops/DOING_YOUR_JOB.html#setting-up-your-desk>`__
+-  `Project Management <../operations/PROJECT_MANAGEMENT.html>`__
+-  `Evaluation <../peopleops/EVALUATION.html>`__
+-  `Compensation <https://countable-ops-manual.readthedocs.io/peopleops/TEAM_NORMS.html#compensation-strategy-principles>`__
+-  `Scrum <../operations/SCRUM.html>`__
+-  `Trello <../operations/TRELLO.html>`__
+-  `Client Data Protection <https://countable-ops-manual.readthedocs.io/operations/CLIENTS.html#client-data-protection>`__
 
 If you're a new client, start here!
 
--  `Scrum <./operations/SCRUM>`__
--  `Trello <./operations/TRELLO>`__
+-  `Scrum <../operations/SCRUM.html>`__
+-  `Trello <../operations/TRELLO.html>`__
+-  `Requesting Work from Countable <../operations/CLIENT_WORK_REQUEST_INSTRUCTIONS.html>`__
 
 Engineering
 ~~~~~~~~~~~
@@ -213,35 +234,35 @@ product/engineering processes in order to improve the team's
 performance, and take advantage of an experience curve by eliminating
 arbitrary process differences.
 
--  `Code Project Standards <./developers/PROJECT_STANDARDS>`__
--  `Coding Standards <./developers/CODING_STANDARDS>`__
--  `Operations <./devops/DEV_OPERATIONS>`__
--  `Prototyping <./developers/PROTOTYPING>`__
--  `Testing <./developers/TESTING>`__
--  `Training <./developers/TRAINING>`__
--  `Architecture <./developers/ARCHITECTURE>`__
--  `Dependencies <./developers/DEPENDENCIES>`__
--  `Django <./developers/DJANGO>`__
--  `Docker <./devops/DOCKER>`__
--  `Git <./developers/GIT>`__
--  `Jenkins <./devops/JENKINS>`__
--  `Stack Choices <./devops/STACK_CHOICES>`__
+-  `Code Project Standards <../developers/PROJECT_STANDARDS.html>`__
+-  `Coding Standards <../developers/CODING_STANDARDS.html>`__
+-  `Operations <../devops/DEVOPS.html>`__
+-  `Prototyping <../developers/PROTOTYPING.html>`__
+-  `Testing <../developers/TESTING.html>`__
+-  `Training <../developers/TRAINING.html>`__
+-  `Architecture <../developers/ARCHITECTURE.html>`__
+-  `Dependencies <../developers/DEPENDENCIES.html>`__
+-  `Django <../developers/DJANGO.html>`__
+-  `Docker <../devops/DOCKER.html>`__
+-  `Git <../developers/GIT.html>`__
+-  `Jenkins <https://countable-ops-manual.readthedocs.io/devops/DEVOPS.html#id3>`__
+-  `Stack Choices <https://countable-ops-manual.readthedocs.io/devops/DEVOPS.html#stack-choices>`__
 
 Consulting
 ~~~~~~~~~~
 
 How to provide the best results for clients.
 
--  `Methodology <./operations/METHODOLOGY>`__
--  `Communicating with Clients <./operations/COMMUNICATING_WITH_CLIENTS>`__
+-  `Methodology <../operations/OPERATIONS.html>`__
+-  `Communicating with Clients <../operations/COMMUNICATING_WITH_CLIENTS.html>`__
 
 Operations
 ----------
 
--  `Meetings <./peopleops/MEETINGS>`__
--  `Processes <./operations/PROCESSES>`__
--  `Storage <./operations/FILE_STORAGE>`__
--  `Gathering Team Feedback <./peopleops/GIVING_FEEDBACK_TO_TEAMMATES>`__
+-  `Meetings <../peopleops/MEETINGS.html>`__
+-  `Processes <../operations/OPERATIONS.html>`__
+-  `Storage <../operations/FILE_STORAGE.html>`__
+-  `Gathering Team Feedback <https://countable-ops-manual.readthedocs.io/peopleops/COMMUNICATIONS_CHARTER.html#giving-feedback-to-teammates>`__
 
 Contributing
 ------------
@@ -267,7 +288,7 @@ pull request. The rules:
 -  Keep it concise, to-the-point, actionable. If you do use an
    abstraction, provide a corresponding example.
 -  Each page should state it's purpose for existing, as related to the
-   company's `mission <./philosophy/PHILOSOPHY>`__. Clarity and utility over
+   company's `mission <../philosophy/PHILOSOPHY.html>`__. Clarity and utility over
    completeness. Try to maximize "usefulness density", or the total
    benefit (ie, in saved time, dollars) of the content divided by its
    length (in characters).

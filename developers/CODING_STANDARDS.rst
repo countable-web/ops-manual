@@ -1,10 +1,6 @@
 Coding Standards and Style
 ==========================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 **Purpose**
 
 Encourage consistent and effective coding practices in the team, arising out of specific cases where different conventions of developers caused us to waste time.
@@ -87,7 +83,7 @@ We carry this convention to other languages when possible, but some will use a d
 Docker
 ~~~~~~
 
-Use `Docker <./DOCKER>`__ for any web application project (and other projects where applicable). It should be possible to bring up a new environment by only the following for any of our projects.
+Use `Docker <../devops/DOCKER.html>`__ for any web application project (and other projects where applicable). It should be possible to bring up a new environment by only the following for any of our projects.
 
 ::
 
@@ -121,4 +117,4 @@ Consistency and quality can be further improved by proactively managing technica
 Coding Standards for Specific Languages
 ---------------------------------------
 
-Check out the individual pages for `HTML CSS <HTML_CSS>`__, `Javascript <JAVASCRIPT>`__, and `Python <PYTHON>`__ for more specific coding standards.
+Check out the individual pages for `HTML CSS <../HTML_CSS.html>`__, `Javascript <../JAVASCRIPT.html>`__, and `Python <../PYTHON.html>`__ for more specific coding standards.
