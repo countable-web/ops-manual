@@ -125,7 +125,7 @@ htmlhelp_basename = 'OpenSourceCorporationdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_elements = {
+# latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
@@ -141,15 +141,15 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-}
+# }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'OpenSourceCorporation.tex', u'OpenSourceCorporation Documentation',
-     u'Countable Web Productions, Inc.', 'manual'),
-]
+#latex_documents = [
+#   (master_doc, 'OpenSourceCorporation.tex', u'OpenSourceCorporation Documentation',
+#    u'Countable Web Productions, Inc.', 'manual'),
+# ]
 
 
 # -- Options for manual page output ------------------------------------------
