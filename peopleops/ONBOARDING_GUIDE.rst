@@ -121,7 +121,7 @@ complete tasks every day when you work. But, you are expected to:
 -  Try your best to complete a tiny task, rather than partially
    finishing a big task.
 -  Expectations that are required to be part of Countable (level 1) and
-   for promotion are documented `here <../EVALUATION.html>`__.
+   for promotion are documented `here <../developers/EVALUATION.html>`__.
 
 How To Ask For Help
 ~~~~~~~~~~~~~~~~~~~
