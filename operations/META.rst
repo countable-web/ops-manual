@@ -3,15 +3,10 @@ How to Contribute to This Manual
 
 Read the `RST Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
+Tips and Tricks for Formatting
+------------------------------
+
 Link to other documents:
-
-*Note* - the :doc: directive does not work properly as described below. Currently all active links are in the format of the example External links code like this:
-
-.. code-block:: rst
-
-   `Anchor Text <../folder/DOC.html>`_
-
-Clark listed this, and it's in RST docs, but doesn't work:
 
 .. code-block:: rst
 
@@ -23,16 +18,12 @@ External links:
 
    `Anchor Text <https://example.com>`_
 
-Tips and Tricks for Formatting
-------------------------------s
+Header Formatting Tips
+~~~~~~~~~~~~~~~~~~~~~~
 
-When you include links in RST, punctuations in the featured text will break the link.
+Whatever formatting marks you use to first underline a header in RST in Sphinx, that will be set as "Heading 1" formatting.
 
-Notice the difference with including an apostrophe:
-
-`This will work <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
-
-`This won't work <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
+Same follows for second and third level headers: they are uniquely determined per-page.
 
 Writing Ops Manual Pages
 ------------------------
@@ -46,6 +37,6 @@ An Ops Manual page **MUST**:
 An Ops Manual page **SHOULD**:
   * Have a "Scope" section that identifies what area of work is being discussed, and any definitions to clarify what follows, because we want each process document to be focused on a specific area of work.
   * Contain bulleted lists of process steps and rules. 
-  * Use clear language, with the keywords "MUST" and "SHOULD" where applicable because we want to be clear. ie, "Developers MUST use Docker for apps with more than a single process, and SHOULD use Python on Node.js for web application back ends." "MUST" means the DRI should track and work towards compliance of the process. "SHOULD" means it's a recommendation to follow when reasonably convenient.
+  * Use clear language, with the keywords "MUST" and "SHOULD" where applicable because we want to be clear. e.g, "Developers MUST use Docker for apps with more than a single process, and SHOULD use Python on Node.js for web application back ends." "MUST" means the DRI should track and work towards compliance of the process. "SHOULD" means it's a recommendation to follow when reasonably convenient.
   * Be concise and have as few rules as possible, becasue it's easier for employees to understand. State the rules declaratively, as a matter of fact, not opinion.
   * Clearly state the logical purpose, evidence or citation that indicates how the rules help our mission because we want each rule to justify its existence. However, you SHOULD judge which rules are self-evident in order to stay concise.
