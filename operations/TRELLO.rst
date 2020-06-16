@@ -1,5 +1,5 @@
-How We Use Trello
-=================
+Trello
+======
 
 .. toctree::
    :maxdepth: 2
