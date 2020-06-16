@@ -1,5 +1,5 @@
-Business Operations at Countable
-================================
+Business Operations
+===================
 
 .. toctree::
    :maxdepth: 2
