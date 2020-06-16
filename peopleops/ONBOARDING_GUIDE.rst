@@ -68,9 +68,8 @@ Environment
 
 -  Set up a `physical space and equipment <https://countable-ops-manual.readthedocs.io/peopleops/DOING_YOUR_JOB.html#setting-up-your-desk>`__ to
    work.
--  devs only - Read about our
-   `ops <../devops/DEVOPS.html>`__ and `coding standards <../developers/CODING_STANDARDS.html>`__.
--  devs only - Complete the `training exercises <../developers/TRAINING.html>`__ following these
+-  devs only - Read about our :doc:`/devops/DEVOPS` and :doc:`/developers/CODING_STANDARDS`
+-  devs only - Complete the :doc:`/developers/TRAINING` following these
    practices and get a team member to code review it using a feature
    branch and pull request.
 -  Order a book that will help you learn your job, and bill the company
@@ -89,7 +88,7 @@ Join these using your Google account:
 How to Do Work
 ~~~~~~~~~~~~~~
 
-Skim this so you know the language and how we work `Project Management <../operations/PROJECT_MANAGEMENT.html>`__.
+Skim this so you know the language and how we work :doc:`/operations/PROJECT_MANAGEMENT`.
 
 Confirm
 ~~~~~~~
@@ -122,7 +121,7 @@ complete tasks every day when you work. But, you are expected to:
 -  Try your best to complete a tiny task, rather than partially
    finishing a big task.
 -  Expectations that are required to be part of Countable (level 1) and
-   for promotion are documented `here <../developers/EVALUATION.html>`__.
+   for promotion are documented here: :doc:`/developers/EVALUATION`.
 
 How To Ask For Help
 ~~~~~~~~~~~~~~~~~~~
@@ -140,4 +139,4 @@ skip to 11 minute mark and watch steps for asking for help. Summary.
 -  After you get a response, say it back to the mentor to demonstrate
    your understanding.
 -  Document what you learned. If it will apply to others, put it in a
-   public space such as this manual
+   public space such as this manual.
