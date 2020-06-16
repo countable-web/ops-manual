@@ -1,5 +1,5 @@
-Guidelines for Meetings
-=======================
+Meetings
+========
 
 .. toctree::
    :maxdepth: 2
@@ -96,8 +96,7 @@ All active projects should have a Sprint meeting every 1 to 4 weeks.
 
 -  Discuss how the current sprint will accomplish our "OKR" for the
    project.
--  See `Scrum <../operations/SCRUM.html>`__ for full
-   instructions
+-  See :doc:`/operations/SCRUM` for full instructions
 
 One-on-one Meetings
 ~~~~~~~~~~~~~~~~~~~
