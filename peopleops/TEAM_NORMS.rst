@@ -46,7 +46,8 @@ Here we outline core principles which allow us to approach our differences in a 
 Compensation Strategy Principles
 --------------------------------
 
-Covers our basic principles and approach to compensating our team; not everyone will agree with this approach, so it's important we state
+Covers our basic principles and approach to compensating our team; 
+not everyone will agree with this approach, so it's important we state
 it here so we don't have someone with different expectations join the
 team.
 
@@ -106,10 +107,10 @@ Countable is divided into Teams and Guilds. The job of Guilds is to be really go
 
 **List of Guilds**
 
-- `DevOps Guild <../devops/DEVOPS.html>`__ - Their goal is to ensure our software is delivered to customers as quickly, reliably and automatically as possible.
--  `Developer Guild <../developers/DEVELOPERS.html>`__ - Their goal is to improve our code, solve problems for users, and demonstrate working software to our team every day.
--  `User Experience Guild <../ux/UX.html>`__ - Their goal is to help everyone, from users to product owners and developers, enjoy and benefit from interacting with our software.
--  `Operations Guild <../operations/OPERATIONS.html>`__ - Their goal is maintaining clear and open communication with our clients, and maintaining the roadmap to sustainable growth for our firm.
+-   :doc:`/devops/DEVOPS` - Their goal is to ensure our software is delivered to customers as quickly, reliably and automatically as possible.
+-   :doc:`/developers/DEVELOPERS` - Their goal is to improve our code, solve problems for users, and demonstrate working software to our team every day.
+-   :doc:`/ux/UX` - Their goal is to help everyone, from users to product owners and developers, enjoy and benefit from interacting with our software.
+-   :doc:`/operations/OPERATIONS` - Their goal is maintaining clear and open communication with our clients, and maintaining the roadmap to sustainable growth for our firm.
 
 **Cross-Functional Teams**
 
@@ -127,14 +128,12 @@ On some occasions other groups may organize for professional development or othe
 Training at Countable
 ---------------------
 
-We have official training materials
-`here <../developers/TRAINING.html>`__. Bill for your time
+We have official training materials here: :doc:`/developers/TRAINING`. Bill for your time
 doing any of these.
 
 **Books**
 
-If you buy a book for work, the company will reimburse you. `Suggested reading in References <../philosophy/REFERENCES.html>`__ that's influenced our culture and
-methods.
+If you buy a book for work, the company will reimburse you. `Suggested reading in References: :doc:`/philosophy/REFERENCES` that's influenced our culture and methods.
 
 **Monthly Guild Meetings**
 
@@ -145,7 +144,7 @@ and a design/ux guild meet.
 Performance Evaluation Policy
 -----------------------------
 
-See our dedicated `Performance Evaluation page <../developers/EVALUATION.html>`__
+See our dedicated :doc:`/developers/EVALUATION`
 
 Team Event Basics
 ------------------
