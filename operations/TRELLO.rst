@@ -30,7 +30,7 @@ of a set of **Cards** (tasks) arranged in **Columns**.
 Trello Cards
 ~~~~~~~~~~~~
 
-A card should contain a clear description of work to be done by one person required to support a given `User Story <../USER_STORIES.html>`__.
+A card should contain a clear description of work to be done by one person required to support a given User Story (See :doc:`/operations/USER_STORIES`).
 This may correspond to a single User Acceptance Test. 
 
 A card should typically be between 1 hour and 1 day of work. If it's longer, split it into 2 cards in that column.
@@ -85,7 +85,7 @@ Moving cards between columns
 
 A diagram shows how cards can move from conception to completion
 `here <https://drive.google.com/open?id=1VrniT1lRqVu9sJr0ZMK1aQLnFwEuFIQD>`__.
-As the diagram illustrates, each column corresponds to a specific within the adapted `SCRUM <../SCRUM.html>`__ framework.
+As the diagram illustrates, each column corresponds to a specific within the adapted :doc:`/operations/SCRUM` framework.
 
 Progress Awareness
 ~~~~~~~~~~~~~~~~~~
