@@ -8,7 +8,7 @@ How to Do Your Job
 
 **Purpose**
 
-Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our `Onboarding Guide <../ONBOARDING_GUIDE.html>`__ first!
+Describing the processes and norms of getting our jobs done at Countable. Make sure to check out our :doc:`/peopleops/ONBOARDING_GUIDE` first!
 
 **Scope**
 
@@ -232,7 +232,7 @@ Subcontractor's Guide
 
 Currently covers taxes, categorization as a subcontractor, and benefits of incorporating. 
 
-Also check out our template `Subcontractor Agreement <../SUBCONTRACTOR_AGREEMENT.html>`__.
+Also check out our template :doc:`SUBCONTRACTOR_AGREEMENT`
 
 Taxes
 -----
