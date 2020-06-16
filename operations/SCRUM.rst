@@ -1,5 +1,5 @@
-How We Use SCRUM
-================
+SCRUM
+=====
 
 **Purpose**
 
