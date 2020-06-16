@@ -1,5 +1,5 @@
-How to Contribute to This Manual
-================================
+META
+====
 
 Read the `RST Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
