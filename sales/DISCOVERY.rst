@@ -3,8 +3,7 @@ Project Discovery
 
 **Purpose**
 
-Our first job on a project is to create a clear shared vision to set the
-team up for rapid progress toward product-market fit.
+Our first job on a project is get everyone involved aligned on the project goal, and our discovery process is designed specifically to do that. This, and all our other processes are what we've found helps us deliver working technology to start delivering value as early as possible.
 
 **Scope**
 
@@ -17,32 +16,16 @@ Steps for onboarding a client:
 
 -  A contract must be signed with the client.
 -  In the contract appendix A, our services should be summarized, along
-   with any key opportunities we can help with.
--  The client's top business priorities should be summarized. Document
-   any bottlenecks preventing growth.
--  Create a project in Trello, a Slack Channel, and any necessary code
+   with any key opportunities or problems we can help with.
+-  Create a project in Trello, a Slack Channel, shared Google Drive folder, and any necessary code
    repositories.
 
-
-Sprint Meeting Schedule
-~~~~~~~~~~~~~~~~~~~~~~~
-
--  If there's over 40 hours per week, we should have a sprint meeting
-   every week.
--  If there's at least 20 hours per week, we should have a sprint
-   meeting every 2 weeks.
--  If there's at least 10 hours per week, we should have a sprint
-   meeting once per month.
 
 Lead Time
 ~~~~~~~~~
 
--  We normally want 1 week of lead time to deliver items up to 2 days of
-   effort. For larger items, we want a week lead time before starting,
-   and deadlines will be managed via agile process (no hard deadline for
-   specific scope, only identify launch dates and other notable dates
-   with desired stories to be filled by then, the team can then focus on
-   delivering the user stories as quickly and well as possible).
+-  The team's capacity must be checked, and then a start date and project
+   delivery timeline can be determined.
 
 Minimum Billable Amount
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -63,7 +46,7 @@ Budget Changes During the Project
 -  If the client finds the billed amount unreasonable or something you
    didn't ask for, it's free! In practice, this rarely happens and we
    also often finish early which balances out. If it happens a lot and
-   can't be solved by communication, the client is a bad fit forus, and
+   can't be solved by communication, the client is a bad fit for us, and
    we shouldn't be working with them. Inability to communicate on
    budgets is a useful way to identify a bad client relationship.
 
@@ -109,6 +92,16 @@ Next Steps:
 -  What project planning materials will be used, by whom, and by when, in order to accelerate the project?
    Include a UXD / user resarch plan, draft of User Epics, and critical path document
    (phased deliverables, including prototype phase), stakeholder map.
+
+Sprint Meeting Schedule
+~~~~~~~~~~~~~~~~~~~~~~~
+
+-  If there's over 40 hours per week, we should have a sprint meeting
+   every week.
+-  If there's at least 20 hours per week, we should have a sprint
+   meeting every 2 weeks.
+-  If there's at least 10 hours per week, we should have a sprint
+   meeting once per month.
 
 User Experience Design (UX) Planning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
