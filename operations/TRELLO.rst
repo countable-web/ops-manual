@@ -21,11 +21,21 @@ We use Trello because:
 This page describes the basics of Trello, then goes more into 
 depth on how we use it at Countable.
 
+Guidelines for Our Team's Use of Trello
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Before progressing to the basics and layout of Trello, we'll outline the key guidelines which help maintain a productive workflow in our team's specific Trello methodology.
+
+1. "Own" your cards. **If you're assigned to it, you should post updates when there are changes, blockers, or reconfiguration**. If others' tasks rely on yours, directly "@" comment them as neeeded.
+2. **If it's in a Sprint, it needs to be assigned to one primary team member for accountability**.
+Without anyone assigned, cards get lost. If a card is complex enough that it needs multiple team members accountable, decompose it into multiple smaller tasks and assign each.
+3. Be pragmatic, not aspirational. **The Sprint column should only contain tasks we expect to finish within that Sprint.**
+4. **Communicate with your team, and include screenshots and clarifying details.** Oftentimes we create a card mid-conversation and fail to translate the context in which it arose. 
+
 Trello Basics
 ~~~~~~~~~~~~~
 
-We use Trello for project management, as it's simple to set up access to the appropriate boards by partners and clients. A Trello board consists
-of a set of **Cards** (tasks) arranged in **Columns**.
+We use Trello for project management, as it's simple to set up access to the appropriate boards by partners and clients. A Trello board consists of a set of **Cards** (tasks) arranged in **Columns**.
 
 Trello Cards
 ~~~~~~~~~~~~
@@ -112,7 +122,7 @@ We typically have one board per codebase with a client, and one per internal pro
 
 The board background color indicates the following:
 
--  Green - nonprofit client (private)
+-  Green - nonprofit or government client (private)
 -  Orange - corporate client (private)
 -  Red - internal operations (private)
 -  Purple - open source project, or other public board (public)
