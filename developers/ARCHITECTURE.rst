@@ -127,13 +127,13 @@ class UserViewSet(viewsets.ModelViewSet):
 
 API calls should make one query to the database ideally, or at most a constant number of queries. Never "N" queries. Be careful to ensure you're not doing an additonal query for each record. https://drive.google.com/file/d/163h6MyqSLvaOhZ8geeDfkKmvp4lX5Zq1/view
 
-ie, if your DRF Serializer has a User inlined, like `{user: {id: 1, first_name: "Darth"}, hours: 1}`
+ie, if your DRF Serializer has a User inlined, like `{user: {id: 1, first_name: "Darth"}, hours: 1}` be sure to use `select_related` or `prefetch_related`
 ```
 #GOOD:
-return Time_entry.objects.filter(user=user.id).select_related('user')
+queryset = TimeEntry.objects.filter(user=user.id).select_related('user')
 
 #BAD:
-return Time_entry.objects.filter(user=user.id)
+queryset = TimeEntry.objects.filter(user=user.id)
 ```
 
 API Views and other server side views should take care to return the
