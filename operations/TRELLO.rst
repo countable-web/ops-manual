@@ -26,14 +26,14 @@ Guidelines for Our Team's Use of Trello
 
 Before progressing to the basics and layout of Trello, we'll outline the key guidelines which help maintain a productive workflow in our team's specific Trello methodology.
 
-1. "Own" your cards. **If you're assigned to it, you should post updates when there are changes, blockers, or reconfiguration**. If others' tasks rely on yours, directly "@" comment them as needed.
+   1. "Own" your cards. **If you're assigned to it, you should post updates when there are changes, blockers, or reconfiguration**. If others' tasks rely on yours, directly "@" comment them as needed.
 
-2. **If it's in a Sprint, it needs to be assigned to one primary team member for accountability**.
+   2. **If it's in a Sprint, it needs to be assigned to one primary team member for accountability**.
 Without anyone assigned, cards get lost. If a card is complex enough that it needs multiple team members accountable, decompose it into multiple smaller tasks and assign each.
 
-3. Be pragmatic, not aspirational. **The Sprint column should only contain tasks we expect to finish within that Sprint.**
+   3. Be pragmatic, not aspirational. **The Sprint column should only contain tasks we expect to finish within that Sprint.**
 
-4. **Communicate with your team, and include screenshots and clarifying details.** Many cards are created during discussions or collaboration, and we want to capture the valuable information from that moment in the card.
+   4. **Communicate with your team, and include screenshots and clarifying details.** Many cards are created during discussions or collaboration, and we want to capture the valuable information from that moment in the card.
 
 Trello Basics
 ~~~~~~~~~~~~~
