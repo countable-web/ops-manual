@@ -114,6 +114,17 @@ Implementation Level Stuff
 API Views and HTTP
 ~~~~~~~~~~~~~~~~~~
 
+APIs should be designed as CRUD(L) (Create, Read, Update, Delete, List) by default using Django Rest Framework (DRF) ModelViewSets and serializers. Then, custom APIs that don't fit into CRUD can be added as custom actions.
+
+```
+class UserViewSet(viewsets.ModelViewSet):
+    """
+    A viewset for viewing and editing user instances.
+    """
+    serializer_class = UserSerializer
+    queryset = User.objects.all()
+```
+
 API calls should make one query to the database ideally, or at most a constant number of queries. Never "N" queries. Be careful to ensure you're not doing an additonal query for each record. https://drive.google.com/file/d/163h6MyqSLvaOhZ8geeDfkKmvp4lX5Zq1/view
 
 ie, if your DRF Serializer has a User inlined, like `{user: {id: 1, first_name: "Darth"}, hours: 1}`
