@@ -39,7 +39,7 @@ there's no process for working with them currently but they are typically hired 
 
 Everything that follows is for Staff Contractors, not outside consultants.
 
-Find our base `job postings here <../JOB_POSTINGS.html>`__.
+Use these :doc:`JOB_POSTINGS`.
 
 Recruiting Process
 ------------------
@@ -47,7 +47,7 @@ Recruiting Process
 Finding the best people is one of the top challenges in our industry, so we need every advantage we can find in this way. Our strategy:
 
 -  Having our process act as a "funnel" for the right applicants.
--  Encouraging a high volume of applicants (wide funnel mounth)
+-  TODO: Develop an applicant guide for people applying to Countable. :doc:`APPLICANT_GUIDE`
 -  Being clear about our high expectations, compensation range, technology used, culture, and that we're remote in the posting. This will help prevent anyone who doesn't like the above from applying.
 -  Having a specific instruction in the application for cover letter formatting to filter mass applications out.
 -  Having a friendly letter to acknowledge the people who made it part way into the process. It's great to feel empathy for candidates, and we want to help them with their future applications. This is important because 99% or more candidates won't be accepted, and it reduces pressure on staff to make exceptions to our process.
