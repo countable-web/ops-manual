@@ -77,7 +77,7 @@ Your application must include a resume, and a cover letter. To avoid
 automated submissions, and to see if you pay attention to detail and
 follow instructions, your cover letter must have exactly 100 words
 explaining your back story, and exactly 100 words about your first
-impression of Countable, and a question about us. I hope you're
+impression of Countable, and a question about us. Further instructions can be found at: https://countable-ops-manual.readthedocs.io/peopleops/recruiting/APPLICANT_GUIDE.html . I hope you're
 interested in being part of our mission (see documentation link above).
 If you help achieve it, there are stock and cash bonuses available.
 
