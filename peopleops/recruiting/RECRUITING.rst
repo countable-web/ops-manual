@@ -89,14 +89,14 @@ Due to the volume of resumes in initial screenings, we need a quick,
 quanitiative way to screen them. This is far from perfect, but early
 screening is optimized to `avoid "type 2 errors" not "type 1
 errors" <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
-This isn't ideal but it's the way things are at the moment.
+Awarding half points is fine. Use your best judgement.
 
--  1 point for communication ability. No point awarded if candidates who miss the cover letter formatting requirement.
--  1 point for for writing ability. Reject if you see poor English, grammar errors, spelling mistakes in the cover letter.
--  1 point for having 2 or more years of technical experience in all requested domains/technologies. Or, 1 year and a computer science degree (not IT diploma).
--  1 point for a well designed/formatted resume.
--  1 point for portfolio links. Candidate should have at least one link to good quality content they built, which looks professional. Great if this is on a platform like Dribbble or Behance. A github.com profile with some projects counts as well.
--  1 point for the person having been vetted by a reputable 3rd party. Examples that provide some objective measurement could include increasing company revenue or another metric at their previous job, an open source project or contributions (GitHub stars), a well-developed professional profile that's been curated with care such as Dribbble, going to a top school and receiving academic honours, having worked somewhere with a stringent screening like Google. Other accomplishments you can identify count to but these may be more difficult to measure quickly.
+-  1 point for communication. No point awarded if candidates who miss the cover letter formatting requirement, or make other basic mistakes that waste time.
+-  1 point for for writing ability. Reject if you see poor English, grammar errors, spelling mistakes in the cover letter, or have trouble understanding the person.
+-  1 point for having 2 or more years of technical experience in all requested domains/technologies. Or, 1 year and a relevant bachelor's degree or higher.
+-  1 point for a well designed/formatted resume that is easy to read and highlights relevant information.
+-  1 point for portfolio links. Candidate should have at least one link to good quality content they built, which looks professional, intuitive and has a good user experience. This can be on a platform like Dribbble, Behance, GitHub.
+-  1 point for the person having been vetted by a reputable 3rd party. Examples that provide some objective measurement could include increasing company revenue or another metric at their previous job, trusted referral, an open source project or contributions (GitHub stars), a well-developed professional profile that's been curated with care such as Dribbble, going to a top school and receiving academic honours, having worked somewhere with a stringent screening like Google. Other accomplishments you can identify count to but these may be more difficult to measure quickly.
 
 Candidates with less than 4 points are rejected outright. Those with 4
 points other than "communication ability" can be offered a chance to
@@ -316,6 +316,9 @@ Onboarding
    -  Bitbucket
    -  Google Drive folder
 
+Referrals
+~~~~~~~~~
+For anyone who gives us a referral, ask "would you vouch that this person is a good fit and good performer?". We need to make sure referrals are given on this basis, and not just trying to help a friend get a job. When making a referral, the referrer must consider it a great fit for both sides.
 
 References
 ----------
