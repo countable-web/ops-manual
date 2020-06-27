@@ -7,7 +7,7 @@ APPLICANT GUIDE
 
 Help people judge if they are a good fit, and apply to join our team.
 
-** Scope **
+**Scope**
 
 Indicate who we are, what it's like to work here, and what we've learned about who we expect to be a good fit.
 
