@@ -16,7 +16,6 @@ Welcome!
 
 This is a guide for people applying to Countable. We'll expand it in the future (with your feedback I hope). For now, we suggest:
 
-  - Have a peek around the rest of this manual to see how we operate.
   - Read about who we think is a good :doc:`HIRING_FIT`
   - Check out countable.ca (and cortico.ca) to see a bit about our work.
   - See our team page. https://countable.ca/careers
