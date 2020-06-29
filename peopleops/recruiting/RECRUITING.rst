@@ -47,7 +47,6 @@ Recruiting Process
 Finding the best people is one of the top challenges in our industry, so we need every advantage we can find in this way. Our strategy:
 
 -  Having our process act as a "funnel" for the right applicants.
--  TODO: Develop an applicant guide for people applying to Countable. :doc:`APPLICANT_GUIDE`
 -  Being clear about our high expectations, compensation range, technology used, culture, and that we're remote in the posting. This will help prevent anyone who doesn't like the above from applying.
 -  Having a specific instruction in the application for cover letter formatting to filter mass applications out.
 -  Having a friendly letter to acknowledge the people who made it part way into the process. It's great to feel empathy for candidates, and we want to help them with their future applications. This is important because 99% or more candidates won't be accepted, and it reduces pressure on staff to make exceptions to our process.
@@ -128,7 +127,7 @@ We are marking their ability to create clarity, and to give and respond to "belo
 -  1 point if the candidate answers questions clearly and understands
    what's been asked.
 
-We need at least 5 points to continue to the next round.
+We need at least 4 points to continue to the next round.
 
 Technical Test
 --------------
