@@ -233,6 +233,20 @@ everyone time if you're honest about your abilities.
 
 Design a rest api for an (TBD) app.
 
+Marketer
+--------
+
+``cta``
+Let's chat if you're interested in doing channel experiments, campaign management and funnel optimization!
+
+``responsibilities and skills``
+
+ - Channel experiments. Determine what marketing channels are effective for our product and our clients' services.
+ - PPC campaign management.
+ - Early sales process (respond to inbound leads)
+ - Funnel optimization.
+ - Other cross-functional work production development work. We're a small team so 50% of your work will likely be outside the core marketing skillset!
+
 Admin Posting
 -------------
 
