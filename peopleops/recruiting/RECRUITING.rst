@@ -56,24 +56,18 @@ Finding the best people is one of the top challenges in our industry, so we need
 
 Another goal is to always try to screen people earlier. The first stages of the screening process are cheaper, so we want to avoid letting anyone into phase 2 if we can somehow tell they'll be rejected there in phase 1, etc. In a perfect "oracle" screening process, our first stage would advance the exact people that will mostly quickly achieve our mission while adhering to our values, and we'd just hire those immediately.
 
-Non-acceptance Letter
----------------------
+First response
+--------------
 
 *If* if the candidate didn't correctly format their cover letter,
 there's no need to respond as it's likely a mass/automated application.
 
-Otherwise, respond as follows (subject:
-``We've Decided On Other Candidates``) :
+Otherwise, when you receive an application:
 
 ::
 
-   Hello, and thanks again for your application.
-   We want to notify you that we won't be moving you to the next step in our selection process.
-   We have an extremely selective process and less than 1% of candidates are selected so you've
-   done well to make it to this point. We wish you great luck in future job applications.
+   Thanks for applying. We will be in touch if you're short-listed for an interview!
 
-*if* the Candidate has made it to the *Technical Test* stage, the lead
-of the team they're applying for should also write a personal note with explanation of scoring, how to do better next time, and if they have a 80% or better score that we will consider them for future positions.
 
 Initial Screening
 -----------------
@@ -102,18 +96,24 @@ points other than "communication ability" can be offered a chance to
 re-read the application and format it correctly, answering the hidden
 question. This is required for them to advance.
 
-Reaching Out
-------------
+Pre-interview screening
+-----------------------
+
+Send a form with key questions that can be answered offline to save time during the interview.
+
+Interview
+---------
 
 Ask the Candidate to meet you on whereby.com, and to schedule the time
 with you. Chat with the candidate and rate their communication ability.
 We are marking their ability to create clarity, and to give and respond to "belonging cues".
 
--  1 point if the candidate manages to meet you (the interviewer) without exchanging more than 3 messages on each side. They should identify times that work, and you should pick one without any other needless communication. Did they schedule the chat efficiently on whereby.com
+The candidate must manages to meet you (the interviewer) without exchanging more than 3 messages on each side. If they don't know how to write an email with all the information necessary to proceed, they will waste our team's time, and unfortunately should not be interviewed.
+
 -  For the first part of the interview, use video. 1 point if the user
    maintains eye contact at least 50% of the time, AND you feel they're
    constructively working to see if there's a fit.
--  For the second part, use instant messaging with cameras off. The
+-  DEPRECATED: For the second part, use instant messaging with cameras off. The
    candidate should They respond quickly in IM, not making you wait.
    More than 10s for a response is too long (if it's happening
    frequently). This is worth 1 point.
@@ -127,7 +127,19 @@ We are marking their ability to create clarity, and to give and respond to "belo
 -  1 point if the candidate answers questions clearly and understands
    what's been asked.
 
-We need at least 4 points to continue to the next round.
+If the pre-interview screening is completed with an 100% score, the candidate will
+receive a video interview with the leader of the team they're applying
+for, and with the director of our company. The selection critieria at
+this point are for very promising candidates, and are specfic to each
+team. The guideline for advancement:
+
+-  Interview questions are not open-sourced here, because it was give
+   too much advantage to the people who happen to see this page.
+-  If in doubt, reject the candidate. Hiring the wrong person results in
+   a `type 2 error <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
+-  Consider that "before you make an offer to someone, think about
+   whether you’d like to have 10 times as many people like them in your
+   company."
 
 Technical Test
 --------------
@@ -144,22 +156,21 @@ effectively. If any of these criteria are missed, reject the candidate.
    time with unnecessary or unclear communication, they will be
    rejected.
 
-Interview
----------
+Non-acceptance Letter
+---------------------
 
-If the technical test is completed with a 90% score, the candidate will
-receive a video interview with the leader of the team they're applying
-for, and with the director of our company. The selection critieria at
-this point are for very promising candidates, and are specfic to each
-team. The guideline for advancement:
+If someone is interviewed but not accepted, respond as follows (subject:
+``We've Decided On Other Candidates``) :
 
--  Interview questions are not open-sourced here, because it was give
-   too much advantage to the people who happen to see this page.
--  If in doubt, reject the candidate. Hiring the wrong person results in
-   a `type 2 error <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
--  Consider that "before you make an offer to someone, think about
-   whether you’d like to have 10 times as many people like them in your
-   company."
+::
+
+   Hello, and thanks again for your application.
+   We want to notify you that we won't be moving you to the next step in our selection process.
+   We have an extremely selective process and less than 1% of candidates are selected so you've
+   done well to make it to this point. We wish you great luck in future job applications.
+
+*if* the Candidate has made it to the *Technical Test* stage, the lead
+of the team they're applying for should also write a personal note with explanation of scoring, how to do better next time, and if they have a 80% or better score that we will consider them for future positions.
 
 Internship
 ----------
