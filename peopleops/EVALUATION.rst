@@ -1,5 +1,5 @@
-Performance Evaluation Policy
-=============================
+Evaluation
+==========
 
 .. toctree::
    :maxdepth: 2
@@ -8,7 +8,7 @@ Performance Evaluation Policy
 
 **Purpose**
 
-To outline a clear, fair, and replicable process for performance evaluation.
+To outline a clear, fair, and replicable process for performance evaluation at Countable.
 
 **Scope**
 
@@ -42,9 +42,10 @@ Technical Tracks
 -  UX / Design
 -  Operations
 
-Choose one of the above technical tracks that most closely matches your
-work and intended career direction. It won't be an exact match. You
-should also indicate detail on your exact technical track.
+The track your performance evaluation is based on is the one most closely corresponding to your
+main job responsibilities. You are free to be a part of of other guilds, of course, but you
+will only be self-evaluating based on tasks from your main track.
+
 
 Job Levels
 ~~~~~~~~~~
@@ -61,8 +62,7 @@ style and technical needs.
    reviews, XD links, shared videos, stage sites). To prove you are
    doing this you must ask questions.
 -  Ask for help with (or more generally, be highly engaged with and discuss) your :doc:`/operations/OKRS`
--  **You regularly use this operations manual, ask questions about things that are hard to understand or you disagree with, and suggest improvements for clarity.** JC: use this as a model for how to phrase the rest of these items more clearly/implementable
-CP: quantifying these items more in general, e.g. "regularly review" becomes "1 hour code review per week"
+-  **You regularly use this operations manual, ask questions about things that are hard to understand or you disagree with, and suggest improvements for clarity.**
 -  Try to solve problems yourself (10 to 30 minutes). If no clear solution was found, ask specific questions while providing details obtained from the initial investigation. Clarify and state your assumptions when you ask for help.
 -  Make consistent small improvements to the systems around you (fix spelling or clarity of README files, small refactors such as renaming a variable for clarity, make a small design or usability improvement).
 -  Show gratitude to your team (for example, mention them in the #thanks channel).
