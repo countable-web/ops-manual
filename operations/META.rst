@@ -49,3 +49,12 @@ Documenting processes allows your team to improve together at their work. You ca
   * Test the documented processes with other people. They should tell you if it's clear, actionable and effective, and how to improve it.
 
 
+Inspiration
+~~~~~~~~~~~
+
+Here are some more resources to look to for RST/Sphinx, and documentation approaches in general:
+
+* `Write the Docs Beginners Guide <https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/>`_
+* `Readme Driven Development <https://tom.preston-werner.com/2010/08/23/readme-driven-development.html>`_
+* `Getting Started with Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
+* `Sphinx Extensibility <https://www.sphinx-doc.org/en/master/usage/extensions/index.html>`_
