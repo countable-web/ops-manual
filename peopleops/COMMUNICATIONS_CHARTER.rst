@@ -179,7 +179,9 @@ people direct message or mention you, and only during your work hours.
    find it useful, please give a thumbs up or whatever emoticon. 
    It helps the people who post in public channels the most 
    to know who's read things and what to post.
-   
+
+-  For group action items, use email instead, and set a deadline.
+
 -  The perfect example of what to use Slack for is: 
 
    (1) When you're blocked by something, make noise to the team channel. 
