@@ -55,7 +55,9 @@ Clarity of Purpose at Meetings
 Record of Meetings
 ------------------
 
--  Meetings should have an "output" recorded. For Scrum, this can simply
+-  Someone should 'chair' the meeting. This is the "Scrum Master" if it's a Sprint meeting.
+-  Someone shold be the 'scribe'. They record any important details, particularly action-items or key information the team needs (the "output").
+-  Meetings should have an "output" written. For Scrum, this can simply
    be updated Trello board and KR scores. Other meetings should have a
    stream of minutes in a Google Doc that is continually added-to (most
    recent first). Here's a `template <https://docs.google.com/document/d/13iyjpQAuxwlEYiW85tJbufXrC-CAw-0AAdzO9FzHSio/edit?folder=1EJtwoxGXasYlv3UbRuzxKVNfgArFSJMn#>`_.
@@ -71,8 +73,8 @@ Record of Meetings
    (add bullets here)
 
 -  Minutes are just the "headlines". What's the important point? Action
-   items can be noted, but should be should be transcribed into Trello.
--  Send a follow-up email with the minutes too, if it includes any
+   items can be noted, but should be should be transcribed into Trello. Don't overdo this.
+-  Send a follow-up email with these minutes if it includes any
    external stakeholders.
 -  3W rule: Meeting follow-up actions must contain the three Ws: WHO
    does WHAT by WHEN
