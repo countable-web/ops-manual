@@ -72,8 +72,8 @@ Record of Meetings
    Follow-ups (who does what by when):
    (add bullets here)
 
--  Minutes are just the "headlines". What's the important point? Action
-   items can be noted, but should be should be transcribed into Trello. Don't overdo this.
+-  Minutes are just the "headlines". What's the important point? Include decisions and key information. Action
+   items can be noted, but should be should be transcribed into Trello where possible.
 -  Send a follow-up email with these minutes if it includes any
    external stakeholders.
 -  3W rule: Meeting follow-up actions must contain the three Ws: WHO
