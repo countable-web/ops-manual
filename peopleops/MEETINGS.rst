@@ -55,8 +55,8 @@ Clarity of Purpose at Meetings
 Record of Meetings
 ------------------
 
--  Someone should 'chair' the meeting. This is the "Scrum Master" if it's a Sprint meeting.
--  Someone shold be the 'scribe'. They record any important details, particularly action-items or key information the team needs (the "output").
+-  Someone should 'chair' the meeting, which means they ensure we have a clear agenda and stick to it (loosely, allowing for useful organic tangents as long as they don't dominate). This is the "Scrum Master" if it's a Sprint meeting.
+-  Someone shold be the 'scribe'. They record any action-items and key information the team needs (the "output"), and make sure the minutes are sent to everyone present.
 -  Meetings should have an "output" written. For Scrum, this can simply
    be updated Trello board and KR scores. Other meetings should have a
    stream of minutes in a Google Doc that is continually added-to (most
