@@ -35,8 +35,7 @@ Here are the components to be tracked:
 2.  What do you score in the **general criteria** for your level? You can assign yourself 0, 0.5, or 1.
     (In order to progress to the next level, you must achieve at least 75% on these)
 3.  What do you score in the **guild-specific criteria** for your level? (You must achieve these fully to progress to the next level)
--  What is your **biggest opportunity for improvement** (getting to the next
-   level career wise), and **your top strength** that we should support?
+4.  What is your **biggest opportunity for improvement** (getting to the next level, career-wise), and **your top strength** that we should support?
 
 Provide this information to your manager for feedback, and they will
 share any adjustments and their perspective on your answers. 
