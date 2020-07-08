@@ -99,7 +99,8 @@ question. This is required for them to advance.
 Pre-interview screening
 -----------------------
 
-Send a form with key questions that can be answered offline to save time during the interview.
+Send a form with key questions that can be answered offline to save time during the interview. Share the resume with the team members
+this person would work with, if hired. Anyone can basically veto them, but must explain a good reason.
 
 Interview
 ---------
