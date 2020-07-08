@@ -76,6 +76,9 @@ Calendar Expectations
 Email Hygiene
 -------------
 
+Email is good for group announcements that require a follow-up. Indicate when you want a response by.
+Email is good for communicating with stakeholders that aren't active in other channels (prospects, external project stakeholders).
+
 -  We recommend you disable email notifications on your phone. It's a
    non-urgent channel and we don't want to be distracted by it.
 -  Email good for announcements, but should link to something in Trello
@@ -133,7 +136,7 @@ Phone
 Trello
 ------
 
--  Trello is for tracking what we need to get done (reminders). 
+-  Trello is for tracking what we need to get done (actionable tasks and reminders). 
 We use variants of Scrum, details here: :doc:`/operations/TRELLO`
 
 Office Hours and Presence
@@ -164,7 +167,8 @@ people direct message or mention you, and only during your work hours.
    recipient's work hours, so they should check it twice a day. When
    people are in "focus mode", they shouldn't have slack open as it's a
    distraction.
-   
+-  Slack is NOT good for assigning a tasks, especially to the whole group. It's
+   better to ask a question of someone for example, than make sure tasks (>2m) are captured in Trello.
 -  If the message could be useful to more than one person, post it in
    the most relevant public or project channel.
    
