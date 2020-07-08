@@ -76,7 +76,7 @@ Calendar Expectations
 Email Hygiene
 -------------
 
-Email is good for group announcements that require a follow-up. Indicate when you want a response by.
+Email is good for company-wide announcements that require a follow-up. Indicate when you want a response by.
 Email is good for communicating with stakeholders that aren't active in other channels (prospects, external project stakeholders).
 
 -  We recommend you disable email notifications on your phone. It's a
@@ -154,6 +154,8 @@ See :doc:`/peopleops/MEETINGS`
 Slack Hygiene
 ~~~~~~~~~~~~~
 
+Slack is for asynchronous, non-critical, informal coordination and updates.
+
 Use the following notification setting. You should only be notified when
 people direct message or mention you, and only during your work hours.
 |Slack Notification Setting|
@@ -167,8 +169,8 @@ people direct message or mention you, and only during your work hours.
    recipient's work hours, so they should check it twice a day. When
    people are in "focus mode", they shouldn't have slack open as it's a
    distraction.
--  Slack is NOT good for assigning a tasks, especially to the whole group. It's
-   better to ask a question of someone for example, than make sure tasks (>2m) are captured in Trello.
+-  Slack is ok for reminders about tasks, but isn't meant for assigning
+   something critical, especially to the whole company. Use Trello + email for that.
 -  If the message could be useful to more than one person, post it in
    the most relevant public or project channel.
    
