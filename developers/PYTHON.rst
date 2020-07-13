@@ -37,6 +37,49 @@ Order imports as follows
 
    # local
    import mymodule
+   
+Exception Handling
+~~~~~~~~~~~~~~~~~~
+
+Best practices for handling errors/ unexpected cases
+
+::
+
+   # bad - lost information about the error
+   try:
+      1/0
+   except:
+      print("I don't know what happened")
+   
+   # preferred - capture specific exception class
+   try:
+      1/0
+   except ZeroDivisionError:
+      print("now I know the exception")
+   
+   # when error is unexpected/unknown, do a catch-all and do a traceback
+   try:
+      1/0
+   except Exception:
+      import traceback
+      print(traceback.format_exec())
+   
+   # bad - unnecessary lines in the try block
+   try:
+      a = 1
+      b = a-a
+      a/b
+   exception ZeroDivisionError:
+      print("One of these lines failed")
+      
+   # better - isolate which lines you expect to fail 
+   a = 1
+   b = a-a
+   try:
+      a/b
+   except ZeroDivisionError:
+      print("Now we know which line failed")
+   
 
 Line Length
 ~~~~~~~~~~~
