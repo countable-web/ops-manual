@@ -78,7 +78,7 @@ Views
 Guidelines
 ~~~~~~~~~~
 
-  - Use `help_text` in your models because it helps both devs and users in the `/admin` . ie) `   color = models.CharField(help_text="Your primary brand color as a hex code, ie) #FF0000")
+  - Use `help_text` in your models because it helps both devs and users in the ``/admin`` . ie) ``   color = models.CharField(help_text="Your primary brand color as a hex code, ie) #FF0000")``
 
 
 Managing Environments
