@@ -7,7 +7,7 @@ To share **our goal**: to solve the core web technology problems by building pro
 
 **Scope**
 
-Gives an overview ...
+Gives an overview of the fields involved in Design QA, the rationale for its importance in product development, and challenges to overcome.
 
 Technology is there for the user
 --------------------------------
