@@ -65,6 +65,7 @@ Countable Web Productions Inc Operations Manual
    ux/UX
    ux/UX_GUIDELINES
    ux/UX_DESIGN
+   ux/DESIGN_QA
    ux/USABILITY_TESTING
 
 .. toctree::
