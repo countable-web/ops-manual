@@ -22,7 +22,9 @@ To achieve the goal, in addition to our work, we have to make sure that the desi
 Why is it important that design work is coded to closely if not perfectly match the actual designs?
 ---------------------------------------------------------------------------------------------------
 
-TODO - obtain original versions of pics from Valentina (can't save from Docs)
+|Design QA|
+
+.. |Design QA| image:: design_QA1.png
 
 Neuroscience, psychology and consistency in design
 --------------------------------------------------
@@ -40,7 +42,9 @@ Design debt
 
 In short, design debt is all the good design concepts or solutions that are skipped in order to reach short-term goals. It’s all the corners we cut during or after the design stage.
 
-TODO - grab 2nd pic from Valentina for here
+|Design QA 2|
+
+.. |Design QA 2| image:: design_QA2.png
 
 Challenges within Design QA
 ---------------------------
