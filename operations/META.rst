@@ -19,6 +19,14 @@ External links:
 .. code-block:: rest
 
    `Anchor Text <https://example.com>`_
+   
+Embedding images:
+
+.. code-block:: rst
+
+   |Alt Text of Choice|
+
+   .. |Alt Text of Choice| image:: imagename.png
 
 Header Formatting Tips
 ~~~~~~~~~~~~~~~~~~~~~~
