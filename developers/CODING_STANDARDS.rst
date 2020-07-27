@@ -117,4 +117,4 @@ Consistency and quality can be further improved by proactively managing technica
 Coding Standards for Specific Languages
 ---------------------------------------
 
-Check out the individual pages for `HTML CSS <../HTML_CSS.html>`__, `Javascript <../JAVASCRIPT.html>`__, and `Python <../PYTHON.html>`__ for more specific coding standards.
+Check out the individual pages for `HTML CSS <HTML_CSS.html>`__, `Javascript <JAVASCRIPT.html>`__, and `Python <PYTHON.html>`__ for more specific coding standards.
