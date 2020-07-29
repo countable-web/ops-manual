@@ -1,5 +1,5 @@
-UX Resources
-============
+UX
+==
 
 .. toctree::
    :maxdepth: 2
@@ -19,7 +19,7 @@ Marketing
 
 Defines how we communicate with potential clients. It screens for
 clients with similar values, with whom we'd like to collaborate on
-exciting projects. To anchor this, revisit our `Value Prop for Clients <../sales/SALES.html#value-prop>`__
+exciting projects. To anchor this, revisit our `Value Prop for Clients <https://countable-ops-manual.readthedocs.io/sales/SALES.html#value-prop>`__
 
 Branding Projects
 -----------------

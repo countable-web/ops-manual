@@ -1,5 +1,5 @@
-Guidelines for Meetings
-=======================
+Meetings
+========
 
 .. toctree::
    :maxdepth: 2
@@ -55,7 +55,9 @@ Clarity of Purpose at Meetings
 Record of Meetings
 ------------------
 
--  Meetings should have an "output" recorded. For Scrum, this can simply
+-  Someone should 'chair' the meeting, which means they ensure we have a clear agenda and stick to it (loosely, allowing for useful organic tangents as long as they don't dominate). This is the "Scrum Master" if it's a Sprint meeting.
+-  Someone shold be the 'scribe'. They record any action-items and key information the team needs (the "output"), and make sure the minutes are sent to everyone present.
+-  Meetings should have an "output" written. For Scrum, this can simply
    be updated Trello board and KR scores. Other meetings should have a
    stream of minutes in a Google Doc that is continually added-to (most
    recent first). Here's a `template <https://docs.google.com/document/d/13iyjpQAuxwlEYiW85tJbufXrC-CAw-0AAdzO9FzHSio/edit?folder=1EJtwoxGXasYlv3UbRuzxKVNfgArFSJMn#>`_.
@@ -70,9 +72,9 @@ Record of Meetings
    Follow-ups (who does what by when):
    (add bullets here)
 
--  Minutes are just the "headlines". What's the important point? Action
-   items can be noted, but should be should be transcribed into Trello.
--  Send a follow-up email with the minutes too, if it includes any
+-  Minutes are just the "headlines". What's the important point? Include decisions and key information. Action
+   items can be noted, but should be should be transcribed into Trello where possible.
+-  Send a follow-up email with these minutes if it includes any
    external stakeholders.
 -  3W rule: Meeting follow-up actions must contain the three Ws: WHO
    does WHAT by WHEN
@@ -96,8 +98,7 @@ All active projects should have a Sprint meeting every 1 to 4 weeks.
 
 -  Discuss how the current sprint will accomplish our "OKR" for the
    project.
--  See `Scrum <../operations/SCRUM.html>`__ for full
-   instructions
+-  See :doc:`/operations/SCRUM` for full instructions
 
 One-on-one Meetings
 ~~~~~~~~~~~~~~~~~~~

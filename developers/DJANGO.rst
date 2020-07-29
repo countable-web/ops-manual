@@ -48,18 +48,16 @@ Certain files in Django should only import from other certain types of files. Fo
 Models
 ~~~~~~
 
-Keep models *normalized*: no duplicate data or extra foreign keys.
-
-Schema changes should be heavily reviewed by a senior dev, as any bad designs here will cascade to other layers.
+  - Keep models *normalized*: no duplicate data or extra foreign keys.
+  - Schema changes should be reviewed by a senior dev, as any bad designs here will cascade to other layers.
 
 Views
 ~~~~~
 
-We generally use function based views (FBV) instead of class based views (CBV) at Countable. 
-
-When using Django Rest Framework (DRF), this is an exception and we prefer CBV. Please do use DRF for substantial rest API work.
-
-Avoid unnecessary nesting.
+  - We generally use function based views (FBV) instead of class based views (CBV) at Countable. 
+  - When using Django Rest Framework (DRF), this is an exception and we prefer CBV. Please do use DRF for substantial rest API work.
+  - Keep views small. It's better to put logic in Models or other shared modules outside the views.
+  - Avoid unnecessary nesting.
 
 ::
 
@@ -76,10 +74,17 @@ Avoid unnecessary nesting.
            return Http400(...)
        return HttpResponse(...)
 
+
+Guidelines
+~~~~~~~~~~
+
+  - Use `help_text` in your models because it helps both devs and users in the ``/admin`` . ie) ``   color = models.CharField(help_text="Your primary brand color as a hex code, ie) #FF0000")``
+
+
 Managing Environments
 ~~~~~~~~~~~~~~~~~~~~~
 
--  Django should have SMTP creds, and should set the ADMINS to the back-end developer that maintains that project.
+-  Django should have SMTP creds, and should set the ADMINS to the back-end developer that maintains that project. Or, use sentry_sdk with sentry.countable.ca
 -  In prod and staging environments, set DEBUG=False, so the ADMINS get emails with any stack traces.
 
 .. |import flow| image:: ./django_import_flow.jpg

@@ -74,6 +74,8 @@ Use ID instead of class for selecting items in jQuery:
    // better
    $("#main-modal-next-button")
 
+This prevents surprising behaviour for people maintaining the code later -- changing a CSS class should not cause JavaScript behaviour to change, and changing an ID should not cause CSS styling to change.
+
 When manipulating the DOM, as in ``https://api.jquery.com/category/manipulation/``, prefer:
 
 -  ``.hide()``, ``.show()``, ``.addClass()``, ``.removeClass()``,

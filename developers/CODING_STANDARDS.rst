@@ -76,7 +76,7 @@ Comments
 No tabs
 -------
 
-We are a Python shop, and so observance of `pep 8 <https://www.python.org/dev/peps/pep-0008/>`__ leads us to use 4 spaces for indentation. 
+We are a Python shop, and so observance of `PEP 8 <https://www.python.org/dev/peps/pep-0008/>`__ leads us to use 4 spaces for indentation. 
 
 We carry this convention to other languages when possible, but some will use a different number of spaces. **We never use the tab character.**
 
@@ -117,4 +117,4 @@ Consistency and quality can be further improved by proactively managing technica
 Coding Standards for Specific Languages
 ---------------------------------------
 
-Check out the individual pages for `HTML CSS <../HTML_CSS.html>`__, `Javascript <../JAVASCRIPT.html>`__, and `Python <../PYTHON.html>`__ for more specific coding standards.
+Check out the individual pages for `HTML/CSS <HTML_CSS.html>`__, `Javascript <JAVASCRIPT.html>`__, and `Python <PYTHON.html>`__ for more specific coding standards.

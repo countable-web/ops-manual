@@ -1,5 +1,5 @@
-How We Make Decisions
-=====================
+Decision-Making
+===============
 
 .. toctree::
    :maxdepth: 2

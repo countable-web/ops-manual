@@ -17,16 +17,17 @@ Define what we'd like to offer our employees, compared with their other options.
 Notes on Our Hiring
 -------------------
 
--  Countable does not take into account, race and gender in hiring
+-  Countable does not take into account race and gender in hiring
    decisions or salary offers. Hiring should be done as if these
    attributes are not known at the time of offer.
--  We use `this <../JOB_POSTINGS.html>`__ job posting.
+-  We use this :doc:`JOB_POSTING`.
 -  We try to be always hiring, in order to snap up the right person if
    they come along at any time.
 
 Factors
 -------
 
+-  First of all, we value diversity, and that means not everyone will fit the description below. They are general guidlines of who will succeed with us, not strict requirements.
 -  You have a bias for action, and prefer experimentation and prototyping over planning.
 -  You're a good reader and writer of English, and enjoy writing.
 -  You're willing to push yourself and your team mates to reach the top of your field and make an impact.

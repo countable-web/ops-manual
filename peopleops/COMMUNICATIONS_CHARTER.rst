@@ -76,6 +76,9 @@ Calendar Expectations
 Email Hygiene
 -------------
 
+Email is good for company-wide announcements that require a follow-up. Indicate when you want a response by.
+Email is good for communicating with stakeholders that aren't active in other channels (prospects, external project stakeholders).
+
 -  We recommend you disable email notifications on your phone. It's a
    non-urgent channel and we don't want to be distracted by it.
 -  Email good for announcements, but should link to something in Trello
@@ -133,8 +136,8 @@ Phone
 Trello
 ------
 
--  Trello is for tracking what we need to get done (reminders). 
-We use variants of Scrum, details `here <../operations/TRELLO.html>`__.
+-  Trello is for tracking what we need to get done (actionable tasks and reminders). 
+We use variants of Scrum, details here: :doc:`/operations/TRELLO`
 
 Office Hours and Presence
 -------------------------
@@ -146,10 +149,12 @@ Office Hours and Presence
 Meetings
 ~~~~~~~~
 
-See `meetings <../peopleops/MEETINGS.html>`__
+See :doc:`/peopleops/MEETINGS`
 
 Slack Hygiene
 ~~~~~~~~~~~~~
+
+Slack is for asynchronous, non-critical, informal coordination and updates.
 
 Use the following notification setting. You should only be notified when
 people direct message or mention you, and only during your work hours.
@@ -164,7 +169,8 @@ people direct message or mention you, and only during your work hours.
    recipient's work hours, so they should check it twice a day. When
    people are in "focus mode", they shouldn't have slack open as it's a
    distraction.
-   
+-  Slack is ok for reminders about tasks, but isn't meant for assigning
+   something critical, especially to the whole company. Use Trello + email for that.
 -  If the message could be useful to more than one person, post it in
    the most relevant public or project channel.
    
@@ -179,7 +185,9 @@ people direct message or mention you, and only during your work hours.
    find it useful, please give a thumbs up or whatever emoticon. 
    It helps the people who post in public channels the most 
    to know who's read things and what to post.
-   
+
+-  For group action items, use email instead, and set a deadline.
+
 -  The perfect example of what to use Slack for is: 
 
    (1) When you're blocked by something, make noise to the team channel. 
@@ -208,7 +216,7 @@ improve. Some references on why this is:
 When To Give Feedback
 ---------------------
 
--  `Code reviews <../developers/GIT.html>`__. The benefits of
+-  Code reviews (following norms here: :doc:`/developers/GIT`) The benefits of
    Senior developers reviewing Junior developers' code is obvious I
    hope, but it's just as critical to provide feedback as a Jr
    dev because: 

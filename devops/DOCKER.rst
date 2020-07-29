@@ -1,15 +1,40 @@
 
+Docker
+======
+
+Docker Patterns
+---------------
+
+ - Move as much work as possible to earliest stage:
+1. Prep: create things to “ADD in image”. (may also be dockerized)
+2. `docker build` - everything in Dockerfile
+3. entrypoint script
+4. mount as volume
+5. during container runtime
+
+ - You can control whether Docker builds or downloads using both the `image:` and `build:` directives together in docker-compose.
+ - Run your own Docker registry if you need to reply on images being identical each run.
+ - Store services in docker-compose.yml and one-off tasks/jobs in another docker-compose.admin.yml file.
+
+Docker AntiPatterns
+-------------------
+
+ - Injecting env vars from host. Generally, settings on the host can be shared by accident. Not obvious to operator that it’s pulling info from host. Unless done for specific environment purpose, aka pass Jenkins env.
+ - Relying on DockerHub to never change images even when they have a 3 part semver. eg) Python:3.5.1
+ - Changing things at runtime, and losing track of changes.
+
+
 Docker Training
-===============
+---------------
 
 This explains the basics of using Docker, specifically written for
-Countable devs. If you want to know WHY we use docker, see `A Pure Docker Workflow <https://docs.google.com/document/d/1F_LvoR1R6_GEiwqBWviYVXLUuOnzSl-q5WcFspYqmUY/edit#heading=h.dgi1cb6nx4tu>`__
-and `The Allure Of Docker <https://docs.google.com/document/d/1aWJFw5DcBC0sj1x2UukruNSldfxMAJqO3fBqzx6ubDQ/edit>`__
+Countable devs. If you want to know WHY we use docker, see  `Docker Basics <https://countable-ops-manual.readthedocs.io/devops/DEVOPS.html#docker-basics>`_
+and `Why Docker? <https://countable-ops-manual.readthedocs.io/devops/WHY_DOCKER.html>`_
 
 Basic docker for new devs. It assumes you did `these exercises on Linux <https://countable-ops-manual.readthedocs.io/developers/TRAINING.html#linux>`__.
 
 Docker 101
-==========
+----------
 
 Docker is a command line interface (CLI), and also a Linux daemon for
 running containers from images. Let's define those two terms:

@@ -39,7 +39,7 @@ there's no process for working with them currently but they are typically hired 
 
 Everything that follows is for Staff Contractors, not outside consultants.
 
-Find our base `job postings here <../JOB_POSTINGS.html>`__.
+Use these :doc:`JOB_POSTINGS`.
 
 Recruiting Process
 ------------------
@@ -47,7 +47,6 @@ Recruiting Process
 Finding the best people is one of the top challenges in our industry, so we need every advantage we can find in this way. Our strategy:
 
 -  Having our process act as a "funnel" for the right applicants.
--  Encouraging a high volume of applicants (wide funnel mounth)
 -  Being clear about our high expectations, compensation range, technology used, culture, and that we're remote in the posting. This will help prevent anyone who doesn't like the above from applying.
 -  Having a specific instruction in the application for cover letter formatting to filter mass applications out.
 -  Having a friendly letter to acknowledge the people who made it part way into the process. It's great to feel empathy for candidates, and we want to help them with their future applications. This is important because 99% or more candidates won't be accepted, and it reduces pressure on staff to make exceptions to our process.
@@ -57,24 +56,18 @@ Finding the best people is one of the top challenges in our industry, so we need
 
 Another goal is to always try to screen people earlier. The first stages of the screening process are cheaper, so we want to avoid letting anyone into phase 2 if we can somehow tell they'll be rejected there in phase 1, etc. In a perfect "oracle" screening process, our first stage would advance the exact people that will mostly quickly achieve our mission while adhering to our values, and we'd just hire those immediately.
 
-Non-acceptance Letter
----------------------
+First response
+--------------
 
 *If* if the candidate didn't correctly format their cover letter,
 there's no need to respond as it's likely a mass/automated application.
 
-Otherwise, respond as follows (subject:
-``We've Decided On Other Candidates``) :
+Otherwise, when you receive an application:
 
 ::
 
-   Hello, and thanks again for your application.
-   We want to notify you that we won't be moving you to the next step in our selection process.
-   We have an extremely selective process and less than 1% of candidates are selected so you've
-   done well to make it to this point. We wish you great luck in future job applications.
+   Thanks for applying. We will be in touch if you're short-listed for an interview!
 
-*if* the Candidate has made it to the *Technical Test* stage, the lead
-of the team they're applying for should also write a personal note with explanation of scoring, how to do better next time, and if they have a 80% or better score that we will consider them for future positions.
 
 Initial Screening
 -----------------
@@ -89,32 +82,39 @@ Due to the volume of resumes in initial screenings, we need a quick,
 quanitiative way to screen them. This is far from perfect, but early
 screening is optimized to `avoid "type 2 errors" not "type 1
 errors" <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
-This isn't ideal but it's the way things are at the moment.
+Awarding half points is fine. Use your best judgement.
 
--  1 point for communication ability. No point awarded if candidates who miss the cover letter formatting requirement.
--  1 point for for writing ability. Reject if you see poor English, grammar errors, spelling mistakes in the cover letter.
--  1 point for having 2 or more years of technical experience in all requested domains/technologies. Or, 1 year and a computer science degree (not IT diploma).
--  1 point for a well designed/formatted resume.
--  1 point for portfolio links. Candidate should have at least one link to good quality content they built, which looks professional. Great if this is on a platform like Dribbble or Behance. A github.com profile with some projects counts as well.
--  1 point for the person having been vetted by a reputable 3rd party. Examples that provide some objective measurement could include increasing company revenue or another metric at their previous job, an open source project or contributions (GitHub stars), a well-developed professional profile that's been curated with care such as Dribbble, going to a top school and receiving academic honours, having worked somewhere with a stringent screening like Google. Other accomplishments you can identify count to but these may be more difficult to measure quickly.
+-  1 point for communication. No point awarded if candidates who miss the cover letter formatting requirement, or make other basic mistakes that waste time.
+-  1 point for for writing ability. Reject if you see poor English, grammar errors, spelling mistakes in the cover letter, or have trouble understanding the person.
+-  1 point for having 2 or more years of technical experience in all requested domains/technologies. Or, 1 year and a relevant bachelor's degree or higher.
+-  1 point for a well designed/formatted resume that is easy to read and highlights relevant information.
+-  1 point for portfolio links. Candidate should have at least one link to good quality content they built, which looks professional, intuitive and has a good user experience. This can be on a platform like Dribbble, Behance, GitHub.
+-  1 point for the person having been vetted by a reputable 3rd party. Examples that provide some objective measurement could include increasing company revenue or another metric at their previous job, trusted referral, an open source project or contributions (GitHub stars), a well-developed professional profile that's been curated with care such as Dribbble, going to a top school and receiving academic honours, having worked somewhere with a stringent screening like Google. Other accomplishments you can identify count to but these may be more difficult to measure quickly.
 
 Candidates with less than 4 points are rejected outright. Those with 4
 points other than "communication ability" can be offered a chance to
 re-read the application and format it correctly, answering the hidden
 question. This is required for them to advance.
 
-Reaching Out
-------------
+Pre-interview screening
+-----------------------
+
+Send a form with key questions that can be answered offline to save time during the interview. Share the resume with the team members
+this person would work with, if hired. Anyone can basically veto them, but must explain a good reason.
+
+Interview
+---------
 
 Ask the Candidate to meet you on whereby.com, and to schedule the time
 with you. Chat with the candidate and rate their communication ability.
 We are marking their ability to create clarity, and to give and respond to "belonging cues".
 
--  1 point if the candidate manages to meet you (the interviewer) without exchanging more than 3 messages on each side. They should identify times that work, and you should pick one without any other needless communication. Did they schedule the chat efficiently on whereby.com
+The candidate must manages to meet you (the interviewer) without exchanging more than 3 messages on each side. If they don't know how to write an email with all the information necessary to proceed, they will waste our team's time, and unfortunately should not be interviewed.
+
 -  For the first part of the interview, use video. 1 point if the user
    maintains eye contact at least 50% of the time, AND you feel they're
    constructively working to see if there's a fit.
--  For the second part, use instant messaging with cameras off. The
+-  DEPRECATED: For the second part, use instant messaging with cameras off. The
    candidate should They respond quickly in IM, not making you wait.
    More than 10s for a response is too long (if it's happening
    frequently). This is worth 1 point.
@@ -128,7 +128,19 @@ We are marking their ability to create clarity, and to give and respond to "belo
 -  1 point if the candidate answers questions clearly and understands
    what's been asked.
 
-We need at least 5 points to continue to the next round.
+If the pre-interview screening is completed with an 100% score, the candidate will
+receive a video interview with the leader of the team they're applying
+for, and with the director of our company. The selection critieria at
+this point are for very promising candidates, and are specfic to each
+team. The guideline for advancement:
+
+-  Interview questions are not open-sourced here, because it was give
+   too much advantage to the people who happen to see this page.
+-  If in doubt, reject the candidate. Hiring the wrong person results in
+   a `type 2 error <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
+-  Consider that "before you make an offer to someone, think about
+   whether you’d like to have 10 times as many people like them in your
+   company."
 
 Technical Test
 --------------
@@ -145,22 +157,21 @@ effectively. If any of these criteria are missed, reject the candidate.
    time with unnecessary or unclear communication, they will be
    rejected.
 
-Interview
----------
+Non-acceptance Letter
+---------------------
 
-If the technical test is completed with a 90% score, the candidate will
-receive a video interview with the leader of the team they're applying
-for, and with the director of our company. The selection critieria at
-this point are for very promising candidates, and are specfic to each
-team. The guideline for advancement:
+If someone is interviewed but not accepted, respond as follows (subject:
+``We've Decided On Other Candidates``) :
 
--  Interview questions are not open-sourced here, because it was give
-   too much advantage to the people who happen to see this page.
--  If in doubt, reject the candidate. Hiring the wrong person results in
-   a `type 2 error <https://en.wikipedia.org/wiki/Type_I_and_type_II_errors>`__.
--  Consider that "before you make an offer to someone, think about
-   whether you’d like to have 10 times as many people like them in your
-   company."
+::
+
+   Hello, and thanks again for your application.
+   We want to notify you that we won't be moving you to the next step in our selection process.
+   We have an extremely selective process and less than 1% of candidates are selected so you've
+   done well to make it to this point. We wish you great luck in future job applications.
+
+*if* the Candidate has made it to the *Technical Test* stage, the lead
+of the team they're applying for should also write a personal note with explanation of scoring, how to do better next time, and if they have a 80% or better score that we will consider them for future positions.
 
 Internship
 ----------
@@ -316,6 +327,9 @@ Onboarding
    -  Bitbucket
    -  Google Drive folder
 
+Referrals
+~~~~~~~~~
+For anyone who gives us a referral, ask "would you vouch that this person is a good fit and good performer?". We need to make sure referrals are given on this basis, and not just trying to help a friend get a job. When making a referral, the referrer must consider it a great fit for both sides.
 
 References
 ----------

@@ -27,13 +27,11 @@ support you along the way? If so, we may be the place for you.
 We are technology consultants and product creators who love to prototype
 and experiment on the web. Our roster of happy clients includes the
 Tesla of boats, a star-trak grade medical devices startup, global
-comicbook brand, and a next generation of cellular data provider. We
+comicbook brand, Province Government, and a next generation of cellular data provider. We
 help socially responsible, driven, and lucky companies across the globe
-get their piece of the internet, whatever form that may take. It
-involves creating amazing things in an environment of your own design.
-We want you to help us envision and shape the company. Every voice
-matters and we want to find ways to always improve, push each other to
-our potential, and be the best solution for our users. We're also
+leverage the internet by creating amazing things in an environment of your own design.
+On our team, every voice matters and we want to find ways to always improve, push each other to
+our potential to better serve the end-users of ours software. We're also
 ridiculously transparent from the ground up: we've open-sourced our
 company's operations manual here if you want to learn more about our
 current thinking.
@@ -44,19 +42,12 @@ current thinking.
 
 You should:
 
--  Have excellent written English skills.
--  Be an organized note-taker, we rely on writing things down to
-   communicate, learn and improve.
--  Want to be part of our mission to empower creators on the web.
--  As this is a remote job, have a suitable workspace available at home,
-   with fast internet suitable for working all day. If you don't, there
-   should be a local work co-op or other location you can work from
-   nearby.
--  Be a continuous, self-motivated learner, and take initiative to
-   improve the environment for yourself and your team members based on
-   monthly objectives.
--  Experiment with great focus, but know when to investigate a problem
-   deeper yourself, and when to ask your team for help.
+-  Have excellent and engaging written English skills, to help create clarity.
+-  Be able to work remotely (we do have an office in Vancouver though)
+-  Be a continuous, self-motivated learner, and always push to
+   improve the environment for yourself and your team members.
+-  Experiment and investigate a problem deeper yourself, but know when
+   to ask your team for help.
 -  Voice disagreements rather than keeping them to yourself. We need all
    opinions need to be on the table in order to make the best decision.
 -  *Clouds and Dirt* - Consider both the big picture and minute details,
@@ -65,21 +56,13 @@ You should:
 -  Be able to uncover, and focus on, what's really important in a
    complex environment with many distractions.
 
-`Here is a guide <https://countable-ops-manual.readthedocs.io/peopleops/recruiting/HIRING_FIT.html>`__ to determining if you're a good fit. If these things
-don't resonate with you, please don't apply. Our screening process will
-determine you're not a good fit so applying would be a waste of
-everyone's time.
-
 We are open to a variety of work arrangements and time commitments, let
 us know what you prefer.
 
 Your application must include a resume, and a cover letter. To avoid
 automated submissions, and to see if you pay attention to detail and
-follow instructions, your cover letter must have exactly 100 words
-explaining your back story, and exactly 100 words about your first
-impression of Countable, and a question about us. I hope you're
-interested in being part of our mission (see documentation link above).
-If you help achieve it, there are stock and cash bonuses available.
+follow instructions, your email must be exactly 100 words. Further instructions can be
+found at: https://countable-ops-manual.readthedocs.io/peopleops/recruiting/APPLICANT_GUIDE.html .
 
 I look forward to hearing from you!
 
@@ -232,6 +215,20 @@ everyone time if you're honest about your abilities.
 ``test``
 
 Design a rest api for an (TBD) app.
+
+Marketer
+--------
+
+``cta``
+Let's chat if you're interested in doing channel experiments, campaign management and funnel optimization!
+
+``responsibilities and skills``
+
+ - Channel experiments. Determine what marketing channels are effective for our product and our clients' services.
+ - PPC campaign management.
+ - Early sales process (respond to inbound leads)
+ - Funnel optimization.
+ - Other cross-functional work production development work. We're a small team so 50% of your work will likely be outside the core marketing skillset!
 
 Admin Posting
 -------------

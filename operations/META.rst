@@ -1,5 +1,5 @@
-How to Contribute to This Manual
-================================
+META
+====
 
 Read the `RST Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
@@ -19,6 +19,14 @@ External links:
 .. code-block:: rest
 
    `Anchor Text <https://example.com>`_
+   
+Embedding images:
+
+.. code-block:: rst
+
+   |Alt Text of Choice|
+
+   .. |Alt Text of Choice| image:: imagename.png
 
 Header Formatting Tips
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +46,23 @@ An Ops Manual page **MUST**:
 
 An Ops Manual page **SHOULD**:
   * Have a "Scope" section that identifies what area of work is being discussed, and any definitions to clarify what follows, because we want each process document to be focused on a specific area of work.
-  * Contain bulleted lists of process steps and rules. 
-  * Use clear language, with the keywords "MUST" and "SHOULD" where applicable because we want to be clear. e.g, "Developers MUST use Docker for apps with more than a single process, and SHOULD use Python on Node.js for web application back ends." "MUST" means the DRI should track and work towards compliance of the process. "SHOULD" means it's a recommendation to follow when reasonably convenient.
-  * Be concise and have as few rules as possible, becasue it's easier for employees to understand. State the rules declaratively, as a matter of fact, not opinion.
-  * Clearly state the logical purpose, evidence or citation that indicates how the rules help our mission because we want each rule to justify its existence. However, you SHOULD judge which rules are self-evident in order to stay concise.
+  * Contain bulleted lists of process steps, rules and guidelines.
+  * Be concise, becasue it's easier for employees to understand.
+  * Clearly state the logical purpose, evidence or citation that indicates how the rules help our mission because we want each rule to justify its existence. Use the word 'because' (explain why the step exists) as needed.
+
+Processes
+---------
+Documenting processes allows your team to improve together at their work. You can talk about how you do things, and how each person can do it better. It also sets you up for automation.
+  * Reach out to your team and make sure they know about, and buy into, the process. The best way is to get their help developing the process.
+  * Test the documented processes with other people. They should tell you if it's clear, actionable and effective, and how to improve it.
+
+
+Inspiration
+~~~~~~~~~~~
+
+Here are some more resources to look to for RST/Sphinx, and documentation approaches in general:
+
+* `Write the Docs Beginners Guide <https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/>`_
+* `Readme Driven Development <https://tom.preston-werner.com/2010/08/23/readme-driven-development.html>`_
+* `Getting Started with Sphinx <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
+* `Sphinx Extensibility <https://www.sphinx-doc.org/en/master/usage/extensions/index.html>`_

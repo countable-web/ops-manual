@@ -1,5 +1,5 @@
-How We Use Trello
-=================
+Trello
+======
 
 .. toctree::
    :maxdepth: 2
@@ -21,16 +21,29 @@ We use Trello because:
 This page describes the basics of Trello, then goes more into 
 depth on how we use it at Countable.
 
+Guidelines for Our Team's Use of Trello
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Before progressing to the basics and layout of Trello, we'll outline the key guidelines which help maintain a productive workflow in our team's specific Trello methodology.
+
+   1. "Own" your cards. **If you're assigned to it, you should post updates when there are changes, blockers, or reconfiguration**. If others' tasks rely on yours, directly "@" comment them as needed.
+
+   2. **If it's in a Sprint, it needs to be assigned to one primary team member for accountability**.
+Without anyone assigned, cards get lost. If a card is complex enough that it needs multiple team members accountable, decompose it into multiple smaller tasks and assign each.
+
+   3. Be pragmatic, not aspirational. **The Sprint column should only contain tasks we expect to finish within that Sprint.**
+
+   4. **Communicate with your team, and include screenshots and clarifying details.** Many cards are created during discussions or collaboration, and we want to capture the valuable information from that moment in the card.
+
 Trello Basics
 ~~~~~~~~~~~~~
 
-We use Trello for project management, as it's simple to set up access to the appropriate boards by partners and clients. A Trello board consists
-of a set of **Cards** (tasks) arranged in **Columns**.
+We use Trello for project management, as it's simple to set up access to the appropriate boards by partners and clients. A Trello board consists of a set of **Cards** (tasks) arranged in **Columns**.
 
 Trello Cards
 ~~~~~~~~~~~~
 
-A card should contain a clear description of work to be done by one person required to support a given `User Story <../USER_STORIES.html>`__.
+A card should contain a clear description of work to be done by one person required to support a given User Story (See :doc:`/operations/USER_STORIES`).
 This may correspond to a single User Acceptance Test. 
 
 A card should typically be between 1 hour and 1 day of work. If it's longer, split it into 2 cards in that column.
@@ -85,7 +98,7 @@ Moving cards between columns
 
 A diagram shows how cards can move from conception to completion
 `here <https://drive.google.com/open?id=1VrniT1lRqVu9sJr0ZMK1aQLnFwEuFIQD>`__.
-As the diagram illustrates, each column corresponds to a specific within the adapted `SCRUM <../SCRUM.html>`__ framework.
+As the diagram illustrates, each column corresponds to a specific within the adapted :doc:`/operations/SCRUM` framework.
 
 Progress Awareness
 ~~~~~~~~~~~~~~~~~~
@@ -112,7 +125,7 @@ We typically have one board per codebase with a client, and one per internal pro
 
 The board background color indicates the following:
 
--  Green - nonprofit client (private)
+-  Green - nonprofit or government client (private)
 -  Orange - corporate client (private)
 -  Red - internal operations (private)
 -  Purple - open source project, or other public board (public)
