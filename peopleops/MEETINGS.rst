@@ -8,7 +8,8 @@ Meetings
 
 **Purpose**
 
-Help everyone at Countable understand the different types of meetings we define internally.
+Help everyone at Countable understand the different types of meetings we hold, and how to
+get the most benefit out of the fewest meetings.
 
 **Scope**
 
@@ -17,13 +18,11 @@ Defines expectations for all meetings, then goes into details for specific types
 All Meetings
 ~~~~~~~~~~~~
 
-The meeting organiser (chair, or guild leader) is responsible for a)
-taking minutes in Google Docs and b) that follow-up actions (acc. to 3W
-rule) are noted in the minutes, and shared as Trello cards.
-
 Date and Time of Meetings
 -------------------------
-
+-  Meetings should, where possible, be booked during business hours, because
+   we want to encourage work-life balance on the team (and any formal expectation to regularly
+   meet outside business hours is damaging to that)
 -  Our calendar is the source of truth regarding meeting times,
    attendees and cancellation status. All updates to meeting times go
    directly in the calendar.
@@ -55,7 +54,7 @@ Clarity of Purpose at Meetings
 Record of Meetings
 ------------------
 
--  Someone should 'chair' the meeting, which means they ensure we have a clear agenda and stick to it (loosely, allowing for useful organic tangents as long as they don't dominate). This is the "Scrum Master" if it's a Sprint meeting.
+-  Someone should 'chair' the meeting, which means they ensure we have a clear agenda and purpose (loosely, allowing for useful organic tangents as long as they don't dominate). This is the "Scrum Master" if it's a Sprint meeting.
 -  Someone shold be the 'scribe'. They record any action-items and key information the team needs (the "output"), and make sure the minutes are sent to everyone present.
 -  Meetings should have an "output" written. For Scrum, this can simply
    be updated Trello board and KR scores. Other meetings should have a
