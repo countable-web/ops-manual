@@ -55,6 +55,12 @@ effort, just time to leave open)
 6. SUBMIT - (1 day)
 7. LEARN - update this document
 
+In the Opportunities (SCORE) spreadsheet, we allot Pipeline % in the following manner:
+
+- When we've decided to apply for an opportunity, set it at 20%
+- When the application is clearly moving forward/we're a frontrunner, set it at 50%
+- When we've received the opportunity, set it at 100%
+
 .. _1-rfp-lead-capture:
 
 1. RFP Lead Capture
