@@ -70,3 +70,13 @@ Making Processes Official
 
 -  The process must be approved by the company's Director.
 -  Remove the *draft* status from the ops manual page. It's now official.
+
+Company Structure / Governance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Countable is an agency that uses consulting as a source of information to build start-ups.
+
+Countable has projects, and some of those projects can turn into new businesses (KMC_shfits turned into Cortico in this case). Those businesses stay in the team as a project for all intends and purposes at first, but over time they may become more independent. This depends on when they need space to focus on different problems than Countable. This model is to help us reconcile the difference between consulting and start-ups. Consulting is a source of information to help us understand problems in the world. If we solve a problem in this area which is replicable, we can spin it off into a new product/business.
+
+.. |GIT Flow| image:: countable-spin-off-model.png
+
