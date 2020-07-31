@@ -46,7 +46,33 @@ Trello Cards
 A card should contain a clear description of work to be done by one person required to support a given User Story (See :doc:`/operations/USER_STORIES`).
 This may correspond to a single User Acceptance Test. 
 
+During composition, the author of the Trello card should always assume that the assigned members are without context of the given task.
+
+Before assignment, the details and scope of the card should already be finalized to prevent confusion.
+
 A card should typically be between 1 hour and 1 day of work. If it's longer, split it into 2 cards in that column.
+
+Composing Trello Cards
+----------------------
+
+When writing titles for Trello cards, use an imperative voice (e.g. "Disable cancel button on page X after doing Y").
+
+Details should include important information depending on what kind (Feature or Bug Fix) of Trello card is being created.
+
+**Feature cards should include:**
+
+-  **Current Behavior** - If a current feature is proposed to be improved or changed, a specific and clear description should be provided to direct the members where the improvement or change is applied. For front-end related requests, include screenshots.
+-  **Proposed Behavior** - Key points should be well-defined. For front-end related improvements or changes, if there are any references from other websites, include screenshots or links.
+-  **Rationale** - For features that are derived from personal or internal ideas, define why the feature is beneficial. For external requests, include references of discussion threads (e.g. Groove tickets, Slack discussion).
+
+**Bug fix cards should include:**
+
+-  **Label** - Card should be labeled as "bug". This may be used for filtering bugs in the Trello board.
+-  **Current Behavior** - Specify what is broken. For front-end related requests, include screenshots.
+-  **Expected Behavior** - Accurately define the correct behavior.
+-  **Steps to Reproduce** - Specify which environment (may be links to our staging or production sites) where the bug was encountered. Write steps in a numbered list.
+-  **Potential Cause and Solution** - *Optional*. Share information that may be related to the cause of the bug (e.g. misconfiguration in the project settings, Nginx or Docker).
+
 
 Trello Board Columns
 ~~~~~~~~~~~~~~~~~~~~
