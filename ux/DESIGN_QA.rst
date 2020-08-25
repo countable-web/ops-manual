@@ -1,9 +1,9 @@
-The importance of Design QA in digital product design
-=====================================================
+Design QA
+=========
 
 **Purpose**
 
-To share **our goal**: to solve the core web technology problems by building products that offer a context-rich user interface with natural user experiences, so our clients can focus on delivering solutions to their customers.
+To share the importance of Design QA in digital product design, and how it drives forward **our goal** to solve the core web technology problems by building products that offer a context-rich user interface with natural user experiences, so our clients can focus on delivering solutions to their customers.
 
 **Scope**
 
