@@ -14,7 +14,8 @@ Git Branches
 
 Countable uses `git flow <https://jeffkreeftmeijer.com/git-flow/>`__ for branch naming.
 
-.. |GIT Flow| image:: git-flow.png
+.. image:: git-flow.png
+   :width: 500
 
 1. ``develop`` is the main branch developers work on and test.
 2. ``master`` is the stable branches released to production. (most projects do not use release branches, we just continuously deploy ``master``)

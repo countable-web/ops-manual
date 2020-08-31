@@ -5,10 +5,11 @@ Sales
    :maxdepth: 2
    :caption: Contents:
    :hidden:
-   sales/PROPOSALS
-   sales/DISCOVERY
-   sales/SALES_ACCOUNTING
-   sales/EXPERIMENTS
+
+   PROPOSALS
+   DISCOVERY
+   SALES_ACCOUNTING
+   EXPERIMENTS
 
 **Purpose**
 
