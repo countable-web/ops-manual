@@ -187,6 +187,7 @@ Setting up a new project
 Troubleshooting Jenkins
 -----------------------
 
+-  Note: If you are ever logging into a jenkins slave with SSH, and touching anything in the /home/jenkins/workspace folder, please switch to the jenkins user first with `sudo su jenkins`. This will prevent permission problems when the jenkins job runs again, and will prevent you from being tempted to run commands with `sudo` which is a bad idea in this folder due to the aforementioned permission warning.
 -  Look at the console log from your Jenkins Job
 -  Test that a fresh clone of your project works with the commands your
    Jenkins job runs.
