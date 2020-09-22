@@ -80,6 +80,13 @@ Guidelines
 
   - Use `help_text` in your models because it helps both devs and users in the ``/admin`` . ie) ``   color = models.CharField(help_text="Your primary brand color as a hex code, ie) #FF0000")``
 
+Timezone Management
+~~~~~~~~~~~~~~~~~~~
+
+Timezones are a complicated aspect to manage. After working on this on some large projects, here are recommendations:
+  - You should usually avoid DateField, and it's better to store DateTimeField because then we can switch timezones later on if needed. Most events do have time at which they occurred, and that should be stored.
+  - Store Datetimes in the database in UTC.
+  - Only convert to a specific timezone at the View/Template layer (when rendering or collectin information from the user).
 
 Managing Environments
 ~~~~~~~~~~~~~~~~~~~~~
