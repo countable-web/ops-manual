@@ -140,3 +140,11 @@ skip to 11 minute mark and watch steps for asking for help. Summary.
    your understanding.
 -  Document what you learned. If it will apply to others, put it in a
    public space such as this manual.
+
+
+What's Next?
+~~~~~~~~~~~~
+
+The team should spend lots of time with new staff, and over-communicate. Until we provide more guidlines here's a link
+
+`to some questions managers should review with new employees after the first month <https://www.gqrgm.com/questions-ask-new-employees-first-month/>`__,
