@@ -61,7 +61,7 @@ Details should include important information depending on what kind (Feature or 
 
 **Feature cards should include:**
 
--  **Current Behavior** - If a current feature is proposed to be improved or changed, a specific and clear description should be provided to direct the members where the improvement or change is applied. For front-end related requests, include screenshots.
+-  **Current Behavior** - If a current feature is proposed to be improved or changed, a specific and clear description should be provided to direct the members where the improvement or change is applied. For front-end related requests, include screenshots, URL of the page if possible, and XD & Google Drive links (if applicable). Tutorial video for front-end cards: https://www.loom.com/share/3c91d0cf0348471abb3eed20fc63b4ab
 -  **Proposed Behavior** - Key points should be well-defined. For front-end related improvements or changes, if there are any references from other websites, include screenshots or links.
 -  **Rationale** - For features that are derived from personal or internal ideas, define why the feature is beneficial. For external requests, include references of discussion threads (e.g. Groove tickets, Slack discussion).
 
