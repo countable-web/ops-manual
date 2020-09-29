@@ -218,6 +218,19 @@ Provisioning (Terraform, Ansible)
 We are currently using these tools in some projects to set up nodes to
 run our software on.
 
+DNS
+~~~
+
+On Ubuntu 18.04 and later, you can't directly edit ``/etc/resolv.conf`` since Ubuntu now uses the ``systemd-resolved`` service by default. If DNS is broken and you need to override DNS servers in a pinch, disable ``systemd-resolved`` and edit ``/etc/resolv.conf`` as follows:
+```
+sudo systemctl stop systemd-resolved
+sudo systemctl disable systemd-resolved
+sudo vim /etc/resolv.conf
+```
+(It is fine to leave ``systemd-resolved`` disabled and use the "old" ``/etc/resolv.conf`` config directly.)
+
+See this `Ask Ubuntu answer <https://askubuntu.com/a/1205689>` for more information.
+
 Backups
 ~~~~~~~
 
