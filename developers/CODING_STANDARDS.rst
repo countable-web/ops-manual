@@ -111,6 +111,7 @@ Tested tricks for having good code you like to work on in the long term.
   * Use “TODO” comments to document future intent of the code.
   * Code reviews - for learning and establishing standards. The code reviews become a living history of the project’s standards. While standards should be documented in one place concisely, it’s in the code reviews that all the small subtleties will be discovered. The reviewer can ask the question “would I like reading this code and having to modify it myself?” since they have fresh eyes. They can see what’s missing more easily than the original developer. These discussions lead to an evolving standard, and a culture of quality and continuous learning.
   * Declarative Style - Anything you do a lot of should be *declarative style* to the extent possible (as opposed to imperative style), meaning define what you want and not the order it is created.
+  * Do not leave old files with filenames like "base_old.html" in the tree. Just delete the old one, commit to refactor, and communiate the change to your team.
 
 Consistency and quality can be further improved by proactively managing technical debt. While we do avoid needless technical debt, it can be taken on strategically. For example, prototyping a solution can be a cheap way to get information and save cost overall, as long as you don’t neglect to refactor or rewrite the prototype if you decide to keep the code.
 
