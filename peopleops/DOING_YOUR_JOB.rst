@@ -206,20 +206,21 @@ Equipment Expenses
    also have Linux installed on a partition (bootable, not a VM).
 -  Special expenses may be approved if required for your job. These must be reviewed on a case-by-case basis prior to purchase.
    ie, Countable may pay for co-working space if you need one.
-
+-  Expenses at or below $100 are not approved in advance but are reviewed instead for reimbursement (you can ask if you're not sure, but if you can solve any real problem for $100 or less, ask for forgiveness rather than permission.) See the next section for guidelines.
 
 Expenses
 ~~~~~~~~
 
-Things The Company Will Pay For
--------------------------------
+Examples of Things The Company Will Pay For
+-------------------------------------------
 
 -  Grammarly pro
 -  Adobe CS (if you work in a design capacity)
 -  Professional Books
 -  Other professional development costs (approval in advance is
    required)
--  Monthly company outings
+-  Monthly company outings.
+-  Small equipment or other costs for the office.
 -  Any meals you share with your team members or clients.
 -  Some computer equipment, see Setting Up Your Desk above.
 -  Hotels/flights when travelling for business.
