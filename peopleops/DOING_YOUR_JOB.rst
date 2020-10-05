@@ -197,9 +197,8 @@ Equipment Expenses
    business that use Linux. We want a bias to moving as much
    infrastructure in that direction as possible but recognize not
    everything works there yet (Adobe, I'm looking at you).
--  Any other computer equipment you use for work remotely will be owned by you personally.
-   To be eligible for reimbursement, Windows laptops must have Linux installed 
-   you need, Countable will pay 50% up to $1000 total. If the expense would bring the total claimed over $1000 in the 2 year
+-  Countable will pay 50% up to $1000 total every 2 years for computer equipment you use for work remotely,
+   which is owned by you personally. If the expense would bring the total claimed over $1000 in the 2 year
    period prior to the current date, the claim is not reimbursed.
 -  We studiously avoid Microsoft Windows at Countable. It's not as
    automatable as Linux, and prevents people from learning Unix which
