@@ -492,6 +492,8 @@ Bootstrapping
 
 Run your jenkins job to test the software works.
 
+Note, command history is stored on servers, and is not private. It's useful to debug problems so any administrator can review others' history.
+
 Future Work
 ===========
 
