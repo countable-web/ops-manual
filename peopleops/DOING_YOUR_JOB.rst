@@ -190,20 +190,23 @@ You'll need:
 
 Equipment Expenses
 ------------------
-
--  Countable will pay for a linux laptop if you use that as your primary
+-  Any expense over $100 must be approved in advance of the purchase in order to be reimbursed.
+-  Countable will provide a (loaner) linux laptop if you use that as your primary
    work machine. We subsidize Linux because it helps the team learn
    about our servers, Docker and other critical components of our
    business that use Linux. We want a bias to moving as much
    infrastructure in that direction as possible but recognize not
    everything works there yet (Adobe, I'm looking at you).
--  For mac laptops, monitors, repairs and any other computer equipment
-   you need, Countable will pay 50% up to $1000 per year.
+-  Any other computer equipment you use for work remotely will be owned by you personally.
+   To be eligible for reimbursement, Windows laptops must have Linux installed 
+   you need, Countable will pay 50% up to $1000 total. If the expense would bring the total claimed over $1000 in the 2 year
+   period prior to the current date, the claim is not reimbursed.
 -  We studiously avoid Microsoft Windows at Countable. It's not as
-   automatable as Linux, and prevents people from learning Linux which
-   is a core competency at Countable.
--  Countable may pay for co-working space if you need one, but it must
-   be approved case-by-case currently.
+   automatable as Linux, and prevents people from learning Unix which
+   is a core competency at Countable. To be eligible for resimbursement, Windows laptops must
+   also have Linux installed on a partition (bootable, not a VM).
+-  Special expenses may be approved if required for your job. These must be reviewed on a case-by-case basis prior to purchase.
+   ie, Countable may pay for co-working space if you need one.
 
 
 Expenses
