@@ -30,9 +30,8 @@ Date and Time of Meetings
    without them.
 -  Anyone who is late should notify the team in advance of the meeting
    so they can proceed.
--  When meeting with external stakeholders, book 50 minutes meetings
-   generally (or 25) so there are 5 mintues for the team to discuss how
-   the meeting could have been better.
+-  When meeting with external stakeholders, book 50 minute meetings
+   generally (or 25) so there are 5 minute gaps for our brains to context switch between meetings and to write minutes.
 -  When meeting online, like in whereby, list the specific room link in the meeting invite.
 
 Clarity of Purpose at Meetings
@@ -55,7 +54,7 @@ Record of Meetings
 ------------------
 
 -  Someone should 'chair' the meeting, which means they ensure we have a clear agenda and purpose (loosely, allowing for useful organic tangents as long as they don't dominate). This is the "Scrum Master" if it's a Sprint meeting.
--  Someone shold be the 'scribe'. They record any action-items and key information the team needs (the "output"), and make sure the minutes are sent to everyone present.
+-  Someone shold be the 'scribe'. They record any action-items and key information the team needs (the "output"), and make sure the minutes are sent to everyone present because that not only ensures the meeting content isn't forgotten, but further allows non-essential staff to skip knowing they can just review minutes.
 -  Meetings should have an "output" written. For Scrum, this can simply
    be updated Trello board and KR scores. Other meetings should have a
    stream of minutes in a Google Doc that is continually added-to (most
