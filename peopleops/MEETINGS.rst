@@ -38,8 +38,8 @@ Date and Time of Meetings
 Clarity of Purpose at Meetings
 ------------------------------
 
--  The purpose and agenda of the meeting must be clear, and listed in
-   the meeting event details on the calendar.
+-  The purpose and agenda of the meeting must be clear and made available to the attendees (ie, listed in
+   the meeting event details on the calendar) because that allows people who don't need to be there, to skip.
 -  Recurring meetings should review the previous meeting's
    follow-ups/action items. Open up the last week's minutes (or Trello
    board) and review them.
