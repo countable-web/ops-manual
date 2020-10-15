@@ -27,9 +27,7 @@ Date and Time of Meetings
    attendees and cancellation status. All updates to meeting times go
    directly in the calendar.
 -  Meetings start on time and stop on time. If someone is late, start
-   without them.
--  Anyone who is late should notify the team in advance of the meeting
-   so they can proceed.
+   without them. Anyone who is late or not attending should notify the team in advance.
 -  When meeting with external stakeholders, book 50 minute meetings
    generally (or 25) so there are 5 minute gaps for our brains to context switch between meetings and to write minutes.
 -  When meeting online, like in whereby, list the specific room link in the meeting invite.
@@ -39,6 +37,8 @@ Clarity of Purpose at Meetings
 
 -  The purpose and agenda of the meeting must be clear and made available to the attendees (ie, listed in
    the meeting event details on the calendar) because that allows people who don't need to be there, to skip.
+-  You should only attend a meeting if you have a contribution to make (based on reading the agenda). If you just need to
+   get information from the minutes. *Ask the attendees for minutes* if you can't find them.
 -  Recurring meetings should review the previous meeting's
    follow-ups/action items. Open up the last week's minutes (or Trello
    board) and review them.
@@ -48,7 +48,6 @@ Clarity of Purpose at Meetings
    they group thinks will help with the goal.
 -  In general, try to make meetings shorter and more specific. If
    possible, make the goal and agenda visible in the meeting.
--  Do not attend meetings if you don't have a good reason to be there.
 
 Record of Meetings
 ------------------
