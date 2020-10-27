@@ -15,7 +15,15 @@ Principles
 -  We use auto-formatters in place of coding standards in every case possible.
 -  For projects that do not currently follow our standards (open source, or new projects shared with other dev teams) but follows a different one, stick with that project's conventions unless we make a conscious decision to refactor the whole thing. Don't mix conventions.
 -  Make life easier for your team mates and future self by being consistent and thoughtful of what someone unfamiliar would think. The goal is your code should be obvious and easy to understand for a new programmer. Stick to conventions, and use comments to explain the story of your code, and why things are done a particular way.
--  Choose abstractions and tools based on real problems, not the reverse.
+-  Choose abstractions and tools based on real problems, not the reverse. 
+
+
+Making Code Maintainable
+------------------------
+- Literate programming. Easily understandable with English semantics. Ubiquitous Language (DDD).
+- Follow conventions. Follow the typical way of doing things in your project and framework. Conformism (DDD)
+- Less code. Avoid repetition. Reuse functions. Find the best abstraction. FP (advanced primitives). Inheritance.
+- Locality and no side effects. Loose coupling. Components don't know about each other. Simplify interfaces. Bounded contexts (DDD). FP (pure functions).
 
 Literature
 ----------
@@ -26,6 +34,7 @@ We are influenced by the following writing.
 -  `12 factor App Methodology <https://12factor.net/>`__
 -  `Trunk based development <https://trunkbaseddevelopment.com/>`__
 -  `Agile Manifesto <https://agilemanifesto.org/>`__
+-  
 
 Names
 -----
