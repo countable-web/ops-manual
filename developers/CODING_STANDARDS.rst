@@ -34,7 +34,7 @@ We are influenced by the following writing.
 -  `12 factor App Methodology <https://12factor.net/>`__
 -  `Trunk based development <https://trunkbaseddevelopment.com/>`__
 -  `Agile Manifesto <https://agilemanifesto.org/>`__
--  
+-  Clean Code, by Robert C Martin
 
 Names
 -----
