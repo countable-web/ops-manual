@@ -13,17 +13,10 @@ Principles
 ----------
 
 -  We use auto-formatters in place of coding standards in every case possible.
--  For projects that do not currently follow our standards (open source, or new projects shared with other dev teams) but follows a different one, stick with that project's conventions unless we make a conscious decision to refactor the whole thing. Don't mix conventions.
+-  Follow conventions. For projects that do not currently follow our standards (open source, or new projects shared with other dev teams) but follows a different one, stick with that project's conventions unless we make a conscious decision to refactor the whole thing. Don't mix conventions.
 -  Make life easier for your team mates and future self by being consistent and thoughtful of what someone unfamiliar would think. The goal is your code should be obvious and easy to understand for a new programmer. Stick to conventions, and use comments to explain the story of your code, and why things are done a particular way.
 -  Choose abstractions and tools based on real problems, not the reverse. 
 
-
-Making Code Maintainable
-------------------------
-- Literate programming. Easily understandable with English semantics. Ubiquitous Language (DDD).
-- Follow conventions. Follow the typical way of doing things in your project and framework. Conformism (DDD)
-- Less code. Avoid repetition. Reuse functions. Find the best abstraction. FP (advanced primitives). Inheritance.
-- Locality and no side effects. Loose coupling. Components don't know about each other. Simplify interfaces. Bounded contexts (DDD). FP (pure functions).
 
 Literature
 ----------
@@ -34,7 +27,7 @@ We are influenced by the following writing.
 -  `12 factor App Methodology <https://12factor.net/>`__
 -  `Trunk based development <https://trunkbaseddevelopment.com/>`__
 -  `Agile Manifesto <https://agilemanifesto.org/>`__
--  Clean Code, by Robert C Martin
+-  `Clean Code <https://www.oreilly.com/library/view/clean-code/9780136083238/>`__
 
 Names
 -----
@@ -45,7 +38,7 @@ Variables should hint what their data types are: in one glimpse I should be able
 
 Consider the book `Clean Code <https://www.oreilly.com/library/view/clean-code/9780136083238/>`__ on this topic and on writing short functions.
 
--  Names should indicate *what* a function does in *business domain language*.
+-  Names should indicate *what* a function does in *business domain language* (see "Ubiquitous Language" in Domain Driven Design).
 -  Name length should be proportional to the variable's scope size. ``x`` is ok in a one liner, but not a global.
 -  When an industry jargon (domain language) term is available, use that.
 -  ClassNames - Classes should use an upper camel case string of nouns.
@@ -61,8 +54,10 @@ Files
 Locality
 --------
 
-Functional Modules
 
+-  Components don't know about each other.
+-  Simplify/minimize interfaces and consider Bounded contexts (DDD).
+-  Use pure functions where practical, and avoid side effects and global state.
 -  Modules should be responsible for a specific task or set of RELATED tasks.
 -  Modules should communicate through easily testable interfaces. A huge hierarchy of objects shouldn't be required to test a single method, because the method should only take arguments it actually uses (not a big tree which happens to contain those)
 
@@ -81,6 +76,12 @@ Comments
 -  Use TODO comments to indicate your intent for future work.
 -  Comment beside anything that's unintutive or unexpected to another reader.
 -  Do not leave actual code commented out unless you have a good reason. If you do have one, document that reason as a comment as well.
+
+Minimize Code
+-------------
+-  Use less code. Avoid repetition.
+-  Reuse functions.
+-  Find the best abstraction. ie) Functional Programming for dealing with collections (advanced primitives). Inheritance for dealing with the relationships of real world objects.
 
 No tabs
 -------
