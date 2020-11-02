@@ -218,7 +218,7 @@ We may measure some of these principles, making them into "committed OKRs".
 -  *Modelling* - We reduce complex phenonemna to simple predictive
    models. Help everyone on your project visualize the desired outcome.
 -  *Diversity* - We MUST encourage diversity of thought, treat everyone
-   with respect, and work to avoid non-merticratic bias.
+   with respect, and work to avoid non-meritocratic bias.
 -  *Usability* - We create software with an enjoyable, engaging user
    experience. Don't make the user think, wait, or do a task
    unnecessarily.
@@ -239,7 +239,7 @@ concerns about being released is to be made public.
 Further Reasons for Transparency
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. To avoid secrets. Unnecesary secrets have a cost to the organization
+1. To avoid secrets. Unnecessary secrets have a cost to the organization
    because everyone must focus on managing information access rather
    than other business activities (which create net value unlike hiding
    information).
