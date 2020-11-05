@@ -17,7 +17,7 @@ Define how we implement OKRs at Countable.
 OKR Basics
 ----------
 
-Each team should have at least one *objective* or what they want to accomplish together in the short term. It's their strategic focus. Each objective has a few *key results* which are measurable, sufficient condtions for the objective to be met.
+Each team should have at least one *objective* or what they want to accomplish together in the short term. It's their strategic focus. Each objective has a few *key results* which are measurable, sufficient conditions for the objective to be met.
 
 OKR Process
 -----------
