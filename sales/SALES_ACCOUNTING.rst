@@ -15,8 +15,8 @@ Commission
 Commission Basics
 ~~~~~~~~~~~~~~~~~
 
-Countable pays up to 15% commission to those who help schedule new work
-for us (internal or external, referrals or proposals).
+Countable pays up to 15% commission to those who help schedule new work contracts
+for us externally, and up to 7.5% internally. The total commission doesn't exceed 15%.
 
 Commission is paid out upon receipt of payment from the associated
 project.
