@@ -26,15 +26,15 @@ Proposal Writing
 
 Commission is divided as follows.
 
--  We pay 3% to whoever creates the outline checking grammar + spelling,
+-  We pay 1.5% to whoever creates the outline checking grammar + spelling,
    copies content from related past proposals, coordinating deadline,
    and submitting. (admin)
--  We pay 3% to whoever is responsible for sending the qualifying
+-  We pay 1.5% to whoever is responsible for sending the qualifying
    questions, identifies the contributor team, and doing internal
    evaluation and review. (manager)
--  We pay 6% to the technical authors who develop the proposal content
+-  We pay 3% to the technical authors who develop the proposal content
    and artwork. (contributor team)
--  We pay 3% to whoever finds the proposal and suggests it to the team
+-  We pay 1.5% to whoever finds the proposal and suggests it to the team
    to write. If it's from a source we always follow, this amount is
    kept. (sourcer)
 
