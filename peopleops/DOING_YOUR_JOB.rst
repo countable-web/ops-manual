@@ -89,8 +89,9 @@ Countable's intention is allow a great deal of flexibility to everyone, while en
 - Sub-contractors may take unpaid leave any time, and should take at least 2 weeks throughout the year.
 - By default, assume your team mates won't work on Canadian stat holidays or weekends, so don't be surprised if you do not get a response to messages. However, you are welcome to work
 - Everyone must plan and document their regular hours in the `staff schedule <https://docs.google.com/spreadsheets/d/1zh6GYex7UtoZGyChRGNy8378brtxvfrOdtedf6z5c5M/edit#gid=0>`_. These should comprise at least half of the hours you work.
-- If you are away during scheduled time, please let your team know in advance. If it's less than a day, same-day or one-day advance notice is fine. If it's more than a day, notify your team members a few days in advance. Note your absence on the Countable Absences shared calendar.
+- If you are away during scheduled time, please let your team know in advance and help them plan. If it's less than a day, same-day or one-day advance notice is fine. If it's more than a day, notify your team members a few days in advance. Note your absence on the Countable Absences shared calendar.
 - We expect remote team members outside of the America/Vancouver timezone to have a 50% overlap with the Vancouver timezone (work half their time in PST).
+- Remove yourself from calendar events you won't attend.
 
 Remote Work Basics
 ~~~~~~~~~~~~~~~~~~
