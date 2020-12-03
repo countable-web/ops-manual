@@ -621,6 +621,15 @@ design lets us re-use security hardening work across projects.
 -  Scan the Image For Known Vulnerabilities
 -  Don't mount volumes the container does not need access to.
 
+Enhanced Security Requirement for DevOps Team Members
+-----------------------------------------------------
+
+DevOps, CSO and ACSO team members must observe the following practices.
+  * Passwords should have 70 bits of entropy. This means using 4 randomly chosen english words, or 12 random base64 characters as a minimum.
+  * Most password formatting requirements such as specific characters REDUCES entropy and makes brute force attacks easier.
+  * Your local hard drive must be encrypted with a 70-bit password.
+  * Do not store important or sensitive data locally. Store it in a secured cloud location with 2 factor auth.
+
 [1]
 `DP Kumar Your Container is in Security Risk By Design <https://medium.com/@dpkumar/your-container-is-in-security-risk-by-design-8a7034f2f9b1>`__
 
