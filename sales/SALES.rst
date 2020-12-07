@@ -40,14 +40,31 @@ For our B2B consulting business, we generally work best with:
 -  They're more interested in a longer term trusting partnership than a
    one-off project quote/contract.
 
-Process
-~~~~~~~
+Process Goals
+~~~~~~~~~~~~~
 
-TODO: sourcing leads. 
-TODO: qualifying leads. 
-TODO: learn about their
-challenges and determine if we can help. 
-See `Discovery <https://countable-ops-manual.readthedocs.io/sales/DISCOVERY.html>`__
+-  If we can get 2x as fast at writing proposals (and we find enough good ones 
+   in salesbot), we can probably write (and therefore win) twice as many. 
+   This is probably easier than increasing our win rate (in revenue wins).
+-  If we increase the size of proposals we apply to, to be in the optimal 
+   range of 100k to 500k, that will also increase our performance. I know 
+   we talk about ideal size and even score it, but there's definitely 
+   some strategic imperative to focus on this size range. 
+   If we double our deal size, all other things equal we double our win rate.
+-  Our win-rate is already really high, but any small improvement there 
+   means we can spend more time working and less time writing, and also 
+   increase our revenue proportionally.
+
+In summary, we want to steer everything (salesbot included) to find 
+**4 or 5 $300k proposals every month**, and get faster at writing them 
+via templates, practice, etc. 
+
+A dedicated staff member would be hired for the heavy-lifting, and we 
+could win 1 deal a month, which is more sustainable than 
+one every ~3 months as we do now.
+
+
+See also `Discovery <https://countable-ops-manual.readthedocs.io/sales/DISCOVERY.html>`__
 
 Day to Day Practices
 ~~~~~~~~~~~~~~~~~~~~
@@ -57,6 +74,9 @@ Day to Day Practices
 -  When communicating with clients, a functional link so they can test
    it is best. A short video demo is great, or just an email with
    screnshots is ok too.
+-  Folks who are receiving Salesbot digest emails should catch up on reviewing
+   their RFP "inbox" at least once a week. Share any promising leads in the
+   #sales channel in Slack.
 
 Roadmap
 ~~~~~~~

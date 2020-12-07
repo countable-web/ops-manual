@@ -47,19 +47,38 @@ In brackets, we indicate the approximate time to allocate (not actual
 effort, just time to leave open)
 
 1. CAPTURE - find RFPs you can win
+   (This should be happening all the time as described in `Sales <https://countable-ops-manual.readthedocs.io/sales/SALES.html>`__)
 2. PRE-QUALIFY - look a bit deeper
-3. QUALIFY - (5 days) ask questions, wait for responses
-4. WRITE - (2 to 10 days)
-5. REVIEW - (5 days) use an external/impartial reviewer to simulate
-   grading the proposal
-6. SUBMIT - (1 day)
-7. LEARN - update this document
+   (Score in our OPPORTUNITIES sheet)
+3. QUALIFY - (5 days) 
+   (ask questions as soon as possible after deciding to write, wait for responses)
+4. DRAFT - (2 to 6 days)
+   (coordinator creates working doc right away, tags people in based on roles and expertise)
+5. REVIEW - (2-3 days) 
+   (use an external/impartial reviewer to simulate grading the proposal)
+6. REFINE - (1-3 days)
+   (incorporate requested changes, saving time for one major refinement/copyedit)
+   (**Note**: we'll now observe a *content freeze* one full day before submission to allow for this)
+7. SUBMIT - (1 day)
+8. LEARN - save any feedback we get on RFPs in the same folder; update this document as we learn
+
+Further notes to the above process points:
+
+*  Reserve the last day for polishing (no new content contributions, by design)
+*  48 hours before the deadline is the last point we can do the offiical review/scoring.
+*  For contributors, the coordinator should indicate what portions they should look at. Most people don't need to read the whole thing.
+*  Provide some indexing on what documents we have, for easier navigation of the repo?
+*  By the 48 hours mark, a good quality version with all content and a lens to evaluation (in navigation) should be present.
+
+Scoring Opportunities
+---------------------
 
 In the Opportunities (SCORE) spreadsheet, we allot Pipeline % in the following manner:
 
 - When we've decided to apply for an opportunity, set it at 20%
 - When the application is clearly moving forward/we're a frontrunner, set it at 50%
 - When we've received the opportunity, set it at 100%
+- If we've lost the opportunity, set it at 0%
 
 .. _1-rfp-lead-capture:
 
@@ -81,7 +100,8 @@ with its score as follows:
 -  10 points if Scrum or Agile is mentioned, partial (5) points if it
    the project is phased with a prototype.
 -  20 points for contract size. 0 for $10k, 5 for $20k, 10 for $50k, 15
-   for $100k, 20 for $200k and up, 15 for over $500k, 10 for over $1M.
+   for $100k, 20 for $200k and up, 15 for over $500k, 10 for over $1M. 
+   (This reflects our **ideal project budget range** of $100-500k)
 -  10 points if the RFP offers losing proposals a debrief on the
    scoring.
 -  BONUS points if it's an existing relationship, we can keep the IP for
@@ -180,7 +200,8 @@ Proposal Writing Roles
 Coordinator
 ^^^^^^^^^^^
 
-The coordinator's job is to make sure:
+This is the most important role in the process, driving forward everyone else'sales
+involvement and contributions. The coordinator's job is to make sure:
   * The rest of the process below is followed by our team.
   * It's clear in writing (Google Docs comments) who contributes what parts right away.
   * We finish early so we have time (ideally 5 days) for external review.
@@ -192,6 +213,9 @@ Internal Reviewer
 ^^^^^^^^^^^^^^^^^
 
 Identify someone to simulate the client scoring your proposal later on. They shouldn't be involved in writing.
+
+When they are tagged in to review the document, they should be directed in a meaningful way
+to not just the working document, but the original RFP description and specific evaluation criteria or rubric.
 
 Technical Authors
 ^^^^^^^^^^^^^^^^^
