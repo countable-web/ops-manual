@@ -118,6 +118,8 @@ Purpose
 is to document Countable's operations for convenient reference,
 discussion and amendment.
 
+A nice plain-language quote:
+
    | Whenever you find yourself saying something for a second time (to a
      second audience, or in a second situation), it is highly likely
      that you will end up saying it again and again in the future. To
