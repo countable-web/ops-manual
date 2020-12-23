@@ -36,6 +36,9 @@ We should store things only in the places and ways described below.
 | GitHub - this repo   | Document how and why | Everyone in the      |
 |                      | we do things         | world                |
 +----------------------+----------------------+----------------------+
+| Miro                 | Mockups, visual      | The specific client  |
+|                      | content              | and project staff    |
++----------------------+----------------------+----------------------+
 | GitHub               | Open source code     | Everyone in the      |
 |                      |                      | world                |
 +----------------------+----------------------+----------------------+
@@ -93,6 +96,16 @@ General Guidelines
 -  Make sure your work is stored in a way that is convenient for those who will be using it.
 -  When a file is no longer needed, outdated, or otherwise more likely to confuse than help, move it to a folder named \_archive in the same directory.
 -  If an additional folder is needed, create the additional folder and name it according to the naming structure.
+-  As a rule of thumb, when looking at a folder's contents it should be clear what's there at a glance. Ideally, there should be about 5 to 10 items in a folder. If it's much more, make logical subfolders. There are exceptions to this rule, but in general it will make our heirarchy more navigable.
+
+Storing Non Code Assets
+-----------------------
+
+Official versions of Non-code assets are stored on Google Drive
+
+Every client has a folder in our Company Google Drive named:
+
+/clients/
 
 Standard Folders
 ~~~~~~~~~~~~~~~~
@@ -209,15 +222,6 @@ All the old files are in there, but they've been organized into the following ca
 .. |Countable Web Production, folder color example| image:: https://github.com/fepirata/final-exam-special-topics/blob/master/public/cwp_file_structure_folder_color_example.png
 
 
-Storing Non Code Assets
------------------------
-
-Official versions of Non-code assets are stored on Google Drive
-
-Every client has a folder in our Company Google Drive named:
-
-/clients//
-
 Sharing
 ~~~~~~~
 
@@ -264,3 +268,11 @@ following categories:
 
 It is based on Felipe's folder design schema (attached) and
 `this article <https://pixeldreams.com/blog/best-practices-folder-structure/>`__
+
+Miro
+~~~~
+
+Miro is a great tool but the art boards can get messy quickly. General guidelines to keep us productive:
+-  Store everything in project folders. Every client should have exactly one folder, and you should invite the relevant team members to that folder. Do NOT make different folders per project, or save things in the root folder, if you want to share them with the team.
+-  Name your artboards clearly. You can put a lot in one art board, and that's often better than having many small art boards. As a rule fo thumb, create one art board per project epic (major activity the group works together on, such as a substantial user interface)
+-  For mock-ups. Please put them in frames (such as the browser frame). Label each page clearly in the frame title (ie, in CRUD notation like "Widget List"). Use arrows to indicate navigation between frames.
